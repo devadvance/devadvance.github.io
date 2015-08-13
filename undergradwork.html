@@ -1,0 +1,317 @@
+---
+layout: default
+title: Undergrad Work | Matt Joseph
+permalink: /undergradwork/
+---
+
+<div class="section top-section materialteal">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="section-header">Undergrad work</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        <p>This page has information about the project I completed as a Computer Science student at the University of Pittsburgh. The first section has a link to the code repository, which contains the source for all of my projects.</p>
+
+        <p>In order to identify works created by me, some of the projects or code may use my former University of Pittsburgh username or email:<br /><br />
+          mgj7 [at] pitt.edu<br /><br />
+          <b>Please note that this email address is no longer active.</b></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section materiallightgrey">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="section-header">List of classes and projects</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p>List of projects and classes I completed while at Pitt. Many of these are available for viewing on my code repository. Further descriptions of some of these project are available below the table.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h3>My code repository: <a href="http://code.google.com/p/basic-computer-science-coding/source/browse/">Google Code</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <td>Class</td><td>Project(s)</td>
+            </tr>
+            <tr>
+              <td><b>CS7 / CS 0007</b></td><td>Hello.java , hw2.java , starprint.java , perfectnum.java , TestScores.java , etc..</td>
+            </tr>
+            <tr>
+              <td><b>CS401 / CS 0401</b></td><td>ballplayer.java , etc..</td>
+            </tr>
+            <tr>
+              <td><b>CS445 / CS 0445</b></td><td>BSTree.java , BSDriver.java , OrderedLinkedList.java , RecursiveList.java , BinaryTree.java , etc..</td>
+            </tr>
+            <tr>
+              <td><b>CS1501</b></td><td>Djikstra's shortest path, Huffman compression, HuffmanTree.java , RepeatedString.java , wordSearch.java , etc...</td>
+            </tr>
+            <tr>
+              <td><b>CS449 / CS 0449</b></td><td>ID3v1.1 tag reader/editor ( id3tagEd.c ) , Blackjack game ( blackjack.c ) , Project 2: What's the password? game, *nix strings implementation ( mystrings.c ), Custom malloc() ( mymalloc.h and mallocdrv.c ), /dev/pi linux device driver ( pi_digits.c ), Berkeley sockets multithreaded server ( server.c )</td>
+            </tr>
+            <tr>
+              <td><b>CS447 / CS 0447</b></td><td>Scramble game ( scramble.asm ), Frogger LED game ( catch.asm ), JrMIPS processor ( jrmips.circ )</td>
+            </tr>
+            <tr>
+              <td><b>CS1550 / CS 1550</b></td><td>myshell.c , prodcons.c , sys.c , etc</td>
+            </tr>
+            <tr>
+              <td><b>CS1555 / CS 1555</b></td><td>facesApp, faces@Pitt, database.sql</td>
+            </tr>
+            <tr>
+              <td><b>CS1652 / CS 1652</b></td><td>http_client, http_server, tcp_module</td>
+            </tr>
+            <tr>
+              <td><b>CS1655 / CS 1655</b></td><td>MovieMine</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section materialblue">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>CS449 (CS 0449/CS 449) Fall 2011 Projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 1: Blackjack &amp; ID3 Tags</h3>
+            <br />
+            <p>This project is comprised of two program that are unrelated to each other:</p>
+
+            <p><b>blackjack.c</b><br />
+              You are asked to write a simplified version of Blackjack with very basic logic. The computer acts are the dealer, and follows the basic logic of "hit if below 17, stand if 17 or above". My implementation actually keeps track of the specific cards, thus enabling the game to be expanded in the future if need be.</p>
+
+            <p><b>id3tagEd.c - ID3 Tag Editor</b><br />
+              This program is a basic command-line ID3v1.1 tag editor. It must be able to create a tag if none exists, or append/read/replace from an existing tag. It does not support ID3v2 or higher. Usage is as follows:
+              id3tagEd FILENAME -FIELD VALUE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 2: What's the Password?</h3>
+            <br />
+            <p>This project is comprised of two related parts:</p>
+
+            <p><b>mystrings.c - Custom *nix strings implementation</b><br />
+              You are asked to write an implementation of the *nix strings command-line tool. According to the project specifications, it must look for alphabetical (alphanumeric and symbols) strings within a file, and the strings must be at least 4 characters to be considered a "string". However, I added the functionality to the program to SPECIFY the minimum string length, similar to how it is implemented in the actual *nix strings tool. The program also handles arbitrary length strings (pseudo-unlimited, depends on available resources). Look at the source code for more information.</p>
+
+            <p><b>Part 2: Passwords</b><br />
+              You are given three (3) binary files, each of which is a compiled C program. When run, each asks for a password. By using your mystrings program GDB, what you have learned about assembly, and lots of time/research, you will figure out the password to each of the files. In the case of my three files, I had to do further research online to figure out the password for the third file. Full explanation of what I did is available on my Google Code page (mgj7_1-result-FINAL.txt, etc).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 3: A Custom malloc()</h3>
+            <br />
+            <p>This project requires you to write a custom implementation of malloc(). To do so, you will be using the unix command sbrk(), which allows you to change the heap size. My project consists of two files:</p>
+
+            <p><b>mymalloc.h - Actual malloc() implementation</b><br />
+              Inside of this head file is the actual implementation of my_bestfit_malloc() and my_free(). Note, other versions of this project may require my_nextfit_malloc(). DO NOT USE THIS IMPLEMENTATION WITHOUT UNDERSTANDING IT FIRST! sbrk(0) returns the current brk pointer, thus enabling you to check the heap and whatnot. My implementation also allocates in chunks of 32 bytes to prevent fragmentation. This is not the normal way of doing this. Look at my source code for further information.</p>
+
+            <p><b>malloctest.c - malloc() test program</b><br />
+              This is a custom program written to test every single scenario that malloc() might encounter.</p>
+
+            <p><b>NOTE: sbrk() WILL NEVER RETURN -1 AND IT WILL NEVER SET ENOMEM! When testing your program, be aware that you WILL overallocate memory. There is no way around this. Modern *nix systems always overallocate, and you will NOT BE ABLE TO CHANGE THIS. In other words, without writing an overly complex implementation, you cannot prevent overallocation, and therefore should NEITHER TEST IT NOR WORRY ABOUT IT!</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 4: /dev/pi</h3>
+            <br />
+            <p>This project asks you to write a custom device driver for the Linux kernel that returns digits of pi. It consists of several parts: the actual device driver, the code to generate digits of pi, the /dev/pi file (derived from the insmod-ed driver), and a test program to prove that it works.</p>
+
+            <p><b>Makefile</b><br />
+              Used to compile everything properly. See my code for more information.</p>
+
+            <p><b>pi_digits.c - test program</b><br />
+              This tests to see if the driver is working. It simply reads the desired number of digits from command-line and then fetches them from /dev/pi.</p>
+
+            <p><b>pi_driver.c - actual driver, ends up as /dev/pi</b><br />
+              Uses pi-generating code to generate digits of pi. Be aware, since it is a kernel module, you should use a function to COPY the generated digits FROM kernel space TO user space. See the code for more information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 5: Multi-Threaded Web Server</h3>
+            <br />
+            <p>You are asked to write a multi-threaded web server. My implementation is not exactly multi-threaded, as there is a limit to the number of closed connections as well.</p>
+
+            <p><b>server.c - Actual server implementation</b><br />
+              You must use Berkley sockets to write this server implementation. You then run the server, connect to it using wget/telnet/etc and request a file. If found, it returns the HTTP header information as well as the file. If the file is not found, it retuns the HTTP not found error. The user must specify a port number when running the server program. See the source code for more information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>CS1550 (CS 1550: Introduction to Operating Systems) Summer 2012 Projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 1: Writing a Shell</h3>
+            <br />
+            <p>This project requires you to write a functional shell:</p>
+
+            <p><b>myshell.c - Actual shell implementation</b><br />
+              You are asked to write a simplified version of a *nix shell using syscalls as the backend. It is an exercise in using fork(), wait(), execvp(), freopen(), dup2(), and pipe(). You are required to implement any standard *nix functions (ls, pwd, whoami, etc...) via execvp(). You are also required to implented the "cd" command, the "exit" command, and the overall concepts of redirection ">" and piping "|". This is NOT a perfectly functional shell, as you are not required to have multiple redirections, or have redirection combined with piping. You are, however, required to support multiple pipes (i.e. ls -la | grep "test" | wc -l). Look at the source code for more information and further details. This shell requires a "lexer" such as "lex.c" to implent the following restrictions, among others:<br />
+              WORD [a-zA-Z0-9\/\.-]+<br />
+              SPECIAL [()>&lt;|&amp;;*]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 2: Syscalls and IPC</h3>
+            <br />
+            <p>This project requires you to write a custom implementation of a semaphore in the kernel. It also requires you to write a program that uses this implementation:</p>
+
+            <p><b>prodcons.c - Producer/Consumer User Program</b><br />
+              This is the userspace program which takes advantage of the new semaphore code that you have added to the kernel in order to have a mutex-locked section of code, as well as syncronized shared variables. It is an implementation of the classic producer/consumer program.</p>
+
+            <p><b>sys.c , syscall_table.S , unistd.h - Modified Kernel Code</b><br />
+              These files are from the Linux kernel version 2.6.23.1. They are modified with an "up" and "down" functions that implement the concept of a semaphore. They must be compiled alongside the normal kernel files. Also, prodcons.c is dependent on unistd.h, so it must be specified when compiling prodcons.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 3: Filesystem</h3>
+            <br />
+            <p>This project requires you to write a functional FUSE filesystem:</p>
+
+            <p><b>cs1550.c - Actual filesystem implementation</b><br />
+              This is an implementation of a userspace filesystem. You write a two level file system, in which the top level only contains directories and the second level only contains files. This is the summer version of the project, where files do NOT need to be able to be deleted. You need to implement the following syscalls: cs1550_getattr, cs1550_readdir, cs1550_mkdir, cs1550_mknod, cs1550_write, cs1550_read.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>CS1555 (CS 1555: Database Management Systems) Fall 2012 Projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Term Project: Faces@Pitt</h3>
+            <br />
+            <p>This project requires you to integrate Java, JDBC, and Oracle into a cohesive social networking program:</p>
+
+            <p><b>database.sql - Actual database schema and data</b></p>
+
+            <p><b>facesApp.java - Actual Java interface program</b><br />
+              You are asked to write a database schema file (SQL) to create a set of tables and insert the necessary data into the resulting database. Then, you are asked to create a program that implements a variety of functions in order to interact with the database. For example, sendiing a message is something you must implement. When possible, SQL queries should be used to select specific data, rather than treating the database like a filesystem and doing the searching/processing inside Java.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>CS1652 (CS 1652: Data Communication and Computer Networks) Fall 2012 Projects</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 1: HTTP Servers/Client</h3>
+            <br />
+            <p>This project requires you to implement a HTTP client and two HTTP servers:</p>
+
+            <p><b>http_client.c - Client program</b></p>
+
+            <p><b>http_server1.c - Single threaded server</b></p>
+
+            <p><b>http_server2.c - Multi-threaded server</b><br />
+              This project requires MINET, a userspace networking stack. You are to implement two servers and one client as part of this project. See the code for further details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>Project 2: TCP Stack</h3>
+            <br />
+            <p>This project requires you to implement a TCP module for MINET:</p>
+
+            <p><b>tcp_module.c - TCP logic</b><br />
+              This project requires MINET, a userspace networking stack. You are to implement the TCP portion of the networking stack. This includes ACKing, PSHing, etc. See the code for further details.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

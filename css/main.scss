@@ -1,0 +1,334 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Navbar stuff */
+.navbar {
+  min-height: 50px;
+  background-color: #2f2f2f;
+  border: 0;
+  color: #ffffff;
+  font-size: 16px;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.nav > .dropdown > ul {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li:hover > ul {
+  background-color: #2f2f2f;
+}
+
+.navbar-default .navbar-nav > li:hover > ul > li:hover {
+  background-color: #777777;
+}
+
+.nav > .dropdown > ul > li > a {
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav > .dropdown > ul > li > a:hover {
+  background-color: #777777;
+}
+
+
+@media(min-width:767px) {
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+  }
+
+  .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbarsmall {
+  padding-top: 0;
+  padding-bottom: 0;
+  /*background-color: #e7e7e7;*/
+  background-color: #2f2f2f;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li:hover {
+  background-color: #777777;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.photo {
+  background-attachment: fixed;
+  background-position: 50% 0%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.phototwo {
+  position: relative;
+  margin: -20% 0;
+  max-width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.cake-photo {
+  background-image: url(../images/cake-2560px.jpg);
+}
+
+.acropolis-photo {
+  background-image: url(../images/acropolis-2560px.jpg);
+}
+
+.about-me-box {
+  height:160px;
+}
+
+.work-box {
+  text-align: center;
+  height: 320px;
+}
+
+.work-box:hover {
+  background-color: #dddddd;
+}
+
+.work-box > .work-icon {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-me-box > h2 {
+  text-align: center;
+}
+
+/* Might want to refactor these media queries later with others */
+@media(max-width:992px) and (min-width: 767px) {
+  .padding-small {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .about-me-box {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .work-box > .work-icon {
+    width: 30%;
+  }
+}
+
+@media(max-width: 767px) {
+  .padding-small {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .photo {
+    background-size: 160%;
+    background-position: 50% 50%;
+    height: 250px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+/* Sections */
+
+.section {
+  width: 100%;
+  min-height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section.top-section {
+  padding-top: 120px;
+}
+
+.section.main-section {
+  background: url(../images/main.jpg) no-repeat center top;
+  background-attachment: fixed;
+  background-size: 100%;
+  min-height: 700px;
+  padding-top: 250px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section.parallax-section {
+  background-color: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section.white-section {
+  padding-top: 70px;
+  background-color: #ffffff;
+}
+
+.section.footer-section {
+  min-height: 180px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  //text-align: center;
+}
+
+.section.materialteal {
+  background-color: #00695C;
+  color: #ffffff;
+}
+
+.section.materialblue {
+  background-color: #81D4FA;
+}
+
+.section.materiallightgrey {
+  background-color: #E0E0E0;
+}
+
+.section.materialdeeporange {
+  background-color: #FFAB91;
+}
+
+.section.materialbrownprimary {
+  background-color: #795548;
+  color: #FFFFFF;
+  
+  a {
+    color: #212121;
+  }
+}
+
+.section.materialbrownlightprimary {
+  background-color: #D7CCC8;
+  color: #727272;
+}
+
+.section.materialgraybrownprimary {
+  background-color: #9E9E9E;
+  color: #F5F5F5;
+  a {
+    color: #212121;
+  }
+}
+
+.section.materialbrown200 {
+  background-color: #BCAAA4;
+}
+
+.section.materialbrown500 {
+  background-color: #795548;
+}
+
+.section.materialgreen200 {
+  background-color: #A5D6A7;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+  border-color: #333333;
+}
+/*footer? #2f2f2f*/
