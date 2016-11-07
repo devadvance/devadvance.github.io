@@ -15,22 +15,22 @@ permalink: /rootcloak/
     <div class="mdl-cell mdl-cell--8-col">
       <p>This Android app is a module for the Xposed Framework. Some apps, such as banking, enterprise, or audio/video apps will not run if your phone is rooted. This allows you to run apps that detect root without disabling root. It is published under the name <b>devadvance</b>.</p>
       
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="http://repo.xposed.info/module/com.devadvance.rootcloak2">Download (from Xposed repo)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="http://repo.xposed.info/module/com.devadvance.rootcloak2">Download (from Xposed repo)</a>
 
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloak">Source Code (GitHub)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloak">Source Code (GitHub)</a>
 
       <br />
       <br />
       <br />
       <p>For a list of working and non-working apps, as well as more technical information, see the RootCloak GitHub wiki:</p>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloak/wiki">RootCloak Wiki (GitHub)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloak/wiki">RootCloak Wiki (GitHub)</a>
 
       <br />
       <br />
       <br />
       <p>If you have an issue with RootCloak, either check the Issues section of GitHub, or visit the XDA Support Thread:</p>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloak/issues">RootCloak Issues (GitHub)</button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="http://forum.xda-developers.com/showthread.php?t=2574647">XDA Support Thread</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloak/issues">RootCloak Issues (GitHub)</a>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="http://forum.xda-developers.com/showthread.php?t=2574647">XDA Support Thread</a>
     </div>
   </div>
 

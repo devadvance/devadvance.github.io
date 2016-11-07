@@ -15,13 +15,13 @@ permalink: /rootcloakplus/
     <div class="mdl-cell mdl-cell--8-col">
       <p><b>No longer being actively developed! RootCloak Plus requires Cydia Substrate to work, which is no longer working after Android v4.3.</b> Some apps, such as banking, enterprise, or audio/video apps will not run if your phone is rooted. This allows you to run apps that detect root without disabling root. It is published under the name <b>devadvance</b>.</p>
       
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://play.google.com/store/apps/details?id=com.devadvance.rootcloakplus">Download RootCloak Plus (Play Store)</button>
-      
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://play.google.com/store/apps/details?id=com.devadvance.rootcloakplus">Download RootCloak Plus (Play Store)</a>
+
       <br />
       <br />
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloakplus">Source Code (GitHub)</button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="http://forum.xda-developers.com/showthread.php?t=2607273">XDA Support Thread</button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://play.google.com/store/apps/details?id=com.saurik.substrate">Cydia Substrate (Play Store)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/rootcloakplus">Source Code (GitHub)</a>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="http://forum.xda-developers.com/showthread.php?t=2607273">XDA Support Thread</a>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://play.google.com/store/apps/details?id=com.saurik.substrate">Cydia Substrate (Play Store)</a>
     </div>
   </div>
     

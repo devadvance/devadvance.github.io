@@ -14,17 +14,17 @@ permalink: /sms-backup-reader/
     </div>
     <div class="mdl-cell mdl-cell--8-col">
       <p>This is a desktop Java program designed to read the XML backup files produced by the Android app SMS Backup &amp; Restore by Ritesh. This program runs on Windows, MacOS (OS X), Linux, and any other OS with Java installed. It is published under the name <b>devadvance</b>.</p>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/smsbackupreader/releases/latest">Download latest version (GitHub)</button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://play.google.com/store/apps/details?id=com.riteshsahu.SMSBackupRestore">SMS Backup &amp; Restore (Android app by Ritesh)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/smsbackupreader/releases/latest">Download latest version (GitHub)</a>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://play.google.com/store/apps/details?id=com.riteshsahu.SMSBackupRestore">SMS Backup &amp; Restore (Android app by Ritesh)</a>
       <br />
       <br />
       <p>If you have any issues with SMS Backup Reader, please post an issue on the GitHub issue tracker here:</p>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/smsbackupreader/issues">SMS Backup Reader Issues (GitHub)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/smsbackupreader/issues">SMS Backup Reader Issues (GitHub)</a>
 
       <br />
       <br />
       <p>If you want to contribute to SMS Backup Reader or see the source code, visit the GitHub repo here:</p>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/smsbackupreader">Source Code (GitHub)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/smsbackupreader">Source Code (GitHub)</a>
     </div>
   </div>
 </div>

@@ -23,8 +23,8 @@ permalink: /circularseekbar/
       
       <p><b>To use it in your app, visit the GitHub repo for downloads and instructions: </b></p>
 
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar">Source Code (GitHub)</button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar/issues">CircularSeekBar Issues (GitHub)</button>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar">Source Code (GitHub)</a>
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar/issues">CircularSeekBar Issues (GitHub)</a>
       
     </div>
   </div>
