@@ -65,83 +65,26 @@ body {
   font-size: 16px;
 }
 
-/* Navbar stuff */
-.navbar {
-  min-height: 50px;
-  background-color: #2f2f2f;
-  border: 0;
-  color: #ffffff;
-  font-size: 16px;
-  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-  transition: background .5s ease-in-out,padding .5s ease-in-out;
-}
-
-.nav > .dropdown > ul {
-  background-color: #2f2f2f;
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li:hover > ul {
-  background-color: #2f2f2f;
-}
-
-.navbar-default .navbar-nav > li:hover > ul > li:hover {
-  background-color: #777777;
-}
-
-.nav > .dropdown > ul > li > a {
-  color: #ffffff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.nav > .dropdown > ul > li > a:hover {
-  background-color: #777777;
-}
-
-
-@media(min-width:767px) {
-  .navbar {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: transparent;
-  }
-
-  .top-nav-collapse {
-        padding: 0;
-    }
-}
-
-.navbarsmall {
-  padding-top: 0;
-  padding-bottom: 0;
-  /*background-color: #e7e7e7;*/
-  background-color: #2f2f2f;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li:hover {
-  background-color: #777777;
-  border-radius: 5px;
-}
-
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.img-responsive-80 {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .photo {
@@ -171,25 +114,6 @@ body {
   background-image: url(../images/acropolis-2560px.jpg);
 }
 
-.about-me-box {
-  height:160px;
-}
-
-.work-box {
-  text-align: center;
-  height: 320px;
-}
-
-.work-box:hover {
-  background-color: #dddddd;
-}
-
-.work-box > .work-icon {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .section-header {
   text-align: center;
   margin-bottom: 60px;
@@ -197,6 +121,12 @@ body {
 
 .about-me-box > h2 {
   text-align: center;
+}
+
+.multi-column {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
 
 /* Might want to refactor these media queries later with others */
@@ -217,6 +147,12 @@ body {
 }
 
 @media(max-width: 767px) {
+  .multi-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
   .padding-small {
     padding-left: 70px;
     padding-right: 70px;
@@ -242,15 +178,15 @@ body {
 }
 
 .section.top-section {
-  padding-top: 120px;
+  padding-top: 70px;
 }
 
 .section.main-section {
   background: url(../images/main.jpg) no-repeat center top;
   background-attachment: fixed;
   background-size: 100%;
-  min-height: 700px;
-  padding-top: 250px;
+  min-height: 500px;
+  padding-top: 200px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -266,7 +202,7 @@ body {
 }
 
 .section.white-section {
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: #ffffff;
 }
 
