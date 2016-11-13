@@ -1,0 +1,357 @@
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
+
+    <link rel="canonical" href="{{ site.url }}{{ page.canonical | replace:'index.html',''}}">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <script type="application/ld+json">
+      {"@context":"http://schema.org","@type":"WebSite","url":"http://mattj.io","name":"Matt Joseph","description":"","image":"//mattj.io/images/avatar-540px.png"}
+    </script>
+
+    <script type="application/ld+json">
+      {"@context":"http://schema.org","@type":"Organization","legalName":"Matt Joseph","telephone":""}
+    </script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <style amp-custom>
+
+      body {
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+      }
+
+      body a {
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .introtext {
+        text-align: center;
+      }
+
+      /* sidebar menu */
+      #drawermenu {
+        width: 320px;
+        background-color: white;
+      }
+      #drawermenu amp-accordion {
+        padding-bottom: 24px;
+      }
+      #drawermenu amp-accordion > * {
+        -webkit-tap-highlight-color: #e5e5e5;
+      }
+      #drawermenu .close {
+        float:right;
+        top: 16px;
+        margin-right: 16px;
+        cursor: pointer;
+      }
+      #drawermenu .close:hover {
+        background-color: #ccc;
+      }
+      #drawermenu .item a {
+        color: #333;
+        display: block;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        padding: 10px 24px 10px 32px;
+        white-space: nowrap;
+        font-size: 13px;
+        -webkit-tap-highlight-color: #e5e5e5;
+      }
+      #drawermenu .item a:active {
+        background-color: #eee;
+      }
+      .amp-mode-touch #drawermenu .item a {
+        padding-top: 18px;
+        padding-bottom: 17px;
+      }#drawermenu .item amp-img {
+        margin-left: 4px;
+        vertical-align: text-bottom;
+      }
+      #drawermenu .item .selected {
+        font-weight: 700;
+        color: #eb407a;
+      }
+      #drawermenu .expanded {
+        background-color: #eee;
+      }
+      #drawermenu .category {
+        padding-left: 16px;
+      }
+      #drawermenu .category a {
+        color: #333;
+      }
+      #drawermenu h4 {
+        font-weight: 700;
+        font-size: 13px;
+        padding: 0;
+        border: 0;
+        background-color: white;
+        width: 100%;
+        line-height: 40px;
+      }
+      #drawermenu .topheader {
+        margin-top: 16px;
+        margin-left: 16px;
+      }
+      #drawermenu .home {
+        text-align: left;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 36px;
+        color: rgba(0,0,0,.87);
+        padding-left: 0px;
+      }
+      #drawermenu section[expanded] .show-more {
+        display: none;
+      }
+      #drawermenu section:not([expanded]) .show-less {
+        display: none;
+      }
+
+      /* header with logo and carousel */
+      .header {
+        position: relative;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+        padding-top: 52px;
+      }
+      .header {
+        background-color: #607D8B;
+      }
+      .header #hamburger {
+        position:absolute;
+        top:0;
+        left: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        text-transform: uppercase;
+        padding: 13px;
+      }
+      .header #logo {
+        position:absolute;
+        top:0;
+        left:36px;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        text-transform: uppercase;
+        margin: 16px;
+        height: 32px;
+      }
+
+      #maindiv {
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .myphoto {
+        margin-left:20%;
+        margin-right:20%;
+      }
+
+      .boxes {
+        display:table;
+        width: 100%;
+        height: 100%;
+      }
+
+      .box {
+        display: table-cell;
+        text-align: center;
+        vertical-align:middle;
+        
+        /*line-height: 13em;*/
+      }
+
+      .box1 {
+
+        width: 50%;
+      }
+
+      .box2 {
+        width: 50%;
+        text-align: center;
+      }
+
+      .box3 {
+        display:none;
+      }
+
+      /* footer */
+      footer {
+        color: white;
+        background: #607D8B;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+      footer a {
+        color: white;
+      }
+
+      footer ul {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        line-height: 12px;
+      }
+
+      footer li {
+        display: block;
+        padding: 0 1em;
+        border-left: 1px solid white;
+      }
+
+      footer ul li:first-child {
+        border-left: none;
+      }
+
+      footer ul li a {
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 400;
+        line-height: 12px;
+        cursor: pointer;
+      }
+
+
+      @media (max-width: 640px) {
+          .box {
+              display: block;
+              width: 80%;
+              margin-left:auto;
+              margin-right:auto;
+          }
+
+          .box.box1 {
+            display:none;
+          }
+
+          .box3 {
+            display:block;
+          }
+      }
+
+      #maindiv .uncenter {
+        text-align:left;
+      }
+
+      .centered {
+        text-align:center;
+      }
+
+      .multi-column {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+      }
+
+      @media(max-width: 767px) {
+        .multi-column {
+          -webkit-column-count: 1;
+          -moz-column-count: 1;
+          column-count: 1;
+        }
+      }
+
+      .section {
+        width: 100%;
+        min-height: 150px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .section-header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .section.top-section {
+        padding-top: 70px;
+      }
+
+      .section.white-section {
+        padding-top: 50px;
+        background-color: #ffffff;
+      }
+
+      .section.materialteal {
+        background-color: #00695C;
+        color: #ffffff;
+      }
+
+      .section.materialblue {
+        background-color: #81D4FA;
+      }
+
+      .section.materiallightgrey {
+        background-color: #E0E0E0;
+      }
+
+      .section.materialdeeporange {
+        background-color: #FFAB91;
+      }
+
+      .section.materialbrownlightprimary {
+        background-color: #D7CCC8;
+        color: #727272;
+      }
+
+      .section.materialbrown200 {
+        background-color: #BCAAA4;
+      }
+
+      .section.materialbrown500 {
+        background-color: #795548;
+      }
+
+      .section.materialbrown700 {
+        background-color: #5D4037;
+      }
+
+      .section.materialgreen200 {
+        background-color: #A5D6A7;
+      }
+
+      .section.materialbluegrey800 {
+        background-color: #37474F;
+      }
+
+      .underlinewhite {
+        color:white;
+        text-decoration:underline;
+      }
+
+      .instagramphoto {
+        margin-left:20%;
+        margin-right:20%;
+        margin-bottom: 20px;
+      }
+    </style>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  </head>

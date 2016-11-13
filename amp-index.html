@@ -1,0 +1,49 @@
+---
+layout: amp
+title: Matt Joseph
+permalink: /amp/
+canonical: /
+---
+{% assign aboutme = site.data.aboutme %}
+
+<h1 class="introtext">Hi.</h1>
+<p class="introtext">(scroll down, or check the nav!!)</p>
+<br /><br /><br /><br /><br />
+
+<div class="boxes">
+   <div class="box box1">
+   		<amp-img class="myphoto" src="/images/avatar-540px.png" alt="Welcome" height="400" width="400" layout="responsive"></amp-img>
+   </div>
+   <div class="box box2">
+   		<h2>{{ site.data.aboutme.intro.heading }}</h2>
+   </div>
+</div>
+
+<div class="box3">
+	<amp-img class="myphoto" src="/images/avatar-540px.png" alt="Welcome" height="400" width="400" layout="responsive"></amp-img>
+</div>
+
+<div class="uncenter">
+	<div class="multi-column">
+		{{ site.data.aboutme.intro.details }}
+	</div>
+
+
+	<div>
+	  <h2 class="centered">More about me</h2>
+
+		<h3>{{ aboutme.interests.interest1.heading }}</h3>
+		<p>{{ aboutme.interests.interest1.details }}</p>
+		<h3>{{ aboutme.interests.interest2.heading }}</h3>
+		<p>{{ aboutme.interests.interest2.details }}</p>
+		<h3>{{ aboutme.interests.interest3.heading }}</h3>
+		<p>{{ aboutme.interests.interest3.details }}</p>
+		<h3>{{ aboutme.interests.interest4.heading }}</h3>
+		<p>{{ aboutme.interests.interest4.details }}</p>
+		<h3>{{ aboutme.interests.interest5.heading }}</h3>
+		<p>{{ aboutme.interests.interest5.details }}</p>
+		<h3>{{ aboutme.interests.interest6.heading }}</h3>
+		<p>{{ aboutme.interests.interest6.details }}</p>
+
+	</div>
+</div>

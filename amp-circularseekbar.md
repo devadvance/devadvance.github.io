@@ -1,18 +1,17 @@
 ---
-layout: default
+layout: amp
 title: CircularSeekBar (Android View/Widget) | Matt Joseph
-permalink: /circularseekbar/
+permalink: /amp/circularseekbar/
+canonical: /circularseekbar/
 ---
 
 
 <div class="section top-section materialbrown200">
   <h1 class="section-header">CircularSeekBar (Android View/Widget)</h1>
 
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--4-col">
-      <img class="img-responsive-80" src="/images/circularseekbar.png">
-    </div>
-    <div class="mdl-cell mdl-cell--8-col">
+  <br /><br />
+  <div class="uncenter">
+    <div>
       <p>CircularSeekBar is an Android view/widget that allows app developers to include a circular seekbar in their apps. It is fully customizable (XML and programmatically) and allows the following shapes:</p>
       <ul>
         <li>Full Circles</li>
@@ -23,8 +22,8 @@ permalink: /circularseekbar/
       
       <p><b>To use it in your app, visit the GitHub repo for downloads and instructions: </b></p>
 
-      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar">Source Code (GitHub)</a>
-      <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar/issues">CircularSeekBar Issues (GitHub)</a>
+      <p><a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar">Source Code (GitHub)</a></p>
+      <p><a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" href="https://github.com/devadvance/circularseekbar/issues">CircularSeekBar Issues (GitHub)</a></p>
       
     </div>
   </div>
