@@ -37,242 +37,256 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@media screen and (max-width: $device) {
+@content;
+}
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+"base",
+"layout",
+"syntax-highlighting"
 ;
 
 .browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+margin: 0.2em 0;
+background: #ccc;
+color: #000;
+padding: 0.2em 0;
 }
 
 body {
-  padding: 0;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+padding: 0;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 16px;
 }
 
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+padding-top: 19px;
+color: #777;
+border-top: 1px solid #e5e5e5;
 }
 
 .img-responsive {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
+max-width: 100%;
+height: auto;
+display: block;
+margin: auto;
 }
 
 .img-responsive-80 {
-  max-width: 80%;
-  height: auto;
-  display: block;
-  margin: auto;
+max-width: 80%;
+height: auto;
+display: block;
+margin: auto;
 }
 
 .photo {
-  background-attachment: fixed;
-  background-position: 50% 0%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 450px;
-  position: relative;
-  margin-left: 70px;
-  margin-right: 70px;
+background-attachment: fixed;
+background-position: 50% 0%;
+background-size: 100%;
+background-repeat: no-repeat;
+height: 450px;
+position: relative;
+margin-left: 70px;
+margin-right: 70px;
 }
 
 .phototwo {
-  position: relative;
-  margin: -20% 0;
-  max-width: 100%;
-  padding-left: 70px;
-  padding-right: 70px;
+position: relative;
+margin: -20% 0;
+max-width: 100%;
+padding-left: 70px;
+padding-right: 70px;
 }
 
 .cake-photo {
-  background-image: url(../images/cake-2560px.jpg);
+background-image: url(../images/cake-2560px.jpg);
 }
 
 .acropolis-photo {
-  background-image: url(../images/acropolis-2560px.jpg);
+background-image: url(../images/acropolis-2560px.jpg);
 }
 
 .section-header {
-  text-align: center;
-  margin-bottom: 60px;
+text-align: center;
+margin-bottom: 60px;
 }
 
 .about-me-box > h2 {
-  text-align: center;
+text-align: center;
 }
 
 .multi-column {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
 }
 
 /* Might want to refactor these media queries later with others */
 @media(max-width:992px) and (min-width: 767px) {
-  .padding-small {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+.padding-small {
+padding-left: 200px;
+padding-right: 200px;
+}
 
-  .about-me-box {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+.about-me-box {
+margin-left: 100px;
+margin-right: 100px;
+}
 
-  .work-box > .work-icon {
-    width: 30%;
-  }
+.work-box > .work-icon {
+width: 30%;
+}
 }
 
 @media(max-width: 767px) {
-  .multi-column {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
+.multi-column {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+}
 
-  .padding-small {
-    padding-left: 70px;
-    padding-right: 70px;
-  }
+.padding-small {
+padding-left: 70px;
+padding-right: 70px;
+}
 
-  .photo {
-    background-size: 160%;
-    background-position: 50% 50%;
-    height: 250px;
-    margin-left: 0;
-    margin-right: 0;
-  }
+.photo {
+background-size: 160%;
+background-position: 50% 50%;
+height: 250px;
+margin-left: 0;
+margin-right: 0;
+}
 }
 
 
 /* Sections */
 
 .section {
-  width: 100%;
-  min-height: 150px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+width: 100%;
+min-height: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .section.top-section {
-  padding-top: 70px;
+padding-top: 70px;
 }
 
 .section.main-section {
-  background: url(../images/main.jpg) no-repeat center top;
-  background-attachment: fixed;
-  background-size: 100%;
-  min-height: 500px;
-  padding-top: 200px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  color: #ffffff;
+background: url(../images/main.jpg) no-repeat center top;
+background-attachment: fixed;
+background-size: 100%;
+min-height: 500px;
+padding-top: 200px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+color: #ffffff;
 }
 
 .section.parallax-section {
-  background-color: transparent;
-  padding-top: 0;
-  padding-bottom: 0;
+background-color: transparent;
+padding-top: 0;
+padding-bottom: 0;
 }
 
 .section.white-section {
-  padding-top: 50px;
-  background-color: #ffffff;
+padding-top: 50px;
+background-color: #ffffff;
 }
 
 .section.footer-section {
-  min-height: 180px;
-  background-color: #2f2f2f;
-  color: #ffffff;
-  //text-align: center;
+min-height: 180px;
+background-color: #2f2f2f;
+color: #ffffff;
+//text-align: center;
 }
 
 .section.materialteal {
-  background-color: #00695C;
-  color: #ffffff;
+background-color: #00695C;
+color: #ffffff;
 }
 
 .section.materialblue {
-  background-color: #81D4FA;
+background-color: #81D4FA;
 }
 
 .section.materiallightgrey {
-  background-color: #E0E0E0;
+background-color: #E0E0E0;
 }
 
 .section.materialdeeporange {
-  background-color: #FFAB91;
+background-color: #FFAB91;
 }
 
 .section.materialbrownprimary {
-  background-color: #795548;
-  color: #FFFFFF;
-  
-  a {
-    color: #212121;
-  }
+background-color: #795548;
+color: #FFFFFF;
+
+a {
+color: #212121;
+}
 }
 
 .section.materialbrownlightprimary {
-  background-color: #D7CCC8;
-  color: #727272;
+background-color: #D7CCC8;
+color: #727272;
 }
 
 .section.materialgraybrownprimary {
-  background-color: #9E9E9E;
-  color: #F5F5F5;
-  a {
-    color: #212121;
-  }
+background-color: #9E9E9E;
+color: #F5F5F5;
+a {
+color: #212121;
+}
 }
 
 .section.materialbrown200 {
-  background-color: #BCAAA4;
+background-color: #BCAAA4;
 }
 
 .section.materialbrown500 {
-  background-color: #795548;
+background-color: #795548;
 }
 
 .section.materialbrown700 {
-  background-color: #5D4037;
+background-color: #5D4037;
 }
 
 .section.materialgreen200 {
-  background-color: #A5D6A7;
+background-color: #A5D6A7;
 }
 
 .section.materialbluegrey800 {
-  background-color: #37474F;
+background-color: #37474F;
 }
 
 .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
-  border-color: #333333;
+border-color: #333333;
 }
 /*footer? #2f2f2f*/
+
+.sms-card > .mdl-card__title {
+align-items: flex-start;
+}
+.sms-card > .mdl-card__title > h4 {
+margin-top: 0;
+}
+.sms-card.mdl-card {
+width: 90%;
+height: 320px;
+}
+.sms-card > .mdl-card__title {
+color: #000;
+}
