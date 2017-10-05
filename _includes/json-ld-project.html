@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "{{ page.title }}",
+    "keywords": "personal,opensource",
+    "url": "{{ site.url }}{{ page.url }}",
+    "creator": {
+      "@type": "Person",
+      "name": "Matt Joseph",
+      "url": "https://mattj.io"
+    },
+    "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"
+  }
+</script>
