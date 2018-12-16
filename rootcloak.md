@@ -1,5 +1,5 @@
 ---
-layout: newdesign-project
+layout: 2018design-project
 title: RootCloak (Xposed) | Matt Joseph
 excerpt: Android Xposed module to hide root from other apps
 permalink: /rootcloak/

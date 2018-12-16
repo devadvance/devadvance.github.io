@@ -1,5 +1,5 @@
 ---
-layout: newdesign-project
+layout: 2018design-project
 title: RootCloak Plus (Cydia) | Matt Joseph
 excerpt: Android Cydia Substrate module to hide root from other apps
 permalink: /rootcloakplus/

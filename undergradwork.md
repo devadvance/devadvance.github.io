@@ -1,5 +1,5 @@
 ---
-layout: newdesign-project
+layout: 2018design-project
 title: Undergraduate Work | Matt Joseph
 excerpt: Software projects coded for University of Pittsburgh Computer Science classes
 permalink: /undergradwork/

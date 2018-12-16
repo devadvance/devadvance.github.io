@@ -1,5 +1,5 @@
 ---
-layout: newdesign-project
+layout: 2018design-project
 title: SMS Backup Reader (PC/Mac/*nix/Web) | Matt Joseph
 excerpt: SMS Backup Reader reads SMS backup files from Android devices
 permalink: /sms-backup-reader/
