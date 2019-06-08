@@ -1,0 +1,26 @@
+---
+layout: 2018design-page
+title: Posts and Articles
+excerpt: Post and Articles by Matt Joseph
+permalink: /posts/
+---
+
+<article class="page">
+  <div class="pure-g">
+    <div class="pure-u-md-1-5"></div>
+    <div class="pure-u-1 pure-u-md-3-5">
+      <h1 class="center">Posts and Articles</h1>
+      
+      <p class="center">Selection of things that I've written.</p>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.date | date: "%B %-d, %Y" }} - {{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+    <div class="pure-u-md-1-5"></div>
+  </div>
+</article>

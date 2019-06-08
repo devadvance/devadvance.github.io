@@ -11,3 +11,8 @@ github_username:  devadvance
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year-:month-:day-:title/

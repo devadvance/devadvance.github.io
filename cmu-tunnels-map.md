@@ -1,6 +1,6 @@
 ---
 layout: 2018design-project
-title: CMU Steam Tunnels | Matt Joseph
+title: CMU Steam Tunnels
 excerpt: Project to explore a 1988 CMU Steam Tunnels Map
 permalink: /cmu-tunnels-map/
 ---

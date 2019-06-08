@@ -1,6 +1,6 @@
 ---
 layout: 2018design-project
-title: CircularSeekBar (Android View/Widget) | Matt Joseph
+title: CircularSeekBar (Android View/Widget)
 excerpt: CircularSeekBar is an Android view/widget to create circular seekbars
 permalink: /circularseekbar/
 ---
