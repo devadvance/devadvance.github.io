@@ -16,3 +16,6 @@ collections:
   posts:
     output: true
     permalink: /posts/:year-:month-:day-:title/
+
+plugins:
+  - jekyll-sitemap
