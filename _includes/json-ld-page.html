@@ -4,11 +4,11 @@
     "@type": "WebSite", 
     "url": "{{ site.url }}{{ page.url }}", 
     "name": "{{ page.title }}",
-     "author": {
-        "@type": "Person",
-        "name": "Matt Joseph",
-        "url": "https://mattj.io"
-      },
-    "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+    "author": {
+      "@type": "Person",
+      "name": "Matt Joseph",
+      "url": "https://mattj.io"
+    },
+    "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}"
   }
 </script>
