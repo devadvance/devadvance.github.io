@@ -11,7 +11,7 @@ title: Digging into Kiosk Touch Input
 
 *Originally published on [the Intersection blog](https://ixn.intersection.com/digging-into-kiosk-touch-input-2779bcad7f5b)*
 
-This post is somewhat of a spiritual successor to a prior post,[ *Web App Multi-touch is Complicated](https://ixn.intersection.com/web-app-multi-touch-is-complicated-16e1db2b29ba)*. We learned a lot from that experience, but as it turns out, we also had plenty more to learn!
+This post is somewhat of a spiritual successor to a prior post, *[Web App Multi-touch is Complicated](https://ixn.intersection.com/web-app-multi-touch-is-complicated-16e1db2b29ba)*. We learned a lot from that experience, but as it turns out, we also had plenty more to learn!
 
 In the middle of March 2019, we went live with the interactive software powering several dozen touchscreen kiosks in the new Shops & Restaurants at Hudson Yards in New York City. After tens of thousands of interactions, we noticed intermittent issues where touch would simply stop working on the kiosks. The ads would continue rotating and the navigational interface was still being rendered, but touch remained unresponsive.
 
