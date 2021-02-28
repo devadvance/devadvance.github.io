@@ -12,7 +12,7 @@ title: Create animated GIF and WebP from videos using FFmpeg
 
 *A guide to using FFmpeg to create all the animated content you want.*
 
-Whether it's for a website, a presentation, or sharing a fun clip with a friend on chat, you might want to convert a video to an animated GIF or animated WebP. Unfortunately, the visual tools for doing this vary by the operating system. Additionally, most tools don't support [the WebP format](https://en.wikipedia.org/wiki/WebP){:target="_blank"}{:rel="noopener"}, even in 2021. WebP is based on VP8, a relatively recent video codec standard compared to the [GIF image format](https://en.wikipedia.org/wiki/GIF){:target="_blank"}{:rel="noopener"}.
+Whether it's for a website, a presentation, or sharing a fun clip with a friend on chat, you might want to convert a video to an animated GIF or animated WebP. Unfortunately, the visual tools for doing this vary by your operating system. Additionally, most conversion tools don't support [the WebP format](https://en.wikipedia.org/wiki/WebP){:target="_blank"}{:rel="noopener"}, even in 2021. WebP is based on VP8, a relatively recent video codec standard compared to the [GIF image format](https://en.wikipedia.org/wiki/GIF){:target="_blank"}{:rel="noopener"}.
 
 So, this guide is for those who are willing to learn a bit of terminal in order to convert any video to the animated format of their choosing. The best part: this will work on all major operating systems and gives you all the control of the output you could want!
 
