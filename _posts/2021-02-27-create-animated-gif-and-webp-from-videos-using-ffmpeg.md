@@ -7,7 +7,7 @@ title: Create animated GIF and WebP from videos using FFmpeg
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Also published on [Medium](https://mattjoseph.medium.com/create-animated-gif-and-webp-from-videos-using-ffmpeg-f1012267935a
+[Click here to go to all posts](/posts/). *Also published on [Medium](https://mattjoseph.medium.com/create-animated-gif-and-webp-from-videos-using-ffmpeg-f1012267935a
 ){:target="_blank"}{:rel="noopener"}*
 
 *A guide to using FFmpeg to create all the animated content you want.*
