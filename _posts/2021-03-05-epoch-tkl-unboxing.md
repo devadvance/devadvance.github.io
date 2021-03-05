@@ -1,6 +1,8 @@
 ---
 layout: 2018design-post
 title: Unboxing the KBDfans Epoch TKL (80%) keyboard kit
+image: /images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_front.jpg
+excerpt: A quick unboxing of the KBDfans Epoch TKL (80%) with macro shots
 ---
 
 # Unboxing the KBDfans Epoch TKL (80%) keyboard
@@ -9,7 +11,7 @@ title: Unboxing the KBDfans Epoch TKL (80%) keyboard kit
 
 [Click here to go to all posts](/posts/).
 
-*A quick unboxing with macro shots.*
+*A quick unboxing of the KBDfans Epoch TKL (80%) with macro shots.*
 
 The [KBDfans Epoch TKL (80%) keyboard kit](https://kbdfans.com/products/coming-soon-epoch-80-mechanical-keyboard){:target="_blank"}{:rel="noopener"} was released in a spot sale and group buy on 2021-02-22.
 
