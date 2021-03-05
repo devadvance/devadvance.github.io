@@ -1,6 +1,7 @@
 ---
 layout: 2018design-post
 title: Create animated GIF and WebP from videos using FFmpeg
+image: /images/posts/2021-02-27_-_ffmpeg_version.gif
 ---
 
 # Create animated GIF and WebP from videos using FFmpeg
