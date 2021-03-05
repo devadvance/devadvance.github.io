@@ -1,9 +1,9 @@
 ---
 layout: 2018design-post
-title: Unboxing the KBDFans Epoch TKL (80%) keyboard kit
+title: Unboxing the KBDfans Epoch TKL (80%) keyboard kit
 ---
 
-# Unboxing the KBDFans Epoch TKL (80%) keyboard
+# Unboxing the KBDfans Epoch TKL (80%) keyboard
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -11,10 +11,10 @@ title: Unboxing the KBDFans Epoch TKL (80%) keyboard kit
 
 *A quick unboxing with macro shots.*
 
-The [KBDFans Epoch TKL (80%) keyboard kit](https://kbdfans.com/products/coming-soon-epoch-80-mechanical-keyboard){:target="_blank"}{:rel="noopener"} was released in a spot sale and group buy on 2021-02-22.
+The [KBDfans Epoch TKL (80%) keyboard kit](https://kbdfans.com/products/coming-soon-epoch-80-mechanical-keyboard){:target="_blank"}{:rel="noopener"} was released in a spot sale and group buy on 2021-02-22.
 
 Includes:
-* Case: KBDFans Epoch TKL (80%) aluminum in black, grey, and e-white
+* Case: KBDfans Epoch TKL (80%) aluminum in black, grey, and e-white
 * Mount: Gaskets structure
 * Plate: Carbon fiber
 * PCB: Solder-only PCB as of initial sale
