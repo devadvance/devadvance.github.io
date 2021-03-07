@@ -41,16 +41,17 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .hero-caption {
   position: absolute;
   width: 80vw;
-  height: 150px;
+  height: 8rem;
   background-color: white;
   opacity: .9;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  bottom: 40px;
+  bottom: 2.5rem;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25rem;
+  font-size: 1.25rem;
 }
 
 article {
@@ -107,6 +108,7 @@ svg {
 
 .share-icons ul {
   list-style: none;
+  display: inline;
 }
 
 .share-icons li {
@@ -115,80 +117,14 @@ svg {
   margin-right: 5px;
 }
 
-.header-navbar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 60px;
-  line-height: 60px;
-  z-index: 999;
-  background-color: #ffffff;
-  color: #000000;
-  text-align: center;
-  box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
-}
-
-.header-navbar .nav-title {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.sidebar-trigger {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.sidebar-close-button {
-  margin-top: 10px;
-}
-
 .text-decoration-none {
   text-decoration: none;
   color: inherit;
 }
 
-.custom-sidebar {
-  background-color: #000;
-  color: #fff;
-  min-width: 300px;
-  width: 300px;
-  padding-left: 10px;
-  padding-top: 40px;
-}
-
-.custom-sidebar li {
-  margin-bottom: 1.5rem;
-}
-
 .list-reset {
   list-style: none;
   padding-left: 0;
-}
-
-.sidebar-dropdown>section>header {
-  background-color: transparent;
-  margin-bottom: 20px;
-}
-
-.sidebar-dropdown>section>ul {
-  padding-left: 20px;
-}
-
-.sidebar-dropdown>section>header:after {
-  display: inline-block;
-  content: "+";
-  padding: 0 0 0 1.5rem;
-  color: #fff;
-}
-
-.sidebar-dropdown>[expanded]>header:after {
-  content: "–";
 }
 
 figcaption {
@@ -257,6 +193,132 @@ code {
   overflow: visible;
   direction: ltr;
   unicode-bidi: isolate;
+}
+
+
+/* The top navbar itself. */
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  font-size: 1.5rem;
+  z-index: 999;
+  background-color: #fafafa;
+  color: #000000;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.navbar-title {
+  /*margin: 0 0 0 3rem;*/
+  margin: 0 auto 0 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0.75rem;
+}
+
+/* Any direct children of the navbar should be horizontal and aligned to top. */
+.navbar > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar > .navbar-horiz {
+  display: none;
+}
+
+/* Specific to the sidebar menu details. */
+.navbar-sidebar {
+  width: 6rem;
+  position: absolute;
+  left: 0;
+  text-align: left;
+}
+
+.navbar-details {
+  cursor: pointer;
+}
+
+details.navbar-details > summary {
+  display: list-item;
+  padding-left: 0.5rem;
+}
+
+/* The content of the details dropdown. */
+.navbar-details-content {
+  background-color: #fafafa;
+/*   background-color: #123456; */
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  overflow: visible;
+}
+
+/*
+ * Position absolute so that it doesn't change
+ * the size of the header.
+ */
+.navbar-top-details > .navbar-details-content {
+  position: absolute;
+  width: 13rem;
+}
+
+/* When used as a sidebar, we have the height as the entire screen and a wider bar. */
+.navbar-sidebar > .navbar-details-content {
+  height: 100vh;
+  width: 15rem;
+}
+
+/* Lists in the dropdowns have no style. */
+.navbar-details-content > ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.navbar-details-content > ul > li {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/* For the horizontal list. */
+.navbar-horiz, .navbar-horiz-list {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  margin: 0;
+  float: right;
+}
+
+/* For the horizontal list. */
+.navbar-horiz-list > li {
+  display: inline-block;
+  margin: 0 0.25rem 0 0.25rem;
+  height: 100%;
+}
+
+/* For larger screens we:
+ * * turn off the sidebar
+ * * turn on horizontal nav
+*/
+@media (min-width: 768px) {
+  .navbar {
+  	text-align: left;
+  }
+
+  .navbar-sidebar {
+    display: none;
+  }
+  
+  .navbar > .navbar-horiz {
+    display: inline-block;
+  }
+  .navbar-title {
+    margin: 0 0 0 2rem;
+  }
 }
 
 </style>
