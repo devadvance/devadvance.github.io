@@ -9,7 +9,7 @@ title: The unexpected empathy of open source
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Hacker Noon](https://hackernoon.com/the-unexpected-empathy-of-open-source-5d3574a3aab6)*
+[Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/the-unexpected-empathy-of-open-source-5d3574a3aab6){:target="_blank"}{:rel="noopener"}*
 
 The benefits of free and open source software are often recited. Auditability, community, quality, interoperability, cost, and many others. These benefits sound great for businesses, governments, and engineers. The "value proposition," if you will, is clear.
 
@@ -22,7 +22,7 @@ It wasn't until recently that I found the answer: empathy.
 
 ### **First: a bit of personal history**
 
-I released my first bit of open source software in 2011 called [SMS Backup Reader](https://github.com/devadvance/smsbackupreader). I had free time during the summer and a simple problem I needed to solve: I wanted to be able read my Android text message backups on the computer.
+I released my first bit of open source software in 2011 called [SMS Backup Reader](https://github.com/devadvance/smsbackupreader){:target="_blank"}{:rel="noopener"}. I had free time during the summer and a simple problem I needed to solve: I wanted to be able read my Android text message backups on the computer.
 
 After doing a bit of searching, I realized that, not only didn't a good solution exist, but that other people might be interested in an easy way of opening these pesky XML backup files. So I put my newly minted Java skills to work, and a few days later, published version 0.1 of SMS Backup Reader.
 
@@ -48,7 +48,7 @@ To better solve problems beyond your own, you have to truly understand the peopl
 
 Open sourcing your work helps to solve problems without asking for anything in return. No money, no press, and, in many cases, you won't even know you've helped at all.
 
-And it might not be within your lifetime. By open sourcing software, you're giving others the chance to pick up where you left off. Old memories won't be locked away in unavailable, proprietary software. Even the software itself can [live beyond its creator](https://www.wired.com/story/giving-open-source-projects-life-after-a-developers-death/).
+And it might not be within your lifetime. By open sourcing software, you're giving others the chance to pick up where you left off. Old memories won't be locked away in unavailable, proprietary software. Even the software itself can [live beyond its creator](https://www.wired.com/story/giving-open-source-projects-life-after-a-developers-death/){:target="_blank"}{:rel="noopener"}.
 
 So why should the world care about open source?
 

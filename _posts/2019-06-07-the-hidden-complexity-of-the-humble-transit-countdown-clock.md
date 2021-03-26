@@ -9,7 +9,7 @@ title: The hidden complexity of the humble transit countdown clock
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [the Intersection blog](https://ixn.intersection.com/the-hidden-complexity-of-the-humble-transit-countdown-clock-c4a97b298b5c)*
+[Click here to go to all posts](/posts/). *Also published on [the Intersection blog](https://ixn.intersection.com/the-hidden-complexity-of-the-humble-transit-countdown-clock-c4a97b298b5c){:target="_blank"}{:rel="noopener"}*
 
 Picture an average commute on public transit. You walk out of your front door and down the street. Maybe you're running a bit late, so the walk is closer to a speedwalk, with your shins getting tired as you try to walk-but-not-run faster than your legs are willing.
 
@@ -28,7 +28,7 @@ But maybe you're someone who likes to know how magic tricks work. If so, continu
 
 ## Where is the vehicle (physically)
 
-As this post isn't a thesis on transit tracking systems, I won't be diving into the differences between technologies like [Automatic Train Control (ATC)](https://en.wikipedia.org/wiki/Automatic_train_control), [GPS](https://en.wikipedia.org/wiki/File:NAVSTAR_GPS_logo.png), [communications-based train control (CBTC)](https://en.wikipedia.org/wiki/Communications-based_train_control), Bluetooth, or others.
+As this post isn't a thesis on transit tracking systems, I won't be diving into the differences between technologies like [Automatic Train Control (ATC)](https://en.wikipedia.org/wiki/Automatic_train_control){:target="_blank"}{:rel="noopener"}, [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System), [communications-based train control (CBTC)](https://en.wikipedia.org/wiki/Communications-based_train_control){:target="_blank"}{:rel="noopener"}, Bluetooth, or others.
 
 It's safe to assume that any transit system you're familiar with uses one or more of technologies like these for a variety of operational purposes. In all cases, these form the basis of being able to know the answer to the question, "where is the vehicle right now?"
 
@@ -38,7 +38,7 @@ In most cases, this involves a variety of layers:
 
 * Connectivity of some kind, primarily to read the data from the sensors, but potentially to have the sensors work together, such as in the case of Bluetooth
 
-* Raw data transfer, such as simple values (e.g., is the contact sensor activated indicating the presence of a train on the track), more complex values (e.g., [RSSI](https://en.wikipedia.org/wiki/Received_signal_strength_indication) value from multiple wireless detectors), or more location-centric values (e.g., raw latitude-longitude coordinates from a GPS device)
+* Raw data transfer, such as simple values (e.g., is the contact sensor activated indicating the presence of a train on the track), more complex values (e.g., [RSSI](https://en.wikipedia.org/wiki/Received_signal_strength_indication){:target="_blank"}{:rel="noopener"} value from multiple wireless detectors), or more location-centric values (e.g., raw latitude-longitude coordinates from a GPS device)
 
 In some cases, such as basic contact sensors, this data will need to be processed in order to convert it into a location value for a given vehicle.
 
@@ -66,27 +66,22 @@ We have our arrival predictions! Next, we need to get this information to extern
 This involves more hops. Again, it varies by system/technologies/agency/more, but it often looks like this:
 
 * Prediction system
-
 * Database
-
 * Aggregation layer
-
-* API (REST/[Protobuf](https://en.wikipedia.org/wiki/Protocol_Buffers)/other) layer
-
+* API (REST/[Protobuf](https://en.wikipedia.org/wiki/Protocol_Buffers){:target="_blank"}{:rel="noopener"}/other) layer
 * Various network hops
-
 * Third party
 
 There are various providers that help with the above steps, such as NextBus, OneBusAway, Swiftly, and others. These providers, coupled with alert publishing systems, help agencies to make data available in a useful way.
 
-In many cases, transit agencies use standard formats like [GTFS Realtime](https://developers.google.com/transit/gtfs-realtime/) to provide data to the external world. This standard format makes it easier to build products that work with multiple locations.
+In many cases, transit agencies use standard formats like [GTFS Realtime](https://developers.google.com/transit/gtfs-realtime/){:target="_blank"}{:rel="noopener"} to provide data to the external world. This standard format makes it easier to build products that work with multiple locations.
 
 <div class="center width70"><amp-img src="/images/posts/2019-06-07_2.png" width="970" height="1267" alt="General Transit Feed Specification (GTFS) data diagram" layout="responsive"></amp-img></div>
 <figcaption class="center">General Transit Feed Specification (GTFS) data diagram</figcaption>
 
 ## A third party enters the ring
 
-Now that we have a way for third parties to get the arrival information, places like [Intersection](https://www.intersection.com/) can now use the data! My team uses data like this from a variety of agencies, such as LA Metro, Chicago Transit Agency, SEPTA, and MTA, to power our products.
+Now that we have a way for third parties to get the arrival information, places like [Intersection](https://www.intersection.com){:target="_blank"}{:rel="noopener"} can now use the data! My team uses data like this from a variety of agencies, such as LA Metro, Chicago Transit Agency, SEPTA, and MTA, to power our products.
 
 The steps to begin using this data vary from company to company, but at Intersection, a simple flow looks like this:
 
@@ -96,9 +91,9 @@ The steps to begin using this data vary from company to company, but at Intersec
 
 * Process the data into a usable format for our products
 
-* Provide that information to our products, such as [IxNTouch and IxNSight](https://www.intersection.com/product/ixntouch-and-ixnsight/), in an extremely usable and performant way
+* Provide that information to our products, such as [IxNTouch and IxNSight](https://www.intersection.com/product/ixntouch-and-ixnsight/){:target="_blank"}{:rel="noopener"}, in an extremely usable and performant way
 
-If you're interested in more of our thinking and considerations around real-time transit information, I highly recommend checking out Tyler Green's post,[ Now arriving: lessons from delivering real-time transit information to smart city kiosks](https://ixn.intersection.com/now-arriving-lessons-from-delivering-real-time-transit-information-to-smart-city-kiosks-c163ea9f61fe).
+If you're interested in more of our thinking and considerations around real-time transit information, I highly recommend checking out Tyler Green's post,[Now arriving: lessons from delivering real-time transit information to smart city kiosks](https://ixn.intersection.com/now-arriving-lessons-from-delivering-real-time-transit-information-to-smart-city-kiosks-c163ea9f61fe){:target="_blank"}{:rel="noopener"}.
 
 It's important for us to apply the same level of consideration for performance as each transit agency. We focus on making sure that it takes a nearly trivial amount of time to do our own processing, so we can get the information to our products as rapidly as possible.
 
@@ -128,7 +123,7 @@ There are many dozens of design decisions that take place on a display. These ca
 
 * How many arrivals into the future do you show? Is this based on a fixed number or time?
 
-These and many other questions are answered by a combination of product, engineering, and UX. As usual, it's a balance between the ideal state and what is possible given current constraints and context. If you're curious about some of these decisions, check out Kohzy Koh's post, [Two-way Communications in Transit: Lessons Learned From Designing Public Interactive Kiosks](https://ixn.intersection.com/two-way-communications-in-transit-lessons-learned-from-designing-public-interactive-kiosks-d930a487c5ef).
+These and many other questions are answered by a combination of product, engineering, and UX. As usual, it's a balance between the ideal state and what is possible given current constraints and context. If you're curious about some of these decisions, check out Kohzy Koh's post, [Two-way Communications in Transit: Lessons Learned From Designing Public Interactive Kiosks](https://ixn.intersection.com/two-way-communications-in-transit-lessons-learned-from-designing-public-interactive-kiosks-d930a487c5ef){:target="_blank"}{:rel="noopener"}.
 
 <div class="center width70"><amp-img src="/images/posts/2019-06-07_3.jpg" width="1600" height="1366" alt="NJ Transit IxNTouch 1.0 kiosk software (left) and CTA IxNTouch 2.0 kiosk software (right)" layout="responsive"></amp-img></div>
 <figcaption class="center">NJ Transit IxNTouch 1.0 kiosk software (left) and CTA IxNTouch 2.0 kiosk software (right)</figcaption>
@@ -141,5 +136,3 @@ While this is focused on Intersection, these same considerations apply to all ar
 It turns out there's an immense amount of complexity that goes into the humble countdown clock. At Intersection, we've spent a lot of time thinking about large parts of this process, as arrival information is a critical piece of our transit products.
 
 However, this is just one example! As you go through your daily commute, there are dozens, even hundreds of examples of low-friction, glanceable technology features that require an immense amount of work to accomplish.
-
-Interested in solving complex smart city challenges like these?[ Apply to join our team](https://rebrand.ly/ixnjobsmedium)!

@@ -9,7 +9,7 @@ title: Recovered log from a corporate engineer's onboarding journey
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Hacker Noon](https://hackernoon.com/recovered-log-from-a-corporate-engineers-onboarding-journey-db8b79cbc4eb)*
+[Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/recovered-log-from-a-corporate-engineers-onboarding-journey-db8b79cbc4eb){:target="_blank"}{:rel="noopener"}*
 
 <div class="center width70"><amp-img src="/images/posts/2018-09-11_1.jpg" width="2000" height="1333" alt="This post was transcribed from a small journal smuggled out of a Treasure 100 company" layout="responsive"></amp-img></div>
 <figcaption class="center">This post was transcribed from a small journal smuggled out of a Treasure 100 company</figcaption>

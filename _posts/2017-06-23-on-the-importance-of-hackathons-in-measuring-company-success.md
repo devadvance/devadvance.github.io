@@ -7,7 +7,7 @@ title: On the importance of hackathons in measuring company success
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Hacker Noon](https://hackernoon.com/on-the-importance-of-hackathons-in-measuring-company-success-82686936f133)*
+[Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/on-the-importance-of-hackathons-in-measuring-company-success-82686936f133){:target="_blank"}{:rel="noopener"}*
 
 You've done it. You're on the path of digital success! You're in a leadership role at a large firm, working as part of a large effort to build a broad set of dev tools, APIs, UI components, analytics tools, design language standards, and quality measures, all in the interest of simplifying the ability to deliver amazing products to your clients.
 
@@ -17,7 +17,7 @@ But you find yourself with a few nagging questions:
 
 There's a great way to start answering these questions: run an internal hackathon. At BNY Mellon, we decided to leverage our Global Innovation Centers and run a few hackathons ourselves.
 
-That sounds deceptively simple, doesn't it? You're right to be suspicious, since a "hackathon" means different things to different people. So for starters, let's try to define a hackathon. There's a great definition in a [post](https://medium.freecodecamp.com/hacking-the-hackathon-40c109c1a6ea) by [George Krasadakis](https://medium.com/@gkrasadakis), where he defines a hackathon as:
+That sounds deceptively simple, doesn't it? You're right to be suspicious, since a "hackathon" means different things to different people. So for starters, let's try to define a hackathon. There's a great definition in a [post](https://medium.freecodecamp.com/hacking-the-hackathon-40c109c1a6ea){:target="_blank"}{:rel="noopener"} by [George Krasadakis](https://medium.com/@gkrasadakis){:target="_blank"}{:rel="noopener"}, where he defines a hackathon as:
 
 > An intensive, software-centric ideation, prototyping and presentation challenge on known or unknown problems or opportunities
 
@@ -39,7 +39,7 @@ We've built dozens of APIs, UI components, and developer tools. Now it's time to
 
 First, for the uninitiated: what is dogfooding?!
 
-Dogfooding, or, "eating your own dog food," is the idea that people or companies should use their own products or services, in an effort to test them and make sure they're actually usable in real-world context. You can check [Wikipedia for more background](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), if you're interested.
+Dogfooding, or, "eating your own dog food," is the idea that people or companies should use their own products or services, in an effort to test them and make sure they're actually usable in real-world context. You can check [Wikipedia for more background](https://en.wikipedia.org/wiki/Eating_your_own_dog_food){:target="_blank"}{:rel="noopener"}, if you're interested.
 
 The hackathon version of dogfooding is like taking the engineering echo chamber and breaking it into a thousand pieces. There's only one guarantee: people will try to use your software in ways you never thought of, and there's no better test.
 

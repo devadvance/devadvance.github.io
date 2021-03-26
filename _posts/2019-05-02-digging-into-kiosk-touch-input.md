@@ -9,9 +9,9 @@ title: Digging into Kiosk Touch Input
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [the Intersection blog](https://ixn.intersection.com/digging-into-kiosk-touch-input-2779bcad7f5b)*
+[Click here to go to all posts](/posts/). *Also published on [the Intersection blog](https://ixn.intersection.com/digging-into-kiosk-touch-input-2779bcad7f5b){:target="_blank"}{:rel="noopener"}*
 
-This post is somewhat of a spiritual successor to a prior post, *[Web App Multi-touch is Complicated](https://ixn.intersection.com/web-app-multi-touch-is-complicated-16e1db2b29ba)*. We learned a lot from that experience, but as it turns out, we also had plenty more to learn!
+This post is somewhat of a spiritual successor to a prior post, *[Web App Multi-touch is Complicated](/posts/2019-03-08-web-app-multi-touch-is-complicated/)*. We learned a lot from that experience, but as it turns out, we also had plenty more to learn!
 
 In the middle of March 2019, we went live with the interactive software powering several dozen touchscreen kiosks in the new Shops & Restaurants at Hudson Yards in New York City. After tens of thousands of interactions, we noticed intermittent issues where touch would simply stop working on the kiosks. The ads would continue rotating and the navigational interface was still being rendered, but touch remained unresponsive.
 
@@ -32,21 +32,21 @@ So, armed with a moderate understanding of how touch works, we began trying to d
 
 ## Log all the things
 
-To start with, we did some manual logging via CLI tools by connecting to kiosks via SSH while they were unresponsive. We found fairly quickly that while the kiosk may appear unresponsive, [Xorg](https://www.x.org/wiki/) was still receiving touch input. This was easily verified by using [xinput test](https://www.systutorials.com/docs/linux/man/1-xinput/), which shows the input events coming from a particular device.
+To start with, we did some manual logging via CLI tools by connecting to kiosks via SSH while they were unresponsive. We found fairly quickly that while the kiosk may appear unresponsive, [Xorg](https://www.x.org/wiki/){:target="_blank"}{:rel="noopener"} was still receiving touch input. This was easily verified by using [xinput test](https://www.systutorials.com/docs/linux/man/1-xinput/){:target="_blank"}{:rel="noopener"}, which shows the input events coming from a particular device.
 
 But manually monitoring one kiosk will only get you a short distance, so we started to enable and collect as many debugging logs as possible.
 
 First, we turned on Chromium logging for the third-party player we use. While this didn't turn out to be useful for diagnostic purposes, it did give us a rough way of determining whether or not the web app was being successfully used. For some reason, fonts were being logged whenever the page would change in the web app, which gave us a heuristic for interaction.
 
-Next, we took a look at [evtest](http://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html) and [mtdev-test](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice), which are tools to directly watch and evaluate input device events and multi-touch events, respectively. We used them make sure that multi-touch events were not interfering with touch in general, as the Chromium-based player was now set to ignore any multi-touch events.
+Next, we took a look at [evtest](https://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html){:target="_blank"}{:rel="noopener"} and [mtdev-test](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice){:target="_blank"}{:rel="noopener"}, which are tools to directly watch and evaluate input device events and multi-touch events, respectively. We used them make sure that multi-touch events were not interfering with touch in general, as the Chromium-based player was now set to ignore any multi-touch events.
 
 We also added Splunk HEC logging (hidden behind a debug flag) to our kiosk web app. We're verbosely logging a variety of things, including heartbeats, interactions of any kind (touch, mouse, keyboard, etc.), and interactions with the underlying kiosk player software. This, in particular, has proved invaluable for operating our kiosks in this highly-visible space.
 
 ## Tools on tools
 
-In parallel to logging, we wanted a way to both log and possibly create new touch events. Unlike mouse events, where tools like [xdotool](https://github.com/jordansissel/xdotool) are available to simulate keyboard input and mouse activity on top of the underlying Xorg functions, there didn't seem to be any great tools for simulating touch input.
+In parallel to logging, we wanted a way to both log and possibly create new touch events. Unlike mouse events, where tools like [xdotool](https://github.com/jordansissel/xdotool){:target="_blank"}{:rel="noopener"} are available to simulate keyboard input and mouse activity on top of the underlying Xorg functions, there didn't seem to be any great tools for simulating touch input.
 
-After a bit of consideration, we decided to use [evemu](https://github.com/freedesktop/evemu) to both record and playback touch events. This allowed us to debug while also providing us and our partner with a way to perform extended automated testing on the physical kiosks.
+After a bit of consideration, we decided to use [evemu](https://github.com/freedesktop/evemu){:target="_blank"}{:rel="noopener"} to both record and playback touch events. This allowed us to debug while also providing us and our partner with a way to perform extended automated testing on the physical kiosks.
 
 evemu is interesting as it actually emulates input devices at a lower level than tools like xdotool would allow. That makes it so that, in the future, if we use something like Chromium that listens to evdev rather than Xorg for input, evemu remains useful.
 
@@ -68,16 +68,9 @@ With the logging and tooling in hand, we were able to narrow down the bug to a p
 
 ## Appendix: list of tools we used
 
-* xinput test: [https://www.systutorials.com/docs/linux/man/1-xinput/](https://www.systutorials.com/docs/linux/man/1-xinput/)
-
-* evtest: [http://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html](http://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html)
-
-* mtdev-test: [https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice)
-
-* evemu: [https://github.com/freedesktop/evemu](https://github.com/freedesktop/evemu)
-
-* xdotool: [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool)
-
-* Splunk HTTP Event Collector (HEC): [http://dev.splunk.com/view/event-collector/SP-CAAAE6M](http://dev.splunk.com/view/event-collector/SP-CAAAE6M)
-
-Interested in solving smart city challenges?[ Apply to join our team](https://rebrand.ly/ixnjobsmedium)!
+* xinput test: [https://www.systutorials.com/docs/linux/man/1-xinput/](https://www.systutorials.com/docs/linux/man/1-xinput/){:target="_blank"}{:rel="noopener"}
+* evtest: [https://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html](https://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html){:target="_blank"}{:rel="noopener"}
+* mtdev-test: [https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice){:target="_blank"}{:rel="noopener"}
+* evemu: [https://github.com/freedesktop/evemu](https://github.com/freedesktop/evemu){:target="_blank"}{:rel="noopener"}
+* xdotool: [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool){:target="_blank"}{:rel="noopener"}
+* Splunk HTTP Event Collector (HEC): [https://dev.splunk.com/view/event-collector/SP-CAAAE6M](https://dev.splunk.com/view/event-collector/SP-CAAAE6M){:target="_blank"}{:rel="noopener"}

@@ -9,22 +9,22 @@ title: Building Smart City Kiosks with Web App Practices
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [the Intersection blog](https://ixn.intersection.com/building-smart-city-kiosks-with-web-app-practices-b99ccb1134f4)*
+[Click here to go to all posts](/posts/). *Also published on [the Intersection blog](https://ixn.intersection.com/building-smart-city-kiosks-with-web-app-practices-b99ccb1134f4){:target="_blank"}{:rel="noopener"}*
 
-Building human-centered digital experiences is always a challenge. That challenge increases dramatically when trying to bridge the divide between the built environment, physical product, and digital experience. That's one of the tasks our engineering team is aiming to achieve at [Intersection](https://www.intersection.com).
+Building human-centered digital experiences is always a challenge. That challenge increases dramatically when trying to bridge the divide between the built environment, physical product, and digital experience. That's one of the tasks our engineering team is aiming to achieve at [Intersection](https://www.intersection.com){:target="_blank"}{:rel="noopener"}.
 
 <div class="center width70"><amp-img src="/images/posts/2019-02-12_1.jpg" width="2600" height="1733" alt="A Chicago CTA Interactive Kiosk" layout="responsive"></amp-img></div>
 <figcaption class="center">A Chicago CTA Interactive Kiosk</figcaption>
 
 After recently launching our interactive kiosks, otherwise known as IxNTouch kiosks, with the Chicago Transit Authority, it seems like the perfect time to discuss the tech stack we used to get there. After all, these rider-centric devices are the product of years of iteration, in terms of not only user experience and design, but also engineering lessons learned.
 
-While this post focuses on our engineering work, you can check out[ Kohzy Koh](https://ixn.intersection.com/@kohzy)'s post,*[Two-way Communications in Transit: Lessons Learned From Designing Public Interactive Kiosks](https://ixn.intersection.com/two-way-communications-in-transit-lessons-learned-from-designing-public-interactive-kiosks-d930a487c5ef)*, to learn more from a product and UX perspective.
+While this post focuses on our engineering work, you can check out[ Kohzy Koh](https://ixn.intersection.com/@kohzy){:target="_blank"}{:rel="noopener"}'s post,*[Two-way Communications in Transit: Lessons Learned From Designing Public Interactive Kiosks](https://ixn.intersection.com/two-way-communications-in-transit-lessons-learned-from-designing-public-interactive-kiosks-d930a487c5ef){:target="_blank"}{:rel="noopener"}*, to learn more from a product and UX perspective.
 
 Let's take a look at a few of the important elements of our technology stack! I'll be focusing on the kiosk software experience of **IxNTouch**.
 
 ## Foundation of Chromium
 
-For both the interactive kiosks and local development, we rely on[ Chromium](https://www.chromium.org/Home) to power our experience. In the case of the kiosks, we depend on a Chromium-based player that uses the[ Chromium Embedded Framework](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework) to show frames with web content. Historically, we depended on some of the player-specific features to power our kiosk experiences, but we have since committed to Chromium as the generic foundation.
+For both the interactive kiosks and local development, we rely on[ Chromium](https://www.chromium.org){:target="_blank"}{:rel="noopener"} to power our experience. In the case of the kiosks, we depend on a Chromium-based player that uses the[ Chromium Embedded Framework](https://en.wikipedia.org/wiki/Chromium_Embedded_Framework){:target="_blank"}{:rel="noopener"} to show frames with web content. Historically, we depended on some of the player-specific features to power our kiosk experiences, but we have since committed to Chromium as the generic foundation.
 
 This is a huge engineering win, because instead of writing architecture-specific software, we can build rapidly using the latest web standards. I will touch on our web app approach in the next section, but Chromium itself is a separate win for us.
 
@@ -54,13 +54,13 @@ Unlike alternative paths, this has a number of critical benefits, including:
 <div class="center width70"><amp-img src="/images/posts/2019-02-12_3.jpg" width="960" height="1280" alt="Jack, one of our engineers, debugging on a test kiosk (without applying rotation! 😆)" layout="responsive"></amp-img></div>
 <figcaption class="center">Jack, one of our engineers, debugging on a test kiosk (without applying rotation! 😆)</figcaption>
 
-Additionally, since we're using Chromium, we get to take advantage of tools like[ React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and[ Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) as we're building, to create quick feedback loops. Debugging and digging into the running app is essential for our development process.
+Additionally, since we're using Chromium, we get to take advantage of tools like[ React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en){:target="_blank"}{:rel="noopener"} and[ Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en){:target="_blank"}{:rel="noopener"} as we're building, to create quick feedback loops. Debugging and digging into the running app is essential for our development process.
 
 ## Connected, But Not Always
 
 Similar to the mobile world, our kiosks need to work 24/7. In some cases, kiosks are connected exclusively via LTE (cellular connection), which not only limits our bandwidth and data usage, but also causes latency and occasional network drops.
 
-To account for this, our web app has to work in a variety of offline states. Again, by virtue of being a regular web app in a Chromium-based environment, we take advantage of a[ Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) to handle transparently caching data and detecting offline state.
+To account for this, our web app has to work in a variety of offline states. Again, by virtue of being a regular web app in a Chromium-based environment, we take advantage of a[ Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){:target="_blank"}{:rel="noopener"} to handle transparently caching data and detecting offline state.
 
 <div class="center width70"><amp-img src="/images/posts/2019-02-12_4.gif" width="540" height="960" alt="Animated GIF showing the offline/online state switch" layout="responsive"></amp-img></div>
 <figcaption class="center">Animated GIF showing the offline/online state switch</figcaption>
@@ -74,5 +74,3 @@ In both cases, the Service Worker is transparently caching the data and alerting
 As we continue to build out our kiosks and other smart city experiences, we are excited to share more about the technology we're using. This includes deep dives into the above topics, including management of off-line state, web-stack dependencies, and our development pipeline. We'll also cover our use of Storybook, lessons learned from previous kiosk development, and some of the challenges we've run into (including a Chromium bug!).
 
 In many ways, building smart city experiences is very much the same as building for mobile or the web: our goal is to keep the user front and center and to provide them with the best possible experience. As engineers, we bring that experience to life with the right tools and techniques.
-
-If you're interested in joining Intersection's engineering team,[ we're always hiring](https://rebrand.ly/ixnjobsmedium)!
