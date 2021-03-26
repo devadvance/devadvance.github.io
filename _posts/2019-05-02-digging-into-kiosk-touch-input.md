@@ -38,7 +38,7 @@ But manually monitoring one kiosk will only get you a short distance, so we star
 
 First, we turned on Chromium logging for the third-party player we use. While this didn't turn out to be useful for diagnostic purposes, it did give us a rough way of determining whether or not the web app was being successfully used. For some reason, fonts were being logged whenever the page would change in the web app, which gave us a heuristic for interaction.
 
-Next, we took a look at [evtest](http://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html){:target="_blank"}{:rel="noopener"} and [mtdev-test](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice){:target="_blank"}{:rel="noopener"}, which are tools to directly watch and evaluate input device events and multi-touch events, respectively. We used them make sure that multi-touch events were not interfering with touch in general, as the Chromium-based player was now set to ignore any multi-touch events.
+Next, we took a look at [evtest](https://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html){:target="_blank"}{:rel="noopener"} and [mtdev-test](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice){:target="_blank"}{:rel="noopener"}, which are tools to directly watch and evaluate input device events and multi-touch events, respectively. We used them make sure that multi-touch events were not interfering with touch in general, as the Chromium-based player was now set to ignore any multi-touch events.
 
 We also added Splunk HEC logging (hidden behind a debug flag) to our kiosk web app. We're verbosely logging a variety of things, including heartbeats, interactions of any kind (touch, mouse, keyboard, etc.), and interactions with the underlying kiosk player software. This, in particular, has proved invaluable for operating our kiosks in this highly-visible space.
 
@@ -69,8 +69,8 @@ With the logging and tooling in hand, we were able to narrow down the bug to a p
 ## Appendix: list of tools we used
 
 * xinput test: [https://www.systutorials.com/docs/linux/man/1-xinput/](https://www.systutorials.com/docs/linux/man/1-xinput/){:target="_blank"}{:rel="noopener"}
-* evtest: [http://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html](http://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html){:target="_blank"}{:rel="noopener"}
+* evtest: [https://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html](https://manpages.ubuntu.com/manpages/trusty/man1/evtest.1.html){:target="_blank"}{:rel="noopener"}
 * mtdev-test: [https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice](https://wiki.ubuntu.com/Multitouch/Testing/CheckingMTDevice){:target="_blank"}{:rel="noopener"}
 * evemu: [https://github.com/freedesktop/evemu](https://github.com/freedesktop/evemu){:target="_blank"}{:rel="noopener"}
 * xdotool: [https://github.com/jordansissel/xdotool](https://github.com/jordansissel/xdotool){:target="_blank"}{:rel="noopener"}
-* Splunk HTTP Event Collector (HEC): [http://dev.splunk.com/view/event-collector/SP-CAAAE6M](http://dev.splunk.com/view/event-collector/SP-CAAAE6M){:target="_blank"}{:rel="noopener"}
+* Splunk HTTP Event Collector (HEC): [https://dev.splunk.com/view/event-collector/SP-CAAAE6M](https://dev.splunk.com/view/event-collector/SP-CAAAE6M){:target="_blank"}{:rel="noopener"}

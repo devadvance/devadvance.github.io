@@ -20,7 +20,7 @@ But after realizing how many languages I've touched on, I began seriously thinki
 
 Let's start with a definition. If you search for "polyglot developer," "polyglot engineer," "polyglot programmer," or anything similar, you are likely to get mixed results. Some articles treat knowing two different web frameworks as polyglot. Others see having an understanding of two cloud providers as polyglot.
 
-Neal Ford coined the specific phrase "polyglot programming" [in 2006](http://nealford.com/memeagora/2006/12/05/Polyglot_Programming.html){:target="_blank"}{:rel="noopener"}. However, for the purposes of this post, I'm going to start with the more general linguistic [Wikipedia definition of a polyglot](https://en.wikipedia.org/wiki/Polyglotism){:target="_blank"}{:rel="noopener"}:
+Neal Ford coined the specific phrase "polyglot programming" [in 2006](https://nealford.com/memeagora/2006/12/05/Polyglot_Programming.html){:target="_blank"}{:rel="noopener"}. However, for the purposes of this post, I'm going to start with the more general linguistic [Wikipedia definition of a polyglot](https://en.wikipedia.org/wiki/Polyglotism){:target="_blank"}{:rel="noopener"}:
 
 > *Polyglotism or polyglottism is the ability to master, or the state of having mastered, multiple languages.*
 
@@ -32,7 +32,7 @@ First up, what's the case *against *being a polyglot developer?
 
 ## The case against the polyglot developer
 
-Upon searching, one of the first links is a TechRepublic post titled, "[Developers are calling it quits on polyglot programming](http://www.techrepublic.com/article developers-are-calling-it-quits-on-polyglot-programming/){:target="_blank"}{:rel="noopener"}". Here's the lead for that article:
+Upon searching, one of the first links is a TechRepublic post titled, "[Developers are calling it quits on polyglot programming](https://www.techrepublic.com/article/developers-are-calling-it-quits-on-polyglot-programming/){:target="_blank"}{:rel="noopener"}". Here's the lead for that article:
 
 > *As much as developers have enjoyed new options in programming languages, databases, and more, they're increasingly asking for consolidation to simplify
 development.*
