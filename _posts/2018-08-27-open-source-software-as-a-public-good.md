@@ -9,7 +9,7 @@ title: Open source software as a public good
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Hacker Noon](https://hackernoon.com/open-source-software-as-a-public-good-ec040bf9cc46)*
+[Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/open-source-software-as-a-public-good-ec040bf9cc46){:target="_blank"}{:rel="noopener"}*
 
 <div class="center width70"><amp-img src="/images/posts/2018-08-27_1.jpg" width="2600" height="1088" alt="Article I, Section 8, Clause 8 of the United States Constitution" layout="responsive"></amp-img></div>
 <figcaption class="center">Article I, Section 8, Clause 8 of the United States Constitution</figcaption>
@@ -19,7 +19,7 @@ I think it's important to start off by saying two things:
 * I have created open source software
 * In some cases, I am proud of that open source software
 
-Given those two points, I take great interest when I see articles such as [Why Open Source Failed](https://medium.com/@johnmark/why-open-source-failed-6cae5d6a9f6), a recent piece by [John Mark](https://medium.com/@johnmark).
+Given those two points, I take great interest when I see articles such as [Why Open Source Failed](https://medium.com/@johnmark/why-open-source-failed-6cae5d6a9f6){:target="_blank"}{:rel="noopener"}, a recent piece by [John Mark](https://medium.com/@johnmark){:target="_blank"}{:rel="noopener"}.
 
 Now, I want to first acknowledge that several important and well-founded points are made in the article. The complex, interwoven nature of patent law and open source is highlighted, as is the enterprise use of open source software as a mechanism for corporate productivity gains.
 
@@ -77,4 +77,4 @@ While I acknowledge that we, as a software-producing society, have a distance to
 
 *Thanks for reading! If you liked this post, let me know, and share with others!*
 
-*Code icon via CC BY 3.0 from *[Just UI](https://www.behance.net/gallery/46430855/Luchesa-Flat-Icons)*. U.S. Constitution from the *[National Archives](https://www.archives.gov/founding-docs/downloads)*.*
+*Code icon via CC BY 3.0 from *[Just UI](https://www.behance.net/gallery/46430855/Luchesa-Flat-Icons){:target="_blank"}{:rel="noopener"}*. U.S. Constitution from the *[National Archives](https://www.archives.gov/founding-docs/downloads){:target="_blank"}{:rel="noopener"}*.*

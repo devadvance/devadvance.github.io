@@ -1,17 +1,18 @@
 ---
 layout: 2018design-post
 title: Using a mirrorless camera or DSLR for video conferencing
+image: /images/posts/2020-07-07_-_Hardware_Camera.jpg
 ---
 
 # Using a mirrorless camera or DSLR for video conferencing
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Medium](https://medium.com/@mattjoseph/using-a-mirrorless-camera-or-dslr-for-video-conferencing-749315e2916b)*
+[Click here to go to all posts](/posts/). *Also published on [Medium](https://medium.com/@mattjoseph/using-a-mirrorless-camera-or-dslr-for-video-conferencing-749315e2916b){:target="_blank"}{:rel="noopener"}*
 
 Photography has been a passion of mine for many years and I’ve begun dabbling in video over the last 18 months as well. Thus, it’s likely no surprise that one of my first reactions when starting to regularly work from home was “how can I use my existing gear for video conferencing?”
 
-I am, by far, not the first person to do this, but I also approached it with a specific goal: I wanted any new camera gear or knowledge to be useful for more than video conferencing. To borrow language from the culinary world, I don’t recommend folks get “[unitaskers](https://www.npr.org/sections/thesalt/2015/12/23/460833325/the-unitasker-kitchen-gadgets-alton-brown-loves-to-loathe)” for video conferencing.
+I am, by far, not the first person to do this, but I also approached it with a specific goal: I wanted any new camera gear or knowledge to be useful for more than video conferencing. To borrow language from the culinary world, I don’t recommend folks get “[unitaskers](https://www.npr.org/sections/thesalt/2015/12/23/460833325/the-unitasker-kitchen-gadgets-alton-brown-loves-to-loathe){:target="_blank"}{:rel="noopener"}” for video conferencing.
 
 As a result, keep in mind your passions, budget, and work situation when reading this. Let’s get started!
 
@@ -46,7 +47,7 @@ As I mentioned above, I already have a lot of camera gear that I’ve assembled 
 
 ## Some background: what is OBS?
 
-For folks who already engage in live video streaming or production, you may be familiar with OBS (Open Broadcaster Software) and alternatives. For those who aren’t, here’s the top line from the [OBS website](https://obsproject.com):
+For folks who already engage in live video streaming or production, you may be familiar with OBS (Open Broadcaster Software) and alternatives. For those who aren’t, here’s the top line from the [OBS website](https://obsproject.com){:target="_blank"}{:rel="noopener"}:
 
 > Free and open source software for video recording and live streaming.
 
@@ -72,15 +73,15 @@ Depending on your operating system, you’ll need a different plugin to get OBS 
 
 Here are the plugins I’ve tried:
 
-* macOS: [https://github.com/johnboiles/obs-mac-virtualcam](https://github.com/johnboiles/obs-mac-virtualcam)
+* macOS: [https://github.com/johnboiles/obs-mac-virtualcam](https://github.com/johnboiles/obs-mac-virtualcam){:target="_blank"}{:rel="noopener"}
 
-* Windows: [https://obsproject.com/forum/resources/obs-virtualcam.949/](https://obsproject.com/forum/resources/obs-virtualcam.949/)
+* Windows: [https://obsproject.com/forum/resources/obs-virtualcam.949/](https://obsproject.com/forum/resources/obs-virtualcam.949/){:target="_blank"}{:rel="noopener"}
 
-* Linux: [https://github.com/CatxFish/obs-v4l2sink](https://github.com/CatxFish/obs-v4l2sink)
+* Linux: [https://github.com/CatxFish/obs-v4l2sink](https://github.com/CatxFish/obs-v4l2sink){:target="_blank"}{:rel="noopener"}
 
 On an almost-daily basis, I’m using obs-mac-virtualcam on my MacBook Pro 16 (2019). I’ve also tested this configuration on a MacBook Pro 13 (2018) that only has an Intel GPU, so it should work fine without a dedicated GPU.
 
-There are limitations to each of these plugins. For example, macOS has limitations that affect which applications can use the virtual webcam output (see the [compatibility list](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility)).
+There are limitations to each of these plugins. For example, macOS has limitations that affect which applications can use the virtual webcam output (see the [compatibility list](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility)){:target="_blank"}{:rel="noopener"}.
 
 ## Setting it all up
 
@@ -178,7 +179,7 @@ Does it make a difference? I’ve had a high number of folks in video calls noti
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Email.png" width="1429" height="117" alt="An email I received after a recent video call" layout="responsive"></amp-img></div>
 <figcaption class="center">An email I received after a recent video call</figcaption>
 
-That being said, always balance what you’re looking to accomplish with your budget, your passions, and the amount of work you want to put in. While you *can* spend [hundreds of thousands of dollars on a video calling setup](https://www.youtube.com/watch?v=LJ5vBS_S7Hg), that doesn’t always mean you should!
+That being said, always balance what you’re looking to accomplish with your budget, your passions, and the amount of work you want to put in. While you *can* spend [hundreds of thousands of dollars on a video calling setup](https://www.youtube.com/watch?v=LJ5vBS_S7Hg){:target="_blank"}{:rel="noopener"}, that doesn’t always mean you should!
 
 *****
 

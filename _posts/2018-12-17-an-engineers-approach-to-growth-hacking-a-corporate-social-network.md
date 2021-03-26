@@ -9,7 +9,7 @@ title: An engineer's approach to growth hacking a corporate social network
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Hacker Noon](https://hackernoon.com/an-engineers-approach-to-growth-hacking-a-corporate-social-network-6727358cc78d)*
+[Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/an-engineers-approach-to-growth-hacking-a-corporate-social-network-6727358cc78d){:target="_blank"}{:rel="noopener"}*
 
 Imagine you're at a company with tens of thousands of employees. How do you reach out to all of them? BCC them on a mass email? Work with communications to send a newsletter?
 
@@ -31,14 +31,14 @@ As I mentioned, the social network tool that I used was Jive. Amongst other feat
 * You can create different types of content, such as documents, blog posts, discussions, polls, events, videos, and more
 * Users can follow each other, optionally receiving in-platform and/or email notifications
 
-Here's a look at some of the content on [the Jive Developers space on the Jive website](https://community.jivesoftware.com/community/developer):
+Here's a look at some of the content on [the Jive Developers space on the Jive website](https://community.jivesoftware.com/community/developer){:target="_blank"}{:rel="noopener"}:
 
 <div class="center width70"><amp-img src="/images/posts/2018-12-17_1.png" width="2000" height="1250" alt="Content in the Jive Developers space" layout="responsive"></amp-img></div>
 <figcaption class="center">Content in the Jive Developers space</figcaption>
 
 ## Content as a foundation
 
-Before I could start amplifying my content, I needed content in the first place. Relevant content is key in the world of corporate social networks. This [Gary Vaynerchuk quote](https://www.garyvaynerchuk.com/biography/) is a good place to start:
+Before I could start amplifying my content, I needed content in the first place. Relevant content is key in the world of corporate social networks. This [Gary Vaynerchuk quote](https://www.garyvaynerchuk.com/biography/){:target="_blank"}{:rel="noopener"} is a good place to start:
 
 > *"[N]o amount of paid media is going to turn bad creative into good content."*
 
@@ -53,7 +53,7 @@ Now, as an engineer, it's best practice to write technical documentation for you
 
 ## Getting better metrics
 
-So now that you have content, the next question is whether or not it's having an impact. Every corporate social platform includes some kind of viewer metrics. Jive, which is the platform I was using, includes "[Impact metrics](https://docs.jivesoftware.com/8.0_on_prem_int/end_user/jive.help.core/#user UnderstandingImpactMetrics.html)" on your content.
+So now that you have content, the next question is whether or not it's having an impact. Every corporate social platform includes some kind of viewer metrics. Jive, which is the platform I was using, includes "[Impact metrics](https://docs.jivesoftware.com/8.0_on_prem_int/end_user/jive.help.core/#user UnderstandingImpactMetrics.html){:target="_blank"}{:rel="noopener"}" on your content.
 
 For each piece of content you post, you're able to see things like the number of views, number of likes, unique viewers, and number of comments. Here's what the impact metrics view looks like for one document:
 
@@ -66,26 +66,26 @@ While it's helpful to look at these metrics for an individual document, it would
 * Which pieces of content have the most likes/comments/views?
 * Are there any correlations between age of post or topic and reactions?
 
-Unfortunately, Jive didn't support that. But Jive does have the v3 API documented [here](https://developers.jivesoftware.com/api/v3/cloud/rest/index.html).
+Unfortunately, Jive didn't support that. But Jive does have the v3 API documented [here](https://developers.jivesoftware.com/api/v3/cloud/rest/index.html){:target="_blank"}{:rel="noopener"}.
 
 For this particular project, I chose Node.js, both to lower the barrier of entry for other engineers and to improve my knowledge of Node. After a few days of learning the API and Node, the first version of my tool did the following:
 
 1.  Check for a valid username and password by making an API call
 1.  Retrieve all content for the desired user by using the [/contents](https://developers.jivesoftware.com/api/v3/cloud/rest/ContentService.html#getContents(List<String>,
-String, int, int, String, boolean, boolean)) resource
+String, int, int, String, boolean, boolean)){:target="_blank"}{:rel="noopener"} resource
 1.  For each piece of content, retrieve the views, likes, unique viewers, etc.
 
 <div class="center width70"><amp-img src="/images/posts/2018-12-17_4.png" width="1500" height="1136" alt="An example v2 API call" layout="responsive"></amp-img></div>
 <figcaption class="center">An example v2 API call</figcaption>
 
-But here's the catch: the "impact metrics" that I mentioned above are only accessible via an undocumented "v2" Jive API, and the company wasn't using the [data export service](https://community.jivesoftware.com/docs/DOC-99916).
+But here's the catch: the "impact metrics" that I mentioned above are only accessible via an undocumented "v2" Jive API, and the company wasn't using the [data export service](https://community.jivesoftware.com/docs/DOC-99916){:target="_blank"}{:rel="noopener"}.
 
 Unlike the v3 API, it doesn't support basic auth. However, it works with a cookie, so the modified steps are:
 
 1.  Check for a valid username and password by making an API call
 1.  Login via POST request to retrieve a session cookie and store it for later use
 1.  Retrieve all content for the desired user by using the
-[/contents](https://developers.jivesoftware.com/api/v3/cloud/rest/ContentService.html#getContents(List<String>, String, int, int, String, boolean, boolean)) resource
+[/contents](https://developers.jivesoftware.com/api/v3/cloud/rest/ContentService.html#getContents(List<String>, String, int, int, String, boolean, boolean)){:target="_blank"}{:rel="noopener"} resource
 1.  Save the list of contents with the number of likes, comments, and views in a CSV
 1.  For each piece of content, retrieve the views, likes, unique viewers, etc. by using the undocumented v2 impact metrics API (save an aggregate count of unique viewers per piece of content as a CSV and save a fully-expanded list of each unique viewer per piece of content as a CSV)
 1.  Save a summary text file with the number of unique viewers across all content, the top 10 unique viewers, and the number of pieces of content
@@ -95,7 +95,7 @@ There were a couple small issues with the above, including:
 * Impact metrics are only available on certain types of content
 * You (generally) cannot retrieve impact metrics for content posted by another user
 
-In the first version of the tool, I handled command line inputs myself. Later iterations used packages like [commander](https://www.npmjs.com/package/commander) and [ora](https://www.npmjs.com/package/ora) to make the CLI tool cleaner.
+In the first version of the tool, I handled command line inputs myself. Later iterations used packages like [commander](https://www.npmjs.com/package/commander){:target="_blank"}{:rel="noopener"} and [ora](https://www.npmjs.com/package/ora){:target="_blank"}{:rel="noopener"} to make the CLI tool cleaner.
 
 Finally, I had the metrics I wanted. I knew who my most loyal readers were. I could see the upward trend in views and likes. I could see which subjects performed best.
 
@@ -108,7 +108,7 @@ The idea of "follow-for-follow" or "f4f" is pretty old in social media years, bu
 <div class="center width70"><amp-img src="/images/posts/2018-12-17_5.png" width="1500" height="1063" alt="The Jive /streams resource" layout="responsive"></amp-img></div>
 <figcaption class="center">The Jive /streams resource</figcaption>
 
-My working theory was that, similar to social networks like Facebook, Instagram, and others, if you follow a lot of people on Jive, a portion of them will follow you back. With the Jive v3 API, it's pretty easy to do this. You can call the [/streams](https://developers.jivesoftware.com/api/v3/cloud/rest/StreamService.html#addAssociations(String, String)) resource, for example, to create the "association" and follow a user.
+My working theory was that, similar to social networks like Facebook, Instagram, and others, if you follow a lot of people on Jive, a portion of them will follow you back. With the Jive v3 API, it's pretty easy to do this. You can call the [/streams](https://developers.jivesoftware.com/api/v3/cloud/rest/StreamService.html#addAssociations(String, String)){:target="_blank"}{:rel="noopener"} resource, for example, to create the "association" and follow a user.
 
 I also wanted to be able to unfollow a user, since this would allow me to retry at a later point and have the "new follower" notification occur again. Of course, this also helps with following the social media wisdom of keeping a good ratio. 😆
 

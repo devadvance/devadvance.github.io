@@ -9,12 +9,12 @@ title: "Microservices: shell commands with added flavor"
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
-*Originally published on [Hacker Noon](https://hackernoon.com/microservices-shell-commands-with-added-flavor-b3c0bcfe12fb)*
+[Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/microservices-shell-commands-with-added-flavor-b3c0bcfe12fb){:target="_blank"}{:rel="noopener"}*
 
 Shell commands are magic. To someone who doesn't routinely use some form of
 shell interaction, watching someone work via shell is magical computerspeak. You
 can probably think of a [scene in a popular
-movie](https://www.youtube.com/watch?v=dFUlAQZB9Ng) with the classic hacker
+movie](https://www.youtube.com/watch?v=dFUlAQZB9Ng){:target="_blank"}{:rel="noopener"} with the classic hacker
 stereotype sitting there, typing away in
 something that looks like an alien language.
 
@@ -33,11 +33,7 @@ It's because they take the concept of "do one thing really, really well" to the
 extreme. I'm far more likely to doubt my own skills than I am to doubt the
 correct functioning of *ls* or *tr* or *grep*.
 
-So how does this relate to
-microservices? I think this quote
-from* *[The art of writing Linux
-utilities](http://people.fas.harvard.edu/~lib113/reference/unix/writingtools.html)
-by Peter Seebach sums it up nicely:
+So how does this relate to microservices? I think this quote from *[The art of writing Linux utilities](http://people.fas.harvard.edu/~lib113/reference/unix/writingtools.html){:target="_blank"}{:rel="noopener"} by Peter Seebach sums it up nicely:
 
 > *A good utility is one that does its job as well as possible. It has to play
 > well with others; it has to be amenable to being combined with other utilities.
@@ -48,8 +44,7 @@ It turns out that microservices are, in many ways, shell commands made
 accessible over the longer distances. Sometimes it's basic IPC. In many cases,
 it's over the network.
 
-This [Linux.com
-article](https://www.linux.com/news/microservices-101-what-know-what-do) by
+This [Linux.com article](https://www.linux.com/news/microservices-101-what-know-what-do){:target="_blank"}{:rel="noopener"} by
 Daniel P. Dern has a nice soundbite about this: "Microservices are one of the
 latest instances of the cosmic methodological swings of the cyberpendulum
 between 'small, specific-task components' (e.g., subroutines, Unix commands) and
@@ -66,7 +61,7 @@ amount of flexibility and coverage into your program, whether you're expecting
 to be called over the network or via command line.
 
 Are you trying to query system data, parse out key lines, format it, and save it
-to a file? Awesome, combine [procps tools](https://gitlab.com/procps-ng/procps),
+to a file? Awesome, combine [procps tools](https://gitlab.com/procps-ng/procps){:target="_blank"}{:rel="noopener"},
 grep, and sed. Do you have a complex application you're trying to build? Good,
 write multiple microservices.
 
