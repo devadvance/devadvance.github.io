@@ -15,7 +15,7 @@ excerpt: "A quick recap of Transit Techies NYC #4: Four the Love of Transit, a m
 
 Transit Techies NYC #4: Four the Love of Transit was an amazing meetup, with 80 attendees from a diverse set of backgrounds and experiences.
 
-_Update: you can [check out the recordings for this meetup on YouTube](https://www.youtube.com/channel/UCKSC5WJLFaWQKB0d5BnI6LA)!_
+_Update: you can [check out the recordings for this meetup on YouTube](https://www.youtube.com/channel/UCKSC5WJLFaWQKB0d5BnI6LA){:target="_blank"}{:rel="noopener"}!_
 
 
 <div class="float-left width30">
