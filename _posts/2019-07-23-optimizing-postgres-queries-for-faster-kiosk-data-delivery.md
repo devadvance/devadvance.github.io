@@ -14,7 +14,7 @@ image: /images/posts/2019-07-23/2019-07-23-dbcpu.png
 
 An important aspect of a smart city kiosk is the idea that data and functionality are ready and waiting for a user at all times. As I mentioned in a previous post, [*Improving perceived interface responsiveness on public kiosks*](/posts/2019-07-09-improving-perceived-interface-responsiveness-on-public-kiosks/), the responsiveness of our kiosks is compared to analog signage, paper printouts, and folding pamphlets.
 
-Beyond some of the previous areas of focus, such as advanced caching and optimal rendering, we also load a significant amount of data ahead of time, often on an interval basis. One particular area that’s been a challenge for us is making sure that kiosks have the transit alert information for all routes in the entire transit system.
+Beyond some of the previous areas of focus, such as advanced caching and optimal rendering, we also load a significant amount of data ahead of time, often on an interval basis. One particular area that's been a challenge for us is making sure that kiosks have the transit alert information for all routes in the entire transit system.
 
 This is best demonstrated by example. Take a look at this interface for the bus alerts within the Chicago Transit Authority (CTA):
 
@@ -23,13 +23,13 @@ This is best demonstrated by example. Take a look at this interface for the bus 
 </div>
 <figcaption class="center">Bus Alerts and Bus Alert Details view for CTA interactive kiosk</figcaption>
 
-You’ll notice that the detailed alert information for each route is instantly loaded when the user taps on a specific route. This isn’t by chance: we fetch all alerts for each route on a regular basis.
+You'll notice that the detailed alert information for each route is instantly loaded when the user taps on a specific route. This isn't by chance: we fetch all alerts for each route on a regular basis.
 
-But that’s easier said than done. There are some pretty significant performance constraints related to this lookup!
+But that's easier said than done. There are some pretty significant performance constraints related to this lookup!
 
 ## Context: information targeting
 
-Let’s start with a bit of context before digging into the technical challenge. Our smart cities platform, [known as IxNConnect](https://www.intersection.com/product/ixnconnect/){:target="_blank"}{:rel="noopener"}, is our way of delivering the information and features to displays out in the real world. There are two parts to this:
+Let's start with a bit of context before digging into the technical challenge. Our smart cities platform, [known as IxNConnect](https://www.intersection.com/product/ixnconnect/){:target="_blank"}{:rel="noopener"}, is our way of delivering the information and features to displays out in the real world. There are two parts to this:
 
 1) **What** information/features to show, and
 
@@ -37,7 +37,7 @@ Let’s start with a bit of context before digging into the technical challenge.
 
 In terms of **what** we show, it can include subway arrivals, public service announcements (PSAs), transit alerts, maps, and more.
 
-When it comes to answering the “**where**” question, things get interesting. One of the value propositions of IxNConnect is the concept of “targeting.”
+When it comes to answering the "**where**" question, things get interesting. One of the value propositions of IxNConnect is the concept of "targeting."
 
 As part of bringing on a client, such as a transit agency, we import a data model that represents how their [built environment](https://en.wikipedia.org/wiki/Built_environment){:target="_blank"}{:rel="noopener"} is structured. In the case of a transit agency, this is the hierarchy of modes, routes, and stops that represents the transit network. In the case of a community, this may be the campus, buildings, and floors.
 
@@ -53,7 +53,7 @@ For example, a PSA targeted to an entire transit route will show at all displays
 
 Unfortunately, this means a bit of processing in order to figure out the full list of transit alerts that can impact a particular route, and even more processing to get that information for **all** routes.
 
-Again, using the example from the IxNTouch kiosk GIF, let’s look at one of the alerts that shows up for the #6 bus line:
+Again, using the example from the IxNTouch kiosk GIF, let's look at one of the alerts that shows up for the #6 bus line:
 
 <div class="center width70">
   <amp-img src="/images/posts/2019-07-23/2019-07-23-targeting.png" width="1600" height="1029" alt="IxNConnect alert page: targeting details" layout="responsive"></amp-img>
@@ -69,13 +69,13 @@ While our model of the built environment varies by vertical (transit, community,
 </div>
 <figcaption class="center">Basic transit hierarchy in IxNConnect</figcaption>
 
-We take the vast majority of our transit hierarchy from the transit agency’s own GTFS data!
+We take the vast majority of our transit hierarchy from the transit agency's own GTFS data!
 
-So, our problem statement is: _given a transit hierarchy and a set of alerts targeted at any level in that hierarchy, how can we efficiently build a set of “alerts by route” with our Postgres queries?_
+So, our problem statement is: _given a transit hierarchy and a set of alerts targeted at any level in that hierarchy, how can we efficiently build a set of "alerts by route" with our Postgres queries?_
 
 ## Step 0: Understand the current Postgres queries
 
-For a while, we’ve been using a query like this to build our table of alerts by route on the fly:
+For a while, we've been using a query like this to build our table of alerts by route on the fly:
 
 ```
 SELECT DISTINCT tr.id AS route\_id, array\_agg(DISTINCT a.id) AS alert\_list
@@ -96,9 +96,9 @@ FROM alert\_data a, transit\_stops ts
 GROUP BY tr.id;
 ```
 
-While this query has been working, it’s been pretty slow at times. Let’s break out our trusty `EXPLAIN ANALYZE` to understand it’s performance.
+While this query has been working, it's been pretty slow at times. Let's break out our trusty `EXPLAIN ANALYZE` to understand it's performance.
 
-Here’s the summary:
+Here's the summary:
 
 ```
 Unique  (cost=1164359.95..1164365.25 rows=707 width=36) (actual time=44010.657..44010.940 rows=349 loops=1)
@@ -123,19 +123,19 @@ Seq Scan on object\_targeting otd (cost=0.00..44,915.94 rows=2,258,254 width=14)
 Rows Removed by Filter: 237
 ```
 
-Rough. Let’s see what we can do to optimize things!
+Rough. Let's see what we can do to optimize things!
 
 ## Step 1: Break down the query
 
-With this big query, what we’re trying to do is:
+With this big query, what we're trying to do is:
 
 1.  Get all active alerts
 2.  Get all routes with their relevant stops, modes, etc.
 3.  Get the alerts that apply to a given route by, A) the route directly, or B) the stops, modes, etc. that are related to that route
 
-With that in mind, let’s break out the parts of this query into bite-sized chunks.
+With that in mind, let's break out the parts of this query into bite-sized chunks.
 
-First, here’s a query to retrieve a table with the fully expanded transit information:
+First, here's a query to retrieve a table with the fully expanded transit information:
 
 ```
 SELECT DISTINCT \*
@@ -152,7 +152,7 @@ SELECT \* FROM alert\_data a
 WHERE a.active = true;
 ```
 
-Finally, a query to retrieve alerts with the “tag” of the route, stop, mode, etc.:
+Finally, a query to retrieve alerts with the "tag" of the route, stop, mode, etc.:
 
 ```
 SELECT otd.attribute\_id as attribute\_id, otd.attribute\_type as attribute\_type, otd.targeted\_object\_id as alert\_id, a.organization\_id as organization\_id
@@ -164,7 +164,7 @@ Now the question is, how do we piece these together in an efficient way?
 
 ## Step 2: Improve the parts of the query
 
-One of the biggest issues with the original query is that it doesn’t follow a clear logical flow. It’s hard to see where information is being joined/added/removed/etc. So, we take advantage of [Common Table Expressions (CTEs)](https://www.postgresql.org/docs/10/queries-with.html){:target="_blank"}{:rel="noopener"} for two reasons:
+One of the biggest issues with the original query is that it doesn't follow a clear logical flow. It's hard to see where information is being joined/added/removed/etc. So, we take advantage of [Common Table Expressions (CTEs)](https://www.postgresql.org/docs/10/queries-with.html){:target="_blank"}{:rel="noopener"} for two reasons:
 
 1.  To clean up the logic flow, which makes it easier to read
 2.  To improve performance by temporarily persisting this information for the duration of the query
@@ -189,7 +189,7 @@ WITH transitinfo AS (
 SELECT \* FROM transitinfo;
 ```
 
-This query saves the alerts, the parts of the hierarchy they’re targeted at, and the transit hierarchy information as temporary tables and then uses one of those temporary tables for a SELECT as though it were a permanent table.
+This query saves the alerts, the parts of the hierarchy they're targeted at, and the transit hierarchy information as temporary tables and then uses one of those temporary tables for a SELECT as though it were a permanent table.
 
 At this point, we can make a new functioning query:
 
@@ -218,13 +218,13 @@ Here is the summary of the results of running `EXPLAIN ANALYZE` with this new qu
 GroupAggregate  (cost=74815.63..74852.75 rows=200 width=40) (actual time=14979.139..15041.552 rows=350 loops=1)
 ```
 
-Better! But it looks like we’re still filtering out a ton of data, probably due to some of the huge redundant information we have. Fortunately, we have a tool that we’ve already been using that can help here: the `array_agg` function.
+Better! But it looks like we're still filtering out a ton of data, probably due to some of the huge redundant information we have. Fortunately, we have a tool that we've already been using that can help here: the `array_agg` function.
 
 ## Step 3: Put it all together
 
 The `array_agg` function — [one of the built-in aggregate functions in Postgres](https://www.postgresql.org/docs/current/functions-aggregate.html){:target="_blank"}{:rel="noopener"} — puts results into an array type, which is something that Postgres does support. We had been using this for the return value, but we can use it again to improve performance.
 
-With a little work, we can change the duplicative rows into multiple values in the same row. Here’s the query:
+With a little work, we can change the duplicative rows into multiple values in the same row. Here's the query:
 
 ```
 WITH transitinfo AS (
@@ -257,7 +257,7 @@ ON (
 GROUP BY route\_id;
 ```
 
-You can see that we’ve replaced the individual matches with the `ANY` selector. Here is the `EXPLAIN ANALYZE` result of this new query:
+You can see that we've replaced the individual matches with the `ANY` selector. Here is the `EXPLAIN ANALYZE` result of this new query:
 
 ```
 GroupAggregate  (cost=20263.11..20267.71 rows=200 width=40) (actual time=5655.332..5656.372 rows=349 loops=1)
@@ -265,7 +265,7 @@ GroupAggregate  (cost=20263.11..20267.71 rows=200 width=40) (actual time=5655.33
 
 ## The final tally
 
-Let’s compare our `EXPLAIN ANALYZE` numbers:
+Let's compare our `EXPLAIN ANALYZE` numbers:
 
 **Before**:
 
@@ -281,7 +281,7 @@ Let’s compare our `EXPLAIN ANALYZE` numbers:
 
 So, a ~5x improvement in query cost and an order of magnitude (or more!) improvement in actual time!
 
-Let’s take a look at our Postgres DB CPU utilization before and after this query update was deployed to production:
+Let's take a look at our Postgres DB CPU utilization before and after this query update was deployed to production:
 
 <div class="center width70">
   <amp-img src="/images/posts/2019-07-23/2019-07-23-dbcpu.png" width="1600" height="670" alt="A big drop in our Postgres DB CPU utilization after deploying this query change" layout="responsive"></amp-img>

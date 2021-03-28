@@ -18,7 +18,7 @@ excerpt: One of the most compelling aspects of a kiosk experience is a sense of 
 
 One of the most compelling aspects of a kiosk experience is a sense of immediacy: that your interactions with the screen will immediately cause something to happen without perceptible delay. In many ways, this is due to the fact that we are filling a void previously occupied by analog signage, paper printouts, and folding pamphlets.
 
-What do these have in common? Well, they don’t have a loading time. They’re physically present, waiting for a passerby to point to, pick up, or peruse.
+What do these have in common? Well, they don't have a loading time. They're physically present, waiting for a passerby to point to, pick up, or peruse.
 
 This leads to a peculiar problem: **how do we create kiosk products and web apps that have the same sense of immediacy and physicality as printed materials.**
 
@@ -43,7 +43,7 @@ We have a few approaches for these resource-intensive assets. First, we try to r
 </div>
 <figcaption class="center">The transition of the 3D map between hidden and on-screen (displayed on an interactive kiosk at Hudson Yards, New York)</figcaption>
 
-One variation of this technique is off-screen (or hidden) rendering. This is fairly common across all web development, but it becomes especially useful when applied to these assets which require more intensive processing. Browsers are complex applications. By changing the workload from rendering an asset to simply moving an already-rendered asset’s output location, we significantly reduce the number of processing paths needed to display that asset onscreen.
+One variation of this technique is off-screen (or hidden) rendering. This is fairly common across all web development, but it becomes especially useful when applied to these assets which require more intensive processing. Browsers are complex applications. By changing the workload from rendering an asset to simply moving an already-rendered asset's output location, we significantly reduce the number of processing paths needed to display that asset onscreen.
 
 This also forces engineers to think about asset reuse more broadly. The more assets can be reused in terms of both their data and rendering, the greater the perceived speed will be. This is covered more in depth in the next section as a broader technique.
 
@@ -55,7 +55,7 @@ The Redux store acts as a single, reusable source of truth for the various parts
 
 We also focus on the reuse of static assets. For example, SVGs not only minimize asset size but also allow us to reuse them for locations with different sizing. A simple change to the CSS and we can adapt the SVG color to different contexts, rather than relying on multiple static assets.
 
-As you’ll read about in the next section, we use pre-caching and caching with our assets in addition to reusing them. Performance is increased when you load things only once and transparently reuse them across the entire app.
+As you'll read about in the next section, we use pre-caching and caching with our assets in addition to reusing them. Performance is increased when you load things only once and transparently reuse them across the entire app.
 
 ### Advanced, opportunistic caching
 
@@ -66,7 +66,7 @@ We rely heavily on advanced caching through the use of service workers for our k
 </div>
 <figcaption class="center">Looking at the IxNTouch cache in Chrome Dev Tools</figcaption>
 
-However, we’ve added additional logic since then which is a bit more use-case specific. For example, we need to make sure to only show information that has refreshed recently and is not "expired." In order to achieve the concept of information expiry, we keep track of cache age and provide an interface for the web app to know that age. Thus, we can determine whether or not data is "too old" on a feature-by-feature basis.
+However, we've added additional logic since then which is a bit more use-case specific. For example, we need to make sure to only show information that has refreshed recently and is not "expired." In order to achieve the concept of information expiry, we keep track of cache age and provide an interface for the web app to know that age. Thus, we can determine whether or not data is "too old" on a feature-by-feature basis.
 
 Another interesting technique we use is the limited inclusion of fetching additional data when caching in the service worker. For example, when we load a third-party SDK for indoor mapping, we cache the API calls made to retrieve data. Furthermore, we look through that data in the service worker and then reach out to cache some of the assets referenced in that data.
 
@@ -78,7 +78,7 @@ While the places in which we use these techniques are numerous, here are a few e
 
 One of the more complex examples of using these techniques to provide that desired sense of immediacy is the 3D maps present on our urban kiosks at Hudson Yards in New York City.
 
-These maps are highly-designed, 3D, interactive interfaces. In order to achieve the desired experience, it takes a perceptible amount of time to load and render these maps on a screen, including on a kiosk. If you haven’t used the map, you can [visit the directory map on the Hudson Yards New York website](https://www.hudsonyardsnewyork.com/directory-map#/){:target="_blank"}{:rel="noopener"} to see the same map.
+These maps are highly-designed, 3D, interactive interfaces. In order to achieve the desired experience, it takes a perceptible amount of time to load and render these maps on a screen, including on a kiosk. If you haven't used the map, you can [visit the directory map on the Hudson Yards New York website](https://www.hudsonyardsnewyork.com/directory-map#/){:target="_blank"}{:rel="noopener"} to see the same map.
 
 <div class="center width70">
   <amp-anim src="/images/posts/2019-07-09/2019-07-09-directoryswitch.gif" width="1280" height="719" alt="Switching to the Hudson Yards map view happens as fast as possible" layout="responsive"></amp-anim>
@@ -111,10 +111,10 @@ Directory information for the Hudson Yards kiosks is another example of advanced
 
 We generally cache the API calls that the SDK makes, but we added further logic to watch those calls and cache information like venue category icons. This enables the use of those static assets for features like the food directory and search page, thereby reducing load time. Search results feel instantaneous because they are, in fact, locally cached.
 
-## What’s next?
+## What's next?
 
 The techniques I covered play a critical in nearly all aspects of our kiosk web app. Some have a small impact, such as places where out-of-the-box browser caching would have otherwise kept an asset on disk.
 
-However, the majority of our features depend on us finding scalable ways to engineer them with a sense of immediacy, providing the user with an experience that feels entirely local to their context. Visual bandages, such as interstitials and spinners aren’t tolerated in the same way that they are in other digital contexts.
+However, the majority of our features depend on us finding scalable ways to engineer them with a sense of immediacy, providing the user with an experience that feels entirely local to their context. Visual bandages, such as interstitials and spinners aren't tolerated in the same way that they are in other digital contexts.
 
-The techniques covered here are just a limited subset of modern web development practices, and we will continue to explore more ways to further improve our users’ experiences, such as when and how to use hardware-accelerated web platform features.
+The techniques covered here are just a limited subset of modern web development practices, and we will continue to explore more ways to further improve our users' experiences, such as when and how to use hardware-accelerated web platform features.
