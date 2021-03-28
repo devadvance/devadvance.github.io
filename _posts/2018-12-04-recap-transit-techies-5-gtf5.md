@@ -1,7 +1,7 @@
 ---
 layout: 2018design-post
 title: "Recap: Transit Techies NYC #5: GTF5"
-image: TODO
+image: /images/posts/2018-12-04/2018-12-04-01-tyler-green-kohzy-koh.gif
 excerpt: "A quick recap of Transit Techies NYC #5: GTF5, a meetup held on Wednesday, November 28, 2018"
 ---
 
@@ -22,15 +22,15 @@ Transit Techies NYC #5: GTF5 was held at the Intersection office in New York wit
   <figcaption class="center">Kohzy and Tyler kicking off the meetup</figcaption>
 </div>
 
-[Kohzy Koh](https://www.linkedin.com/in/kohzy/) kicked us off with holiday cookies and a word from our sponsor, Intersection.
+[Kohzy Koh](https://www.linkedin.com/in/kohzy/){:target="_blank"}{:rel="noopener"} kicked us off with holiday cookies and a word from our sponsor, Intersection.
 
-Next, Kohzy and [Tyler Green](https://www.linkedin.com/in/tylergreen/) started the meetup by  explaining an important change in the "speaker signaling system" we would be using. Previously, the meetup used "block-based signaling" for speakers. Now, we would be using "communications-based techie control" for handling speakers, or CBTC 😆 What would a transit meetup be if not for the transit jokes!
+Next, Kohzy and [Tyler Green](https://www.linkedin.com/in/tylergreen/){:target="_blank"}{:rel="noopener"} started the meetup by  explaining an important change in the "speaker signaling system" we would be using. Previously, the meetup used "block-based signaling" for speakers. Now, we would be using "communications-based techie control" for handling speakers, or CBTC 😆 What would a transit meetup be if not for the transit jokes!
 
 Onto our presenters for the evening!
 
 ## Smartwatch
 
-The first speaker up was [Abhijit Valluri](https://www.linkedin.com/in/abhijitvalluri/), who began by talking about how he is frequently late for the bus and train transfers. The whole situation makes him really sad, but fortunately, he is a software engineer with a smartwatch, and he had an idea of how to use those skills to solve his challenge.
+The first speaker up was [Abhijit Valluri](https://www.linkedin.com/in/abhijitvalluri/){:target="_blank"}{:rel="noopener"}, who began by talking about how he is frequently late for the bus and train transfers. The whole situation makes him really sad, but fortunately, he is a software engineer with a smartwatch, and he had an idea of how to use those skills to solve his challenge.
 
 <div class="float-left width30">
   <a href="/images/posts/2018-12-04/2018-12-04-02-abhijit-valluri.gif" target="_blank" rel="noopener">
@@ -43,7 +43,7 @@ He has a Garmin vivoactive 3, which isn't the smartest of smart watches. It uses
 
 His back end — which does most of the heavy lifting — is written in PHP. He used that to process the GTFS-realtime data feed from the MTA. He talked us through the GTFS-rt protobuf format and what it involves. The MTA extended the format, but you're not required to use the extension.
 
-Google provides simple PHP GTFS-rt bindings, which makes it straightforward to process. You can learn more about the format and the bindings here: [https://developers.google.com/transit/gtfs-realtime/](https://developers.google.com/transit/gtfs-realtime/)
+Google provides simple PHP GTFS-rt bindings, which makes it straightforward to process. You can learn more about the format and the bindings here: [https://developers.google.com/transit/gtfs-realtime/](https://developers.google.com/transit/gtfs-realtime/){:target="_blank"}{:rel="noopener"}
 
 Next, Abhijit talked about the REST API he created for his app to use. He then demoed the app for all of us to see! It shows the time for the next train, and several others beyond that.
 
@@ -61,7 +61,7 @@ An audience member asked about the smartwatch connectivity. Abhijit explained th
 
 ## Visualizing Citi Bikes
 
-Next up was [Mallory Bulkley](https://www.linkedin.com/in/mallorybulkley/), who took a single day of Citi Bike data and visualized all of the trips using Google Maps and the biking directions API.
+Next up was [Mallory Bulkley](https://www.linkedin.com/in/mallorybulkley/){:target="_blank"}{:rel="noopener"}, who took a single day of Citi Bike data and visualized all of the trips using Google Maps and the biking directions API.
 
 We started off by getting some context: Citi Bike provides a lot of data on a monthly basis, including trip start and stop location, length of trip, gender, birth year, and more. They provide this for every trip!
 
@@ -92,11 +92,11 @@ She talked through some of the things she found, such as:
 *   Average trip length is less than 13 minutes
 *   Rides by gender vary by time of day
 
-She used Firebase to store the routes and JavaScript for the animations, amongst other tools. You can [check out Mallory's interactive visualization on her website](https://rebrand.ly/CitiBikeVis)!
+She used Firebase to store the routes and JavaScript for the animations, amongst other tools. You can [check out Mallory's interactive visualization on her website](https://mallorybulkley.com/citi-bike-visualization/){:target="_blank"}{:rel="noopener"}!
 
 ## MYmta Mobile App
 
-Next up was [Scott Morris](https://www.linkedin.com/in/smorris-digitalleader/) to talk about the recently-launched MYmta mobile app, which is in beta. The MTA launched the app as both a native mobile app and a responsive web app.
+Next up was [Scott Morris](https://www.linkedin.com/in/smorris-digitalleader/){:target="_blank"}{:rel="noopener"} to talk about the recently-launched MYmta mobile app, which is in beta. The MTA launched the app as both a native mobile app and a responsive web app.
 
 They've been spending a lot of time getting feedback from users, and the idea of launching the beta was to open up feedback collection to everyone.
 
@@ -131,6 +131,6 @@ Another person asked about duplication of functionality across apps like NJ Tran
 
 The last question was about whether or not this will replace the MetroCards. That's a separate focus, but the idea is to provide a unified experience at the end.
 
-For more about Transit Techies NYC, check out the website here: [https://transittechies.nyc](https://transittechies.nyc)
+For more about Transit Techies NYC, check out the website here: [https://transittechies.nyc](https://transittechies.nyc){:target="_blank"}{:rel="noopener"}
 
 _If you liked this post, let me know, and share with others!_
