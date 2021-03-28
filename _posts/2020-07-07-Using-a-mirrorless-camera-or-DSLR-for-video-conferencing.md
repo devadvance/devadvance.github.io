@@ -10,15 +10,15 @@ image: /images/posts/2020-07-07_-_Hardware_Camera.jpg
 
 [Click here to go to all posts](/posts/). *Also published on [Medium](https://medium.com/@mattjoseph/using-a-mirrorless-camera-or-dslr-for-video-conferencing-749315e2916b){:target="_blank"}{:rel="noopener"}*
 
-Photography has been a passion of mine for many years and I’ve begun dabbling in video over the last 18 months as well. Thus, it’s likely no surprise that one of my first reactions when starting to regularly work from home was “how can I use my existing gear for video conferencing?”
+Photography has been a passion of mine for many years and I've begun dabbling in video over the last 18 months as well. Thus, it's likely no surprise that one of my first reactions when starting to regularly work from home was "how can I use my existing gear for video conferencing?"
 
-I am, by far, not the first person to do this, but I also approached it with a specific goal: I wanted any new camera gear or knowledge to be useful for more than video conferencing. To borrow language from the culinary world, I don’t recommend folks get “[unitaskers](https://www.npr.org/sections/thesalt/2015/12/23/460833325/the-unitasker-kitchen-gadgets-alton-brown-loves-to-loathe){:target="_blank"}{:rel="noopener"}” for video conferencing.
+I am, by far, not the first person to do this, but I also approached it with a specific goal: I wanted any new camera gear or knowledge to be useful for more than video conferencing. To borrow language from the culinary world, I don't recommend folks get "[unitaskers](https://www.npr.org/sections/thesalt/2015/12/23/460833325/the-unitasker-kitchen-gadgets-alton-brown-loves-to-loathe){:target="_blank"}{:rel="noopener"}" for video conferencing.
 
-As a result, keep in mind your passions, budget, and work situation when reading this. Let’s get started!
+As a result, keep in mind your passions, budget, and work situation when reading this. Let's get started!
 
 ## Prerequisites
 
-In general, you’ll need a set of gear that looks like this:
+In general, you'll need a set of gear that looks like this:
 
 * A supported camera with HDMI or SDI output (depends on your capture device)
 
@@ -33,7 +33,7 @@ In general, you’ll need a set of gear that looks like this:
 
 * Live streaming software like [OBS](https://obsproject.com)
 
-As I mentioned above, I already have a lot of camera gear that I’ve assembled over the last decade. For my setup, I’m using:
+As I mentioned above, I already have a lot of camera gear that I've assembled over the last decade. For my setup, I'm using:
 
 * Sony A7II with various lenses
 
@@ -47,7 +47,7 @@ As I mentioned above, I already have a lot of camera gear that I’ve assembled 
 
 ## Some background: what is OBS?
 
-For folks who already engage in live video streaming or production, you may be familiar with OBS (Open Broadcaster Software) and alternatives. For those who aren’t, here’s the top line from the [OBS website](https://obsproject.com){:target="_blank"}{:rel="noopener"}:
+For folks who already engage in live video streaming or production, you may be familiar with OBS (Open Broadcaster Software) and alternatives. For those who aren't, here's the top line from the [OBS website](https://obsproject.com){:target="_blank"}{:rel="noopener"}:
 
 > Free and open source software for video recording and live streaming.
 
@@ -59,19 +59,19 @@ What does that ultimately mean? OBS is software that enables you to:
 
 * and broadcast, record, and stream the video and audio to destinations like YouTube, Twitch, or video production setups.
 
-That’s by no means an exhaustive list of what OBS can do, and I encourage you to try it out and see what creative ways it can work for you.
+That's by no means an exhaustive list of what OBS can do, and I encourage you to try it out and see what creative ways it can work for you.
 
-While it’s not the primary use case for OBS, by using a plugin for your specific operating system, you can output the OBS video as a “virtual webcam” for other software applications, such as Chrome, Zoom, Teams, etc.
+While it's not the primary use case for OBS, by using a plugin for your specific operating system, you can output the OBS video as a "virtual webcam" for other software applications, such as Chrome, Zoom, Teams, etc.
 
-Let’s take a look at the plugins next.
+Let's take a look at the plugins next.
 
 ## Virtual webcam from OBS
 
-Why a “virtual webcam”? In short, video capture devices, such as Thunderbolt decks and PCIe capture cards, don’t provide the same kind of standardized webcam input that most applications expect. That’s why we’re using OBS, which does support these devices. But now we need to get that video output to appear like a webcam.
+Why a "virtual webcam"? In short, video capture devices, such as Thunderbolt decks and PCIe capture cards, don't provide the same kind of standardized webcam input that most applications expect. That's why we're using OBS, which does support these devices. But now we need to get that video output to appear like a webcam.
 
-Depending on your operating system, you’ll need a different plugin to get OBS to do this.
+Depending on your operating system, you'll need a different plugin to get OBS to do this.
 
-Here are the plugins I’ve tried:
+Here are the plugins I've tried:
 
 * macOS: [https://github.com/johnboiles/obs-mac-virtualcam](https://github.com/johnboiles/obs-mac-virtualcam){:target="_blank"}{:rel="noopener"}
 
@@ -79,13 +79,13 @@ Here are the plugins I’ve tried:
 
 * Linux: [https://github.com/CatxFish/obs-v4l2sink](https://github.com/CatxFish/obs-v4l2sink){:target="_blank"}{:rel="noopener"}
 
-On an almost-daily basis, I’m using obs-mac-virtualcam on my MacBook Pro 16 (2019). I’ve also tested this configuration on a MacBook Pro 13 (2018) that only has an Intel GPU, so it should work fine without a dedicated GPU.
+On an almost-daily basis, I'm using obs-mac-virtualcam on my MacBook Pro 16 (2019). I've also tested this configuration on a MacBook Pro 13 (2018) that only has an Intel GPU, so it should work fine without a dedicated GPU.
 
 There are limitations to each of these plugins. For example, macOS has limitations that affect which applications can use the virtual webcam output (see the [compatibility list](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility)){:target="_blank"}{:rel="noopener"}.
 
 ## Setting it all up
 
-Let’s walk through how I have this working.
+Let's walk through how I have this working.
 
 ## Hardware setup
 
@@ -106,19 +106,19 @@ Thunderbolt 3 cable plugged into the MacBook Pro 16 (2019):
 
 ## Software setup
 
-In terms of software, I have OBS and obs-mac-virtualcam installed and running. Let’s take a look at how to configure OBS.
+In terms of software, I have OBS and obs-mac-virtualcam installed and running. Let's take a look at how to configure OBS.
 
-After you’ve installed OBS and your virtual webcam plugin, you can proceed to setup.
+After you've installed OBS and your virtual webcam plugin, you can proceed to setup.
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_OBS_Add_Source.gif" width="1080" height="810" alt="Walking through adding the UltraStudio 4K Mini as a source in OBS" layout="responsive"></amp-img></div>
 <figcaption class="center">Walking through adding the UltraStudio 4K Mini as a source in OBS</figcaption>
 
-Let’s go step by step. First, you’ll open OBS to a screen that looks similar to this:
+Let's go step by step. First, you'll open OBS to a screen that looks similar to this:
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_1_OBS_Open.png" width="1079" height="752" alt="Initial OBS screen upon launch" layout="responsive"></amp-img></div>
 <figcaption class="center">Initial OBS screen upon launch</figcaption>
 
-OBS already has an initial empty scene, so we’ll just add our capture device to that. If you’re using an UltraStudio like I am, you’ll get to select the “Blackmagic Device” option directly. Otherwise, pick the option for your capture device.
+OBS already has an initial empty scene, so we'll just add our capture device to that. If you're using an UltraStudio like I am, you'll get to select the "Blackmagic Device" option directly. Otherwise, pick the option for your capture device.
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_2_-_Add_Source.png" width="1081" height="754" alt="Add a new Blackmagic Device source" layout="responsive"></amp-img></div>
 <figcaption class="center">Add a new Blackmagic Device source</figcaption>
@@ -140,20 +140,20 @@ Depending on your OBS canvas size, you may need to resize the video:
 
 ## What about audio?
 
-Audio is another part of this setup. You’ll notice that in the screenshots, I’ve muted the OBS audio coming from the capture device.
+Audio is another part of this setup. You'll notice that in the screenshots, I've muted the OBS audio coming from the capture device.
 
-You have many options here as well, but I recommended starting simple. I’ve been using a 3.5mm gaming headset with a built-in, flexible mic. This makes audio simple as you can select it as normal from your video conferencing application, instead of trying to set up OBS, audio monitoring, etc. for the first time.
+You have many options here as well, but I recommended starting simple. I've been using a 3.5mm gaming headset with a built-in, flexible mic. This makes audio simple as you can select it as normal from your video conferencing application, instead of trying to set up OBS, audio monitoring, etc. for the first time.
 
 ## Trying it out
 
-Now we need to turn on our virtual webcam. Let’s take a look before and after.
+Now we need to turn on our virtual webcam. Let's take a look before and after.
 
-Here’s Google Meet without virtual camera turned on:
+Here's Google Meet without virtual camera turned on:
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_6_Meet_Before_Virtual_Cam.png" width="1792" height="1097" alt="Google Meet before virtual camera is turned on" layout="responsive"></amp-img></div>
 <figcaption class="center">Google Meet before virtual camera is turned on</figcaption>
 
-OBS provides a helpful test screen. Let’s turn on our virtual camera in OBS:
+OBS provides a helpful test screen. Let's turn on our virtual camera in OBS:
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Start_Virtual_Camera.gif" width="540" height="252" alt="Turning on the OBS virtual camera" layout="responsive"></amp-img></div>
 <figcaption class="center">Turning on the OBS virtual camera</figcaption>
@@ -163,26 +163,26 @@ And now in Google Meet:
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_8_Meet_After_Virtual_Cam.png" width="1792" height="1097" alt="Virtual webcam working in Google Meet" layout="responsive"></amp-img></div>
 <figcaption class="center">Virtual webcam working in Google Meet</figcaption>
 
-Looks like we’re good to go! What about other applications, such as Zoom?
+Looks like we're good to go! What about other applications, such as Zoom?
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_9_Zoom_Virtual_Camera.png" width="800" height="660" alt="Virtual webcam working in Zoom" layout="responsive"></amp-img></div>
 <figcaption class="center">Virtual webcam working in Zoom</figcaption>
 
-Looks like it’s working there too.
+Looks like it's working there too.
 
 ## Wrapping up
 
 This is just a small sample of what is possible using camera gear you may already have for video conferencing. While I still recommend 1080p USB webcams for the majority of folks, this presents an interesting option if you are already doing some video work.
 
-Does it make a difference? I’ve had a high number of folks in video calls notice the difference. As an example:
+Does it make a difference? I've had a high number of folks in video calls notice the difference. As an example:
 
 <div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Email.png" width="1429" height="117" alt="An email I received after a recent video call" layout="responsive"></amp-img></div>
 <figcaption class="center">An email I received after a recent video call</figcaption>
 
-That being said, always balance what you’re looking to accomplish with your budget, your passions, and the amount of work you want to put in. While you *can* spend [hundreds of thousands of dollars on a video calling setup](https://www.youtube.com/watch?v=LJ5vBS_S7Hg){:target="_blank"}{:rel="noopener"}, that doesn’t always mean you should!
+That being said, always balance what you're looking to accomplish with your budget, your passions, and the amount of work you want to put in. While you *can* spend [hundreds of thousands of dollars on a video calling setup](https://www.youtube.com/watch?v=LJ5vBS_S7Hg){:target="_blank"}{:rel="noopener"}, that doesn't always mean you should!
 
 *****
 
 *If you liked this post, let me know, and share with others!*
 
-*If you’re interested in reaching out, check my [website](https://mattj.io), [LinkedIn](https://go.mattj.io/MedFooter-MyLI), [GitHub](https://go.mattj.io/MedPost-MyGH), and many other platforms.*
+*If you're interested in reaching out, check my [website](https://mattj.io), [LinkedIn](https://go.mattj.io/MedFooter-MyLI), [GitHub](https://go.mattj.io/MedPost-MyGH), and many other platforms.*
