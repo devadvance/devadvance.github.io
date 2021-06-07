@@ -1,0 +1,240 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Demo of site navigation with the &lt;details&gt; element | Matt Joseph<</title>
+  <meta name="description" content="Demo of site navigation with the &lt;details&gt; element | Matt Joseph">
+
+  <meta property="og:title" content="Demo of site navigation with the &lt;details&gt; element | Matt Joseph" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mattj.io/demos/details-nav/" />
+  <meta property="og:description" content="Demo of site navigation with the &lt;details&gt; element | Matt Joseph" />
+  
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style>
+    /* The top navbar itself. */
+    .navbar {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 3.75rem;
+      line-height: 3.75rem;
+      font-size: 1.5rem;
+      z-index: 999;
+      background-color: #fafafa;
+      color: #000000;
+      box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
+      text-align: center;
+    }
+
+    .navbar-title {
+      /*margin: 0 0 0 3rem;*/
+      margin: 0 auto 0 auto;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #000000;
+      padding: 0.75rem;
+    }
+
+    /* Any direct children of the navbar should be 
+     * horizontal and aligned to top.
+     */
+    .navbar > * {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .navbar > .navbar-horiz {
+      display: none;
+    }
+
+    /* Specific to the sidebar menu details. */
+    .navbar-sidebar {
+      width: 6rem;
+      position: absolute;
+      left: 0;
+      text-align: left;
+    }
+
+    .navbar-details {
+      cursor: pointer;
+    }
+
+    details.navbar-details > summary {
+      display: list-item;
+      padding-left: 0.5rem;
+    }
+
+    /* The content of the details dropdown. */
+    .navbar-details-content {
+      background-color: #fafafa;
+    /*   background-color: #123456; */
+      line-height: 1.8rem;
+      font-size: 1.2rem;
+      overflow: visible;
+    }
+
+    /*
+     * Position absolute so that it doesn't change
+     * the size of the header.
+     */
+    .navbar-top-details > .navbar-details-content {
+      position: absolute;
+      width: 13rem;
+    }
+
+    /* When used as a sidebar, set height and width differently.
+     * We have the height as the viewport minus the top nav height.
+     * We also use a wider bar in this context.
+     */
+    .navbar-sidebar > .navbar-details-content {
+      height: calc(100vh - 3.75rem);
+      width: 15rem;
+      overflow: auto;
+    }
+
+    /* Lists in the dropdowns have no style. */
+    .navbar-details-content > ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    .navbar-details-content > ul > li {
+      padding: 0.5rem 0 0.5rem 0;
+    }
+
+    /* For the horizontal list. */
+    .navbar-horiz, .navbar-horiz-list {
+      display: inline-block;
+      list-style: none;
+      vertical-align: top;
+      margin: 0;
+      float: right;
+    }
+
+    /* For the horizontal list. */
+    .navbar-horiz-list > li {
+      display: inline-block;
+      margin: 0 0.25rem 0 0.25rem;
+      height: 100%;
+    }
+
+    /* For larger screens we:
+     * * turn off the sidebar
+     * * turn on horizontal nav
+    */
+    @media (min-width: 768px) {
+      .navbar {
+        text-align: left;
+      }
+
+      .navbar-sidebar {
+        display: none;
+      }
+      
+      .navbar > .navbar-horiz {
+        display: inline-block;
+      }
+      .navbar-title {
+        margin: 0 0 0 2rem;
+      }
+    }
+
+    /* General CSS for main demo content. */
+    main {
+      width: 50%;
+      margin: 4.5rem auto 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        width: 90%;
+        margin: 4.5rem auto 0 auto;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <nav class="navbar">
+    <details class="navbar-sidebar navbar-details navbar-top-details">
+      <summary id="navbar-main-menu-title" class="navbar-details-title">Menu</summary>
+      <div class="navbar-details-content">
+        <ul aria-labelledby="navbar-main-menu-title">
+          <li><a href="#">About</a></li>
+          <li>
+            <details class="navbar-details">
+              <summary id="navbar-subsection-title" class="navbar-details-title">Portfolio</summary>
+              <div class="navbar-details-content">
+                <ul aria-labelledby="navbar-subsection-title">
+                  <li><a href="#">Project 1</a></li>
+                  <li><a href="#">Project 2</a></li>
+                  <li><a href="#">Project 3</a></li>
+                  <li><a href="#">Project 4</a></li>
+                  <li><a href="#">Project 5</a></li>
+                  <li><a href="#">Project 6</a></li>
+                  <li><a href="#">Project 7</a></li>
+                  <li><a href="#">Project 8</a></li>
+                </ul>
+              </div>
+            </details>
+          </li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+    </details>
+    <div class="navbar-title"><a href="#">Website Title</a></div>
+    <div class="navbar-horiz">
+      <ul class="navbar-horiz-list">
+        <li><a href="#">About</a></li>
+        <li>
+          <details class="navbar-details navbar-top-details">
+            <summary id="navbar-portfolio-title" class="navbar-details-title">Portfolio</summary>
+            <div class="navbar-details-content">
+              <ul aria-labelledby="navbar-portfolio-title">
+                <li><a href="#">Project 1</a></li>
+                <li><a href="#">Project 2</a></li>
+                <li><a href="#">Project 3</a></li>
+                <li><a href="#">Project 4</a></li>
+                <li><a href="#">Project 5</a></li>
+                <li><a href="#">Project 6</a></li>
+                <li><a href="#">Project 7</a></li>
+                <li><a href="#">Project 8</a></li>
+              </ul>
+            </div>
+          </details>
+        </li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Demo of site navigation with the &lt;details&gt; element</h1>
+    
+    <p>This page is a demo of site navigation using the &lt;details&gt; HTML element. Try opening it in different browsers and devices. This page contains no JavaScript. <strong>The code for this page is available <a href="https://github.com/devadvance/devadvance.github.io/tree/master/demos/details-nav/" target="_blank" rel="noopener">here</a>.</strong></p>
+
+    <h2>Section 1</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius purus metus, id finibus arcu aliquam et. Integer nec ligula est. Morbi nec ipsum eu felis sodales hendrerit. Cras posuere dui at cursus tempus. Nullam eget malesuada ante, sed dictum magna. Mauris rhoncus mauris sed justo ornare faucibus. Vivamus convallis lorem eget dui sagittis, non placerat ante dignissim. Aliquam consectetur finibus magna nec aliquam. Maecenas porta sagittis sapien, et aliquet est aliquet in. Pellentesque non ullamcorper nisi. Curabitur urna metus, efficitur vel ornare ac, dictum vel augue.</p>
+    
+    <h2>Section 2</h2>
+
+    <p>Nam dapibus id lacus in rutrum. Curabitur ut sagittis nulla. Aliquam erat dui, mollis eget ipsum id, bibendum fermentum est. Etiam viverra aliquam tortor vitae venenatis. Donec et dictum magna, in dapibus ligula. Quisque convallis interdum sodales. Aliquam dignissim dolor id nunc laoreet blandit. Proin luctus viverra dictum. Cras quis erat dictum, pellentesque quam at, ullamcorper sem. Donec non urna neque. Fusce accumsan nisl vitae maximus tincidunt. Integer aliquam dui at faucibus vehicula. Integer at vestibulum libero. Duis vestibulum nibh condimentum est pellentesque, bibendum aliquet augue volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas cursus ultricies tortor, quis facilisis nulla rhoncus at.</p>
+    
+    <h2>Section 3</h2>
+
+    <p>Cras sed pulvinar enim. In ornare pharetra ante, eu pharetra felis euismod sed. Sed non sem augue. Praesent iaculis molestie lectus. Suspendisse aliquet scelerisque hendrerit. Mauris vel ligula ullamcorper, gravida metus et, tempus lacus. Etiam non porttitor urna. Aenean malesuada luctus ante, nec eleifend metus lobortis id. Suspendisse nec consequat elit, vel mattis leo. Mauris sed aliquam erat.</p>
+    
+    <h3>Section 3 subsection 1</h3>
+
+    <p>Integer pharetra, nisi at pulvinar ornare, erat ipsum porttitor libero, eu porta metus dolor sit amet nisi. Vestibulum porta odio et lectus lacinia, a elementum lectus finibus. Ut blandit, est in tempor fermentum, ante velit faucibus leo, sed cursus orci ante ac nunc. Vestibulum mauris ex, porta vitae ornare sit amet, efficitur sit amet turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam at mi in neque sollicitudin egestas. Morbi a iaculis lectus, vitae dapibus ante. Fusce ac tincidunt nunc. Praesent consequat luctus lorem, ac porttitor sem interdum at.</p>
+  </main>
+</body>
+
+</html>
