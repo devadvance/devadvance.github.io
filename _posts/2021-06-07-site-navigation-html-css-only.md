@@ -21,15 +21,15 @@ If you want to edit the demo live, you can try the version hosted [here on CodeP
 
 ## Background
 
-When it comes to content-focused websites, I often align to the concept of [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement){:target="_blank"}{:rel="noopener"}. So when I looked for opportunities to eliminate nonessential JavaScript from my sites, I decided that the site navbar that depended on JavaScript needed to go.
+When it comes to content-focused websites, I often align with the concept of [progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement){:target="_blank"}{:rel="noopener"}, which allows users with different access requirements, such as screen size, physical ability, and bandwidth limitations, to access the same base content fluidly. So, when I looked for opportunities to eliminate nonessential JavaScript from my sites, I decided that the JavaScript-dependent site navigation needed to go.
 
-My goals for site navigation are the following: it should be fast, responsive, clean, and accessible. Visual designs come and go, so prioritizing a "clean" implementation provides a platform for those iterative designs.
+In overhauling the navbar, I prioritized four areas of design: it should be fast, responsive, clean, and accessible. Visual styles come and go, so prioritizing a "clean" implementation provides a platform for those iterative developments.
 
-After doing a bit of searching, there seemed to be a couple different approaches. Some of the most popular approaches involve CSS. In particular, they use the `:hover` selector or `:checked` pseudo-class. Hoowever, I found these to be suboptimal due to the challenge of making them accessible for all users, especially those using assistive technologies.
+Although there are numerous ways of approaching this problem, a few stand out for their popularity and/or efficiency. Some of the most popular methods involve CSS. In particular, they use the `:hover` selector or `:checked` pseudo-class. However, I found these to be suboptimal due to the challenge of making them accessible for all users, especially those using assistive technologies, including those [covered by W3C in its Web Accessibility Initiative](https://www.w3.org/WAI/people-use-web/tools-techniques/){:target="_blank"}{:rel="noopener"}.
 
-After reading [Mark Caron's](https://medium.com/@heyoka){:target="_blank"}{:rel="noopener"} post, [_Responsive, Pure CSS Off-Canvas Hamburger Menu_](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793){:target="_blank"}{:rel="noopener"}, I decided to try the approach using the `<details>` element.
+[Mark Caron](https://medium.com/@heyoka){:target="_blank"}{:rel="noopener"}, in his post, [_Responsive, Pure CSS Off-Canvas Hamburger Menu_](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793){:target="_blank"}{:rel="noopener"}, suggests using the `<details>` element.
 
-That post provided a great starting point. However, I prefer a responsive approach to site navigation. When in a desktop view, it is often detrimental to both the user and to the site creator to hide navigational elements in a side menu, as it is inherently less discoverable.
+While that approach provided a great starting point, it focused on the fundamentals, rather than a fully responsive experience. When in a desktop view, it is often detrimental to both the user and the site creator to hide navigational elements in a side menu, as it is inherently less discoverable. This is why I established responsiveness as one of my key focuses at the outset of this process.
 
 With these requirements in mind, I put together a working demo that is responsive, works on a variety of devices and browsers, works reasonably well with screen readers, and does not interfere with any of my sites' existing implementation. 
 
@@ -68,7 +68,7 @@ Here is a visual demo of the menu in use on an Android 11 mobile device:
 </div>
 <figcaption class="center">Demo on an Android 11 device</figcaption>
 
-Without any CSS, this is still functional as well, though it certainly could look better:
+This still functions without any CSS, though it certainly could look better:
 
 <div class="center width70">
   <a href="/images/posts/2021-06-07/01-no-style.png" target="_blank" rel="noopener">
@@ -79,4 +79,4 @@ Without any CSS, this is still functional as well, though it certainly could loo
 
 ## Future enhancements
 
-Feedback is greatly appreciated. I am sure there are many improvements that could be made to the implementation here. There are also likely enhancements that will further improve the experience with screen readers, as well as other assistive devices to which I do not have immediate access. Feedback from the community always goes a long way in helping to cover the wide variety of devices out there!
+Feedback is greatly appreciated. I am sure many improvements could be made to this implementation. There are also likely enhancements that will further improve the experience with screen readers, as well as other assistive technologies to which I do not have immediate access. Feedback from the community always goes a long way in helping to cover the wide variety of devices out there!
