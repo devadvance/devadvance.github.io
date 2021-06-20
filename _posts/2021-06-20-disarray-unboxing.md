@@ -13,6 +13,13 @@ excerpt: Unboxing the Sneakbox Disarray 70% keyboard
 
 A keyboard with the aesthetic of FM radios of the past? What's not to love? The Disarray is a 70% keyboard from Sneakbox with a unique form factor.
 
+<div class="center width70">
+  <a href="/images/posts/2021-06-20/Disarray-26.jpg" target="_blank" rel="noopener">
+    <amp-img src="/images/posts/2021-06-20/Disarray-26.jpg" width="3000" height="2000" alt="Disarray logo on the back of the case" layout="responsive"></amp-img>
+  </a>
+  <figcaption class="center">Disarray logo on the back of the case</figcaption>
+</div>
+
 The Disarray group buy ran from August 1, 2020 to September 5, 2020 via [the Sneakbox website](https://sneakbox.com/products/disarray){:target="_blank"}{:rel="noopener"}. For folks who already had Discipline65 PCB, a retrofit option was also available via [the Sneakbox website](https://sneakbox.com/products/retrofit-kit-for-discipline65-case-only){:target="_blank"}{:rel="noopener"}. The original interest check was on [geekhack](https://geekhack.org/index.php?topic=107036.0){:target="_blank"}{:rel="noopener"}.
 
 Includes:
@@ -348,13 +355,6 @@ I took a few measurements of some of the parts in case I, or anyone else, has a 
 ## Final thoughts and more photos
 
 I'm really excited to build this keyboard. 😁
-
-<div class="center width70">
-  <a href="/images/posts/2021-06-20/Disarray-26.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-20/Disarray-26.jpg" width="3000" height="2000" alt="Disarray logo on the back of the case" layout="responsive"></amp-img>
-  </a>
-  <figcaption class="center">Disarray logo on the back of the case</figcaption>
-</div>
 
 As with many smaller-scale custom products, the manufacture of the Disarray was not 100% easy. However, mujimanic (Bryan) was extremely communicative, transparent, thoughtful, and empathetic with the community through the entire process. It's been an awesome experience to be part of this group buy.
 
