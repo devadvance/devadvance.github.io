@@ -320,7 +320,6 @@ Support is one thing, but the PCB itself is well annotated to assist during the 
 
 Part of the Disarray design is that the internals are visible via a polycarbonate window at the top of the case. This is a fanastic design choice, because the details on the PCB look great, especially on the FR4 special edition with the visible copper traces.
 
-TODO_IMAGE 2 photos, ATmega and components at top
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
     <a href="/images/posts/2021-06-20/Disarray-35.jpg" target="_blank" rel="noopener">
