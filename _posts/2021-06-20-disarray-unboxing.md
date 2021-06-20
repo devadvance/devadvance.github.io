@@ -1,17 +1,15 @@
 ---
 layout: 2018design-post
-title: Disarray unboxing
-image: 
-excerpt: Disarray unboxing
+title: Unboxing the Sneakbox Disarray 70% keyboard
+image: /images/posts/2021-06-20/Disarray-05.jpg
+excerpt: Unboxing the Sneakbox Disarray 70% keyboard
 ---
 
-# Disarray unboxing
+# Unboxing the Sneakbox Disarray 70% keyboard
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
 [Click here to go to all posts](/posts/).
-
-*Unboxing the Sneakbox Disarray 70% keyboard*
 
 A keyboard with the aesthetic of FM radios of the past? What's not to love? The Disarray is a 70% keyboard from Sneakbox with a unique form factor.
 
@@ -237,7 +235,7 @@ Speaking of brass, the knob for the rotary encoder is a thing of beauty. It's he
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
     <a href="/images/posts/2021-06-20/Disarray-22.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-06-20/Disarray-22.jpg" width="3000" height="2000" alt="Brass knob and grub screw" layout="responsive"></amp-img>
+      <amp-img src="/images/posts/2021-06-20/Disarray-22.jpg" width="2000" height="3000" alt="Brass knob and grub screw" layout="responsive"></amp-img>
     </a>
     <figcaption class="center">Brass knob and grub screw</figcaption>
   </div>
@@ -249,7 +247,7 @@ Speaking of brass, the knob for the rotary encoder is a thing of beauty. It's he
   </div>
   <div class="flex-item-horizontal">
     <a href="/images/posts/2021-06-20/Disarray-23.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-06-20/Disarray-23.jpg" width="3000" height="2000" alt="Interior of the brass knob" layout="responsive"></amp-img>
+      <amp-img src="/images/posts/2021-06-20/Disarray-23.jpg" width="2000" height="3000" alt="Interior of the brass knob" layout="responsive"></amp-img>
     </a>
     <figcaption class="center">Interior of the brass knob</figcaption>
   </div>
@@ -386,13 +384,13 @@ With that, here are a few more macro shots to close out this post.
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
     <a href="/images/posts/2021-06-20/Disarray-24.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-06-20/Disarray-24.jpg" width="3000" height="2000" alt="Rotary encoder standing up" layout="responsive"></amp-img>
+      <amp-img src="/images/posts/2021-06-20/Disarray-24.jpg" width="2000" height="3000" alt="Rotary encoder standing up" layout="responsive"></amp-img>
     </a>
     <figcaption class="center">Rotary encoder standing up</figcaption>
   </div>
   <div class="flex-item-horizontal">
     <a href="/images/posts/2021-06-20/Disarray-25.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-06-20/Disarray-25.jpg" width="3000" height="2000" alt="Underside of the rotary encoder" layout="responsive"></amp-img>
+      <amp-img src="/images/posts/2021-06-20/Disarray-25.jpg" width="2000" height="3000" alt="Underside of the rotary encoder" layout="responsive"></amp-img>
     </a>
     <figcaption class="center">Underside of the rotary encoder</figcaption>
   </div>
