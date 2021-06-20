@@ -85,6 +85,16 @@ p, li {
   clear: both;
 }
 
+/* For smaller screens we
+ * make things wider
+*/
+@media (max-width: 768px) {
+  .width30, .width70 {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
 .float-left {
 	float: left;
 	margin: 1rem 10% 1rem 10%;
@@ -95,6 +105,17 @@ p, li {
 	float: right;
 	margin: 1rem 10% 1rem 10%;
   clear: both;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item-horizontal {
+  flex: 0 0 18rem;
+  margin: 0 0.25rem 0.25rem 0.25rem;
 }
 
 p.dropcap:first-child:first-letter {
