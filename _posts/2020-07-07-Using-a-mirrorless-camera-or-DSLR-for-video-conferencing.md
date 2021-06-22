@@ -81,7 +81,7 @@ Here are the plugins I've tried:
 
 On an almost-daily basis, I'm using obs-mac-virtualcam on my MacBook Pro 16 (2019). I've also tested this configuration on a MacBook Pro 13 (2018) that only has an Intel GPU, so it should work fine without a dedicated GPU.
 
-There are limitations to each of these plugins. For example, macOS has limitations that affect which applications can use the virtual webcam output (see the [compatibility list](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility)){:target="_blank"}{:rel="noopener"}.
+There are limitations to each of these plugins. For example, macOS has limitations that affect which applications can use the virtual webcam output (see the [compatibility list](https://github.com/johnboiles/obs-mac-virtualcam/wiki/Compatibility){:target="_blank"}{:rel="noopener"}).
 
 ## Setting it all up
 
