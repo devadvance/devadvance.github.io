@@ -394,3 +394,8 @@ With that, here are a few more macro shots to close out this post.
     <figcaption class="center">Underside of the rotary encoder</figcaption>
   </div>
 </div>
+
+Related posts on Sneakbox keyboards:
+
+* [_Sneakbox Disarray 70% with WoB keycaps_](/posts/2021-07-24-sneakbox-disarray-wob/){:target="_blank"}
+* [_Sneakbox MGA Standard with SA Mizu (unboxing and final build)_](/posts/2021-07-24-sneakbox-mga-sa-mizu/){:target="_blank"}
