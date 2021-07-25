@@ -22,7 +22,7 @@ I ended up building mine with the following configuration (no affiliation for an
 * Keycaps: [EnjoyPBT WoB (white-on-black) ABS](https://kbdfans.com/products/enjoypbt-abs-doubleshot-mechanical-keyboard-keycaps-set-2){:target="_blank"}{:rel="noopener"}
 * Foam: [Stupidfish foam](https://stupidfish.design/products/discipline65-case-and-plate-foam-set){:target="_blank"}{:rel="noopener"} between the plate and PCB, stock foam between the PCB and the case
 
-## Solding the sockets
+## Soldering the sockets
 
 If you're not familiar with Mill-Max sockets, they are essentially small, friction-based metal tubes that will hold the metal legs of the switch in place. They are soldered into the PCB instead of the switches. They're not as optimal as Kailh or other purpose-built switch sockets, but they get the job done. There are some issues with switches with larger legs.
 
