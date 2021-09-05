@@ -34,6 +34,10 @@ To use this guide, you will need the following:
 	* Windows: [https://video.stackexchange.com/a/20496](https://video.stackexchange.com/a/20496){:target="_blank"}{:rel="noopener"}
 	* Linux: Use your preferred package manager (e.g., `sudo apt install ffmpeg` on Ubuntu)
 
+### Are you on a computer where FFmpeg is not available?
+
+If you have Chrome, you can try using my web app tool instead: [https://video2webp.mattj.io](https://video2webp.mattj.io){:target="_blank"}. This tool will convert videos to animated WebP without the video leaving your computer. Note: please be patient as the tool takes time to process.
+
 ## What is FFmpeg?
 
 [From Wikipedia](https://en.wikipedia.org/wiki/FFmpeg){:target="_blank"}{:rel="noopener"}:
