@@ -19,3 +19,12 @@ Advanced users may want to follow this guide for [using FFmpeg locally instead](
 [VISIT THE PROJECT](https://video2webp.mattj.io){:target="_blank"}{: .pure-button .pure-button-primary }
 {: .center}
 
+## FAQs
+
+### Why did you create this?
+
+I wrote a brief guide for [using FFmpeg locally](/posts/2021-02-27-create-animated-gif-and-webp-from-videos-using-ffmpeg/) to convert videos to GIFs and animated WebP. However, it doesn't work easily for users without access or knowledge of the terminal. So, when I saw [FFmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm){:target="_blank"}{:rel="noopener"}, I threw together a quick page for animated WebP. There are enough solutions for GIFs.
+
+### What happens to my data?
+
+Your data stays local to your machine. This project also contains no browser analytics and the dependencies are hosted with the project.
