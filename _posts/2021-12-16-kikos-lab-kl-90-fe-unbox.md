@@ -21,6 +21,13 @@ The machining and coating of the case parts for this KL-90 aluminum edition is d
 
 In addition to the aluminum edition group buy, a limited number of Founder's Edition KL-90 keyboards were available via a raffle.
 
+<div class="center width70">
+  <a href="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" target="_blank" rel="noopener">
+    <amp-img src="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" width="3000" height="2000" alt="Switch plate inside of the case" layout="responsive"></amp-img>
+  </a>
+  <figcaption class="center">Switch plate inside of the case</figcaption>
+</div>
+
 The KL-90 FE includes:
 
 * 1 x Custom splash cerakoted OLED top case
@@ -344,7 +351,7 @@ As mentioned at the beginning of this post, the KL-90 FE comes with other parts 
 
 The KL-90 FE from Kiko's Lab is a 75% keyboard with both an interesting layout and unique design. I'm excited to build and try out this keyboard, especially the macro columns and encoders.
 
-One note: the colors on this case make it particular important to color balance the photos, so if you are interested in comparing this keyboard against a reference palette, here's a photo that includes one!
+One note: the colors on this case make it particularly important to color balance the photos, so if you are interested in comparing this keyboard against a reference palette, here's a photo that includes one!
 
 <div class="center width70">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-01.jpg" target="_blank" rel="noopener">
