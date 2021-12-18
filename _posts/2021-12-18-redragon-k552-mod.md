@@ -34,7 +34,7 @@ The Redragon K552 is an extremely popular, medium-low cost mechanical keyboard. 
 
 There are likely other—perhaps better—ways to categorize the keyboard experience, but let's work with this for now!
 
-I decided to start with this medium-low cost keyboard and try to improve it based on mods I've performed on other keyboards, as well as one that I've never done before. Note: I'm describing this as medium-low cost as there are certainly less expensive keyboards (e.g., $10) and way more expensive keyboards ($200-2000+).
+I decided to start with this medium-low cost keyboard and to try to improve it based on mods I've performed on other keyboards, as well as one that I've never done before. Note: I'm describing this as medium-low cost as there are certainly less expensive keyboards (e.g., $10) and way more expensive keyboards ($200-2000+).
 
 ## Starting point
 
@@ -42,7 +42,7 @@ I chose to purchase the linear switch (Red) version of this keyboard with RGB LE
 
 Out of this box, this keyboard has a couple really noticable issues:
 * It has an attached USB cable. Design aside, this means that you can't pick a cable of the ideal length for your setup and, should something happen to the cable, makes it so you cannot replace it easily.
-* It doesn't sound great. This keyboard uses Outemu Red switches
+* It doesn't sound great. This keyboard uses Outemu Red switches.
 
 The good points about this keyboard:
 * It uses standard plate-mount stabilizers. Other, more expensive keyboards that I've modded, such as the Das Keyboard, use Costar stabilizers, which is less ideal.
@@ -118,7 +118,7 @@ Fortunately, a set of digital calipers came in handy here! I chose to do the tim
   <figcaption class="center">Sketch of the part to print</figcaption>
 </div>
 
-From there, I modeled the part in Blender. This the second time doing precision modeling in Blender, so it was a fun learning experience and a mostly straightforward part to begin with. A more advanced modeler could probably create a version that uses less material and prints faster while retaining sufficient structural integrity, but I'm content with where I landed.
+From there, I modeled the part in Blender. This is my second time doing precision modeling in Blender, so it was a fun learning experience and a mostly straightforward part to begin with. A more advanced modeler could probably create a version that uses less material and prints faster while retaining sufficient structural integrity, but I'm content with where I landed.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
@@ -327,12 +327,16 @@ If you didn't catch it at the beginning of the post, here is the sound test vide
 ></amp-youtube>
 <figcaption class="center">Before and after sound test</figcaption>
 
-## Thoughts and future mods
+## Thoughts and future modifications
 
-The software configurability of the Redragon K552 is pretty lacking compared to other popular keyboards. QMK is one of the most popular open-source firmware for keyboards.
+Overall, this was a pretty fun project. It took the mods I've done for other keyboards and combined them with some new skills, such as laser-cut foam and custom printed parts. A great learning experience for sure!
+
+Was it worth it? I think so. I think there's an entire market of folks who are willing to purchase a keyboard around $50-70 provided it gives them a substantially improved experienced compared to a $35 purchase. With these modifications, it provides pretty compelling value.
+
+I chose not to do further modifications like tape, PE foam, completely replaced switches, etc., but a dedicated hobbyist could surely perform these as well for even more improvement, albeit at further time/materials cost.
+
+One area of particular note: the software configurability of the Redragon K552 is pretty lacking compared to other popular keyboards. QMK is one of the most popular open-source firmware for keyboards.
 
 Interestingly, there's a port of QMK for keyboards like the K552: [SonixQMK](https://github.com/SonixQMK){:target="_blank"}{:rel="noopener"}.
 
 In theory, this brings all of the power of QMK to this keyboard. I haven't tried it yet, but I plan to do that as a next step.
-
-Overall, this was a pretty fun project. It took the mods I've done for other keyboards and combined them with some new skills, such as laser-cut foam and custom printed parts. A great learning experience for sure!
