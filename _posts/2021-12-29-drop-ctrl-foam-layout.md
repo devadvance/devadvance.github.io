@@ -14,11 +14,12 @@ excerpt: A post that covers custom laser-cut foam for the Drop CTRL keyboards an
 I decided to create custom foam for the Drop CTRL high profile and Drop CTRL low profile cases that I had on hand. I have previously hand-cut foam, but to speed things up, I decided to laser cut the foam.
 
 * Material: 3mm EVA foam (you can probably use 4mm foam but with different speed/power settings)
-* Laser settings: 100w at 70mm/s 15% power for cutting. 250mm/s 10% power for engraving (text)
+* Laser settings on a 100w CO<sub>2</sub> laser:
+  * Cutting: 70mm/s 15% power
+  * Engraving (text): 250mm/s 10% power
 * Software used: Inkscape and Lightburn
-* All measurements are in mm
 
-**NOTE: I designed these using Drop CTRL keyboards purchased in 2020. Drop may change the design of these keyboards in the future and these files may not be updated.**
+**NOTE: I designed these using Drop CTRL keyboards purchased in 2020. Drop may change the design of these keyboards in the future and these files may no longer be accurate.**
 
 ## SVG downloads
 
@@ -35,7 +36,7 @@ By downloading these files, you agree to the CC BY-NC-SA 4.0 license. If you use
 
 ## End result
 
-The foam turned out decently. It's not perfect my any means, but it does the job. In particular, the plate foam is challenging to design due to the additional wavy mid-plate cutouts needed.
+The foam turned out decently. It's not perfect by any means, but it does the job. In particular, the plate foam is challenging to design due to the additional wavy mid-plate cutouts needed.
 
 <div class="center width70">
   <a href="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" target="_blank" rel="noopener">
