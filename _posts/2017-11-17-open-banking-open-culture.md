@@ -1,10 +1,10 @@
 ---
 layout: 2018design-post
-title: Interview - Open Banking Starts With Opening Bank Culture
-excerpt: Interview - Open Banking Starts With Opening Bank Culture
+title: Interview - "Open Banking Starts With Opening Bank Culture"
+excerpt: Interview - "Open Banking Starts With Opening Bank Culture"
 ---
 
-# Interview - Open Banking Starts With Opening Bank Culture
+# Interview - "Open Banking Starts With Opening Bank Culture"
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
