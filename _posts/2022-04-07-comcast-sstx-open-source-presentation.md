@@ -10,7 +10,7 @@ excerpt: "Talk - Contributing to open source: Taking your first (empathetic) ste
 
 [Click here to go to all posts](/posts/).
 
-On April 7, 2022, I gave a talk titled _Contributing to open source: Taking your first (empathetic)_ at an internal Comcast event called SSTx, which is an event for the Software Strategy & Transformation (SST) organization. The theme of the event was "Breaking out of your shell".
+On April 7, 2022, I gave a talk titled _Contributing to open source: Taking your first (empathetic) step_ at an internal Comcast event called SSTx, which is an event for the Software Strategy & Transformation (SST) organization. The theme of the event was "Breaking out of your shell".
 
 <div class="center width30">
   <a href="/dl/2022-04-07/2022-04-07%20-%20Matt%20Joseph%20-%20Contributing%20to%20open%20source%20Taking%20your%20first%20(empathetic)%20step.pdf" target="_blank">
