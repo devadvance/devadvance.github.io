@@ -1,6 +1,7 @@
 ---
 layout: 2018design-post
 title: "Talk - Contributing to open source: Taking your first (empathetic) step"
+image: /images/posts/2022-04-07/2022-04-07-slides-title.jpg
 excerpt: "Talk - Contributing to open source: Taking your first (empathetic) step"
 ---
 
