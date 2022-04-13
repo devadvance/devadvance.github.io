@@ -1,10 +1,10 @@
 ---
 layout: 2018design-post
-title: "Talk - Contributing to open source: Taking your first (empathetic)"
-excerpt: "Talk - Contributing to open source: Taking your first (empathetic)"
+title: "Talk - Contributing to open source: Taking your first (empathetic) step"
+excerpt: "Talk - Contributing to open source: Taking your first (empathetic) step"
 ---
 
-# Talk - Contributing to open source: Taking your first (empathetic)
+# Talk - Contributing to open source: Taking your first (empathetic) step
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
