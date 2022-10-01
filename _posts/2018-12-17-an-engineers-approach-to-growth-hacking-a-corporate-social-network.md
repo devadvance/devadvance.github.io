@@ -1,6 +1,7 @@
 ---
-layout: 2018design-post
+layout: post
 title: An engineer's approach to growth hacking a corporate social network
+image: /images/posts/2018-12-17_4.png
 ---
 
 # An engineer's approach to growth hacking a corporate social network
@@ -33,8 +34,14 @@ As I mentioned, the social network tool that I used was Jive. Amongst other feat
 
 Here's a look at some of the content on [the Jive Developers space on the Jive website](https://community.jivesoftware.com/community/developer){:target="_blank"}{:rel="noopener"}:
 
-<div class="center width70"><amp-img src="/images/posts/2018-12-17_1.png" width="2000" height="1250" alt="Content in the Jive Developers space" layout="responsive"></amp-img></div>
-<figcaption class="center">Content in the Jive Developers space</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-17_1.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-17_1.png" width="2000" height="1250" alt="Content in the Jive Developers space" class="responsive" />
+  </a>
+  <figcaption class="center">Content in the Jive Developers space</figcaption>
+</figure>
+</div>
 
 ## Content as a foundation
 
@@ -46,8 +53,14 @@ That's the truth, especially in a large company where people are bombarded with 
 
 If you're an engineer, this means two things: useful technical documentation and technical information for non-technical audiences.
 
-<div class="center width70"><amp-img src="/images/posts/2018-12-17_2.png" width="1500" height="970" alt="Simple documentation for a dependency I used (Ora)" layout="responsive"></amp-img></div>
-<figcaption class="center">Simple documentation for a dependency I used (Ora)</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-17_2.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-17_2.png" width="1500" height="970" alt="Simple documentation for a dependency I used (Ora)" class="responsive" />
+  </a>
+  <figcaption class="center">Simple documentation for a dependency I used (Ora)</figcaption>
+</figure>
+</div>
 
 Now, as an engineer, it's best practice to write technical documentation for your work, but you can level up by writing *useful *technical documentation that people *voluntarily *choose to reference. Technical information for non-technical audiences is often an engineer's Achilles' heel. But there are ways to start simple conversations that are accessible to everyone.
 
@@ -57,8 +70,14 @@ So now that you have content, the next question is whether or not it's having an
 
 For each piece of content you post, you're able to see things like the number of views, number of likes, unique viewers, and number of comments. Here's what the impact metrics view looks like for one document:
 
-<div class="center width70"><amp-img src="/images/posts/2018-12-17_3.png" width="2000" height="1288" alt="Impact metrics for a sample document" layout="responsive"></amp-img></div>
-<figcaption class="center">Impact metrics for a sample document</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-17_3.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-17_3.png" width="2000" height="1288" alt="Impact metrics for a sample document" class="responsive" />
+  </a>
+  <figcaption class="center">Impact metrics for a sample document</figcaption>
+</figure>
+</div>
 
 While it's helpful to look at these metrics for an individual document, it would be *more* helpful to look at them across all your content. I wanted to be able to answer questions such as:
 
@@ -75,8 +94,14 @@ For this particular project, I chose Node.js, both to lower the barrier of entry
 String, int, int, String, boolean, boolean)){:target="_blank"}{:rel="noopener"} resource
 1.  For each piece of content, retrieve the views, likes, unique viewers, etc.
 
-<div class="center width70"><amp-img src="/images/posts/2018-12-17_4.png" width="1500" height="1136" alt="An example v2 API call" layout="responsive"></amp-img></div>
-<figcaption class="center">An example v2 API call</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-17_4.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-17_4.png" width="1500" height="1136" alt="An example v2 API call" class="responsive" />
+  </a>
+  <figcaption class="center">An example v2 API call</figcaption>
+</figure>
+</div>
 
 But here's the catch: the "impact metrics" that I mentioned above are only accessible via an undocumented "v2" Jive API, and the company wasn't using the [data export service](https://community.jivesoftware.com/docs/DOC-99916){:target="_blank"}{:rel="noopener"}.
 
@@ -105,8 +130,14 @@ Finally, I had the metrics I wanted. I knew who my most loyal readers were. I co
 
 The idea of "follow-for-follow" or "f4f" is pretty old in social media years, but it hasn't had its moment in the corporate social network world! Or at least that's the premise of the next step I took. 😉
 
-<div class="center width70"><amp-img src="/images/posts/2018-12-17_5.png" width="1500" height="1063" alt="The Jive /streams resource" layout="responsive"></amp-img></div>
-<figcaption class="center">The Jive /streams resource</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-17_5.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-17_5.png" width="1500" height="1063" alt="The Jive /streams resource" class="responsive" />
+  </a>
+  <figcaption class="center">The Jive /streams resource</figcaption>
+</figure>
+</div>
 
 My working theory was that, similar to social networks like Facebook, Instagram, and others, if you follow a lot of people on Jive, a portion of them will follow you back. With the Jive v3 API, it's pretty easy to do this. You can call the [/streams](https://developers.jivesoftware.com/api/v3/cloud/rest/StreamService.html#addAssociations(String, String)){:target="_blank"}{:rel="noopener"} resource, for example, to create the "association" and follow a user.
 

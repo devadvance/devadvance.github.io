@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Create animated GIF and WebP from videos using FFmpeg
 image: /images/posts/2021-02-27_-_ffmpeg_version.gif
 ---
@@ -18,9 +18,13 @@ Whether it's for a website, a presentation, or sharing a fun clip with a friend 
 So, this guide is for those who are willing to learn a bit of terminal in order to convert any video to the animated format of their choosing. The best part: this will work on all major operating systems and gives you all the control of the output you could want!
 
 <div class="center width70">
-  <amp-anim src="/images/posts/2021-02-27_-_keyboard.gif" width="720" height="405" alt="Example GIF of typing GIF on a mechanical keyboard" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-02-27_-_keyboard.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-02-27_-_keyboard.gif" width="720" height="405" alt="Example GIF of typing GIF on a mechanical keyboard" class="responsive" />
+  </a>
+  <figcaption class="center">Example GIF of typing GIF on a mechanical keyboard</figcaption>
+</figure>
 </div>
-<figcaption class="center">Example GIF of typing "GIF" on a mechanical keyboard</figcaption>
 
 Let's get started!
 

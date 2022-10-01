@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: "Recap: Transit Techies NYC #5: GTF5"
 image: /images/posts/2018-12-04/2018-12-04-01-tyler-green-kohzy-koh.gif
 excerpt: "A quick recap of Transit Techies NYC #5: GTF5, a meetup held on Wednesday, November 28, 2018"
@@ -16,10 +16,12 @@ excerpt: "A quick recap of Transit Techies NYC #5: GTF5, a meetup held on Wednes
 Transit Techies NYC #5: GTF5 was held at the Intersection office in New York with 70+ folks in attendance.
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-12-04/2018-12-04-01-tyler-green-kohzy-koh.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-12-04/2018-12-04-01-tyler-green-kohzy-koh.gif" width="320" height="320" alt="Kohzy and Tyler kicking off the meetup" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-04/2018-12-04-01-tyler-green-kohzy-koh.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-04/2018-12-04-01-tyler-green-kohzy-koh.gif" width="320" height="320" alt="Kohzy and Tyler kicking off the meetup" class="responsive" />
   </a>
   <figcaption class="center">Kohzy and Tyler kicking off the meetup</figcaption>
+</figure>
 </div>
 
 [Kohzy Koh](https://www.linkedin.com/in/kohzy/){:target="_blank"}{:rel="noopener"} kicked us off with holiday cookies and a word from our sponsor, Intersection.
@@ -33,10 +35,12 @@ Onto our presenters for the evening!
 The first speaker up was [Abhijit Valluri](https://www.linkedin.com/in/abhijitvalluri/){:target="_blank"}{:rel="noopener"}, who began by talking about how he is frequently late for the bus and train transfers. The whole situation makes him really sad, but fortunately, he is a software engineer with a smartwatch, and he had an idea of how to use those skills to solve his challenge.
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-12-04/2018-12-04-02-abhijit-valluri.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-12-04/2018-12-04-02-abhijit-valluri.gif" width="320" height="320" alt="Abhijit talking about his commuting experience" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-04/2018-12-04-02-abhijit-valluri.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-04/2018-12-04-02-abhijit-valluri.gif" width="320" height="320" alt="Abhijit talking about his commuting experience" class="responsive" />
   </a>
   <figcaption class="center">Abhijit talking about his commuting experience</figcaption>
+</figure>
 </div>
 
 He has a Garmin vivoactive 3, which isn't the smartest of smart watches. It uses the Garmin Connect IQ platform, which uses Monkey C, which is a bespoke, object-oriented language. It's called "Monkey C" because the person who made it likes monkeys. 🐵
@@ -66,10 +70,12 @@ Next up was [Mallory Bulkley](https://www.linkedin.com/in/mallorybulkley/){:targ
 We started off by getting some context: Citi Bike provides a lot of data on a monthly basis, including trip start and stop location, length of trip, gender, birth year, and more. They provide this for every trip!
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-12-04/2018-12-04-03-mallory-bulkley.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-12-04/2018-12-04-03-mallory-bulkley.gif" width="320" height="320" alt="Mallory presenting her visualization" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-04/2018-12-04-03-mallory-bulkley.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-04/2018-12-04-03-mallory-bulkley.gif" width="320" height="320" alt="Mallory presenting her visualization" class="responsive" />
   </a>
   <figcaption class="center">Mallory presenting her visualization</figcaption>
+</figure>
 </div>
 
 From Google Maps biking directions API, you get a list of all inflection points in a route. In theory, it would have been easy to animate based on an average speed between inflection points. The problem with that approach: traffic circles. Since there are so many inflection points in a circle, the average speed is too fast during straight segments and too slow along the curved segments.
@@ -115,10 +121,12 @@ The day after the meetup, they're launching app updates to support Paratransit u
 Scott mentioned that one common question is, "why not just clean up the data and let developers like Google or Apple provide apps?" What they found is that people do want a single experience from the MTA, and they also want features like the ability to communicate with the MTA ("dialogue not monologue").
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-12-04/2018-12-04-04-scott-morris.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-12-04/2018-12-04-04-scott-morris.gif" width="320" height="320" alt="Scott talking through future enhancements" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-12-04/2018-12-04-04-scott-morris.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-12-04/2018-12-04-04-scott-morris.gif" width="320" height="320" alt="Scott talking through future enhancements" class="responsive" />
   </a>
   <figcaption class="center">Scott talking through future enhancements</figcaption>
+</figure>
 </div>
 
 For building the app, the MTA focused on an iterative process, and they're transitioning to proper agile development in 2019. The iterative process has also provided other systems benefits, like documentation of inventory and data cleanup, which help other projects.

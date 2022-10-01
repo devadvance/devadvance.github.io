@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: The hidden complexity of the humble transit countdown clock
+image: /images/posts/2019-06-07_1.jpg
 ---
 
 # The hidden complexity of the humble transit countdown clock
 
-## There's a lot of magic to a simple number on a screen
+**There's a lot of magic to a simple number on a screen**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -21,8 +22,14 @@ A quick glance at the screen on the platform tells you that there are five minut
 
 Did you catch the brief moment of magic? The quick, low-friction glance at the screen? It took less than a second for you to see when the next train was coming. Less obvious, perhaps, was the epic amount of complexity that went into that single piece of information.
 
-<div class="center width70"><amp-img src="/images/posts/2019-06-07_1.jpg" width="1600" height="1067" alt="Arrivals screen on our IxNTouch kiosks in Los Angeles Metro" layout="responsive"></amp-img></div>
-<figcaption class="center">Arrivals screen on our IxNTouch kiosks in Los Angeles Metro</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-06-07_1.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-06-07_1.jpg" width="1600" height="1067" alt="Arrivals screen on our IxNTouch kiosks in Los Angeles Metro" class="responsive" />
+  </a>
+  <figcaption class="center">Arrivals screen on our IxNTouch kiosks in Los Angeles Metro</figcaption>
+</figure>
+</div>
 
 But maybe you're someone who likes to know how magic tricks work. If so, continue onwards!
 
@@ -76,8 +83,14 @@ There are various providers that help with the above steps, such as NextBus, One
 
 In many cases, transit agencies use standard formats like [GTFS Realtime](https://developers.google.com/transit/gtfs-realtime/){:target="_blank"}{:rel="noopener"} to provide data to the external world. This standard format makes it easier to build products that work with multiple locations.
 
-<div class="center width70"><amp-img src="/images/posts/2019-06-07_2.png" width="970" height="1267" alt="General Transit Feed Specification (GTFS) data diagram" layout="responsive"></amp-img></div>
-<figcaption class="center">General Transit Feed Specification (GTFS) data diagram</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-06-07_2.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-06-07_2.png" width="970" height="1267" alt="General Transit Feed Specification (GTFS) data diagram" class="responsive" />
+  </a>
+  <figcaption class="center">General Transit Feed Specification (GTFS) data diagram</figcaption>
+</figure>
+</div>
 
 ## A third party enters the ring
 
@@ -125,9 +138,14 @@ There are many dozens of design decisions that take place on a display. These ca
 
 These and many other questions are answered by a combination of product, engineering, and UX. As usual, it's a balance between the ideal state and what is possible given current constraints and context. If you're curious about some of these decisions, check out Kohzy Koh's post, [Two-way Communications in Transit: Lessons Learned From Designing Public Interactive Kiosks](https://ixn.intersection.com/two-way-communications-in-transit-lessons-learned-from-designing-public-interactive-kiosks-d930a487c5ef){:target="_blank"}{:rel="noopener"}.
 
-<div class="center width70"><amp-img src="/images/posts/2019-06-07_3.jpg" width="1600" height="1366" alt="NJ Transit IxNTouch 1.0 kiosk software (left) and CTA IxNTouch 2.0 kiosk software (right)" layout="responsive"></amp-img></div>
-<figcaption class="center">NJ Transit IxNTouch 1.0 kiosk software (left) and CTA IxNTouch 2.0 kiosk software (right)</figcaption>
-
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-06-07_3.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-06-07_3.jpg" width="1600" height="1366" alt="NJ Transit IxNTouch 1.0 kiosk software (left) and CTA IxNTouch 2.0 kiosk software (right)" class="responsive" />
+  </a>
+  <figcaption class="center">NJ Transit IxNTouch 1.0 kiosk software (left) and CTA IxNTouch 2.0 kiosk software (right)</figcaption>
+</figure>
+</div>
 
 While this is focused on Intersection, these same considerations apply to all arrival tickers and countdown clocks.
 

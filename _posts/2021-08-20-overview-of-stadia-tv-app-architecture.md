@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Overview of Stadia’s TV app architecture
 image: /images/posts/2021-08-20/2021-08-20-tv.jpg
 excerpt: Overview of Stadia’s TV app architecture
@@ -18,8 +18,10 @@ You can read the post on the [Stadia.dev blog](https://stadia.dev/blog/overview-
 A backup of the post is also available from the [Internet Archive](https://web.archive.org/web/20210823223710/https://stadia.dev/blog/overview-of-stadias-tv-app-architecture/){:target="_blank"}{:rel="noopener"}.
 
 <div class="center width70">
-  <a href="/images/posts/2021-08-20/2021-08-20-tv.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-08-20/2021-08-20-tv.jpg" width="1920" height="1280" alt="Photo of CCwGTV on a Stadia desk mat" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-08-20/2021-08-20-tv.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-08-20/2021-08-20-tv.jpg" width="1920" height="1280" alt="Photo of CCwGTV on a Stadia desk mat" class="responsive" />
   </a>
   <figcaption class="center">Photo of CCwGTV on a Stadia desk mat</figcaption>
+</figure>
 </div>

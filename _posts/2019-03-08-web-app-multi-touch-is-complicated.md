@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: Web App Multi-touch is Complicated
+image: /images/posts/2019-03-08_2.gif
 ---
 
 # Web App Multi-touch is Complicated
 
-## Tl;dr building a non-zoomable web app for kiosks is hard
+**Tl;dr building a non-zoomable web app for kiosks is hard**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -17,8 +18,14 @@ That said, we ran into a pretty interesting issue as we were building our latest
 
 **How do we prevent users from accidentally pinch-zooming our entire kiosk web app?**
 
-<div class="center width70"><amp-img src="/images/posts/2019-03-08_1.gif" width="320" height="320" alt="Zooming the entire kiosk app. This breaks the experience" layout="responsive"></amp-img></div>
-<figcaption class="center">Zooming the entire kiosk app. This breaks the experience</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-03-08_1.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-03-08_1.gif" width="320" height="320" alt="Zooming the entire kiosk app. This breaks the experience" class="responsive" />
+  </a>
+  <figcaption class="center">Zooming the entire kiosk app. This breaks the experience</figcaption>
+</figure>
+</div>
 
 This seemingly simple question turned into quite the rabbit hole! Here's the journey we went through.
 
@@ -79,8 +86,14 @@ The answer is complicated. First: for most standard Linux setups, input goes thr
 
 Furthermore, at least as of Ubuntu 16.04 LTS with Chromium v71, it appears that Chromium listens directly to **evdev** (event device) rather than **xinput** for touch events. You can see that by using `xinput test <DEVICE_ID>` and comparing something like gedit to Chromium with touch activity.
 
-<div class="center width70"><amp-img src="/images/posts/2019-03-08_2.gif" width="720" height="448" alt="Comparing xinput test between gedit and Chromium on Ubuntu 16.04 LTS" layout="responsive"></amp-img></div>
-<figcaption class="center">Comparing xinput test between gedit and Chromium on Ubuntu 16.04 LTS</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-03-08_2.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-03-08_2.gif" width="720" height="448" alt="Comparing xinput test between gedit and Chromium on Ubuntu 16.04 LTS" class="responsive" />
+  </a>
+  <figcaption class="center">Comparing xinput test between gedit and Chromium on Ubuntu 16.04 LTS</figcaption>
+</figure>
+</div>
 
 However, this is not the case for the proprietary Chromium-based player, but that doesn't change the fact that xinput does not help us.
 
@@ -136,8 +149,14 @@ Good news again: this prevents the pan-then-pinch-zoom problem. Furthermore, we 
 
 Bad news again: I found another issue. This actually doesn't work to prevent pinch-zoom while in the middle of momentum-based panning. Essentially, that means you can *fling* the area in a pan, and then try pinching, and it will still zoom.
 
-<div class="center width70"><amp-img src="/images/posts/2019-03-08_3.gif" width="720" height="729" alt="Chromium ignoring the preventDefault for performance reasons" layout="responsive"></amp-img></div>
-<figcaption class="center">Chromium ignoring the preventDefault for performance reasons</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-03-08_3.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-03-08_3.gif" width="720" height="729" alt="Chromium ignoring the preventDefault for performance reasons" class="responsive" />
+  </a>
+  <figcaption class="center">Chromium ignoring the preventDefault for performance reasons</figcaption>
+</figure>
+</div>
 
 Chromium gives this great error to explain why it doesn't work:
 > [Intervention] Ignored attempt to cancel a touchmove event with cancelable-false, for example because scrolling is in progress and cannot be interrupted.

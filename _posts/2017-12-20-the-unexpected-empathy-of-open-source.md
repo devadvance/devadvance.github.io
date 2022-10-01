@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: The unexpected empathy of open source
+image: /images/posts/2017-12-20_1.png
 ---
 
 # The unexpected empathy of open source
 
-## Open source software is more human than you think.
+**Open source software is more human than you think.**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -17,8 +18,13 @@ But why should the majority of the world care?
 
 It wasn't until recently that I found the answer: empathy.
 
-<div class="center width70"><amp-img src="/images/posts/2017-12-20_1.png" width="1600" height="990" alt="Map of SMS Backup Reader downloads" layout="responsive"></amp-img></div>
-<figcaption class="center">Map of SMS Backup Reader downloads</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2017-12-20_1.png" width="1600" height="990" alt="Map of SMS Backup Reader downloads" class="responsive" />
+    <figcaption class="center">Map of SMS Backup Reader downloads</figcaption>
+  </figure>
+</div>
+
 
 ### **First: a bit of personal history**
 

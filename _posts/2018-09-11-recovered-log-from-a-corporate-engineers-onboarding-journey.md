@@ -1,18 +1,23 @@
 ---
-layout: 2018design-post
+layout: post
 title: Recovered log from a corporate engineer's onboarding journey
+image: /images/posts/2018-09-11_1.jpg
 ---
 
 # Recovered log from a corporate engineer's onboarding journey
 
-## For the first time ever, we've learned about the harrowing journey that many know yet few dare speak of: corporate onboarding.
+**For the first time ever, we've learned about the harrowing journey that many know yet few dare speak of: corporate onboarding.**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
 [Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/recovered-log-from-a-corporate-engineers-onboarding-journey-db8b79cbc4eb){:target="_blank"}{:rel="noopener"}*
 
-<div class="center width70"><amp-img src="/images/posts/2018-09-11_1.jpg" width="2000" height="1333" alt="This post was transcribed from a small journal smuggled out of a Treasure 100 company" layout="responsive"></amp-img></div>
-<figcaption class="center">This post was transcribed from a small journal smuggled out of a Treasure 100 company</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2018-09-11_1.jpg" width="2000" height="1333" alt="This post was transcribed from a small journal smuggled out of a Treasure 100 company" class="responsive">
+    <figcaption class="center">This post was transcribed from a small journal smuggled out of a Treasure 100 company</figcaption>
+  </figure>
+</div>
 
 **Day 1 09:45**
 

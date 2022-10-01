@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: "Microservices: shell commands with added flavor"
+image: /images/posts/2017-08-23_1.png
 ---
 
 # Microservices: shell commands with added flavor
 
-## Now in shiny new packaging with more network.
+**Now in shiny new packaging with more network.**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -18,8 +19,12 @@ movie](https://www.youtube.com/watch?v=dFUlAQZB9Ng){:target="_blank"}{:rel="noop
 stereotype sitting there, typing away in
 something that looks like an alien language.
 
-<div class="center width70"><amp-img src="/images/posts/2017-08-23_1.png" width="1600" height="855" alt="Using 'tr' in bash" layout="responsive"></amp-img></div>
-<figcaption class="center">Using 'tr' in bash</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2017-08-23_1.png" width="1600" height="855" alt="Using 'tr' in bash" class="responsive" />
+    <figcaption class="center">Using 'tr' in bash</figcaption>
+  </figure>
+</div>
 
 However, I spend quite a bit of time in the shell, and I know it's not an alien
 language. Yet shell commands remain magical, just for a different reason.

@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: "Recap: Transit Techies NYC #4: Four the Love of Transit"
 image: /images/posts/2018-10-18/2018-10-18-06-candy-chan.jpg
 excerpt: "A quick recap of Transit Techies NYC #4: Four the Love of Transit, a meetup held on Wednesday, October 17, 2018"
@@ -19,10 +19,12 @@ _Update: you can [check out the recordings for this meetup on YouTube](https://w
 
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-01-tyler-green-kohzy-koh.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-01-tyler-green-kohzy-koh.gif" width="320" height="320" alt="Kohzy and Tyler kicking off the meetup" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-01-tyler-green-kohzy-koh.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-01-tyler-green-kohzy-koh.gif" width="320" height="320" alt="Kohzy and Tyler kicking off the meetup" class="responsive" />
   </a>
   <figcaption class="center">Kohzy and Tyler kicking off the meetup</figcaption>
+</figure>
 </div>
 
 [Kohzy Koh](https://www.linkedin.com/in/kohzy/){:target="_blank"}{:rel="noopener"} and [Tyler Green](https://www.linkedin.com/in/tylergreen/){:target="_blank"}{:rel="noopener"} kicked us off with a thank you to everyone for attending and a quick mention of Intersection for hosting. They (jokingly) suggested that all of the evening's scheduled sessions be replaced with a watch party…but alas, the video "didn't load." 😂
@@ -30,10 +32,12 @@ _Update: you can [check out the recordings for this meetup on YouTube](https://w
 Kohzy and Tyler also did a quick recap of one of the sessions from TransportationCamp NYC, which occurred this past weekend. In particular, folks should check out [https://mobilitydata.org](https://mobilitydata.org){:target="_blank"}{:rel="noopener"}, which is an effort to improve mobility and accessibility data in GTFS feeds.
 
 <div class="center width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-02-kohzy-koh.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2018-10-18/2018-10-18-02-kohzy-koh.jpg" width="1613" height="1210" alt="Kohzy going over the presenter lineup" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-02-kohzy-koh.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-02-kohzy-koh.jpg" width="1613" height="1210" alt="Kohzy going over the presenter lineup" class="responsive" />
   </a>
   <figcaption class="center">Kohzy going over the presenter lineup</figcaption>
+</figure>
 </div>
 
 ## Scraping and Analyzing Real-time NJ Transit Rail Data
@@ -41,10 +45,12 @@ Kohzy and Tyler also did a quick recap of one of the sessions from Transportatio
 Our first session of the evening was "Scraping and Analyzing Real-time NJ Transit Rail Data" by [Pranav Badami](https://www.linkedin.com/in/pranavbadami/){:target="_blank"}{:rel="noopener"} and [Michael Zhang](https://www.linkedin.com/in/michaelzhang13/){:target="_blank"}{:rel="noopener"}. Nine months ago, they were working at the same consulting firm, and they decided to collect and analyze NJ Transit data since March 2018.
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-03-pranav-badami-michael-zhang.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-03-pranav-badami-michael-zhang.gif" width="320" height="320" alt="Pranav and Michael presenting their analysis" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-03-pranav-badami-michael-zhang.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-03-pranav-badami-michael-zhang.gif" width="320" height="320" alt="Pranav and Michael presenting their analysis" class="responsive" />
   </a>
   <figcaption class="center">Pranav and Michael presenting their analysis</figcaption>
+</figure>
 </div>
 
 NJ Transit is the third largest train system in the country. The data they collected is not publicly available from any other source, as NJ Transit only makes aggregate data available for historical periods.
@@ -52,10 +58,12 @@ NJ Transit is the third largest train system in the country. The data they colle
 They started by scraping data from [NJ Transit DepartureVision](https://www.njtransit.com){:target="_blank"}{:rel="noopener"}. From the main DepartureVision status page, they could drill into specific trains, which they then extracted into an array of statuses. The software continues doing this for a given train until all stops show either "departed" or "canceled, " at which point the data is packaged up as JSON. Next, they built a parser. This part handled converting the raw data into a clean tabular format, which accounted for issues like data at a particular moment reverting to a previous state.
 
 <div class="center width70">
-  <a href="/images/posts/2018-10-18/2018-10-18-04-pranav-badami.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2018-10-18/2018-10-18-04-pranav-badami.jpg" width="1613" height="1210" alt="Pranav showing the cleaned-up raw in tabular format" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-04-pranav-badami.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-04-pranav-badami.jpg" width="1613" height="1210" alt="Pranav showing the cleaned-up raw in tabular format" class="responsive" />
   </a>
   <figcaption class="center">Pranav showing the cleaned-up raw in tabular format</figcaption>
+</figure>
 </div>
 
 They joined the data with GTFS schedule information, and also outputted monthly CSVs.
@@ -77,19 +85,23 @@ One question was about whether or not mitigating actions enacted by NJ Transit d
 Next up was [Candy Chan](https://www.linkedin.com/in/candy-h-y-chan-ra-leed-ap-1000894/){:target="_blank"}{:rel="noopener"} to talk about her work on the New York City subway representing the "The City Under the City." For example, with a neighborhood map, you might see an outline of the underground station. Directions like "NW" or "SW" don't help orient folks who are trying to determine which exit to take, and folks are often better off just asking for directions.
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-05-candy-chan.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-05-candy-chan.gif" width="320" height="320" alt="Candy comparing subway maps and art" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-05-candy-chan.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-05-candy-chan.gif" width="320" height="320" alt="Candy comparing subway maps and art" class="responsive" />
   </a>
   <figcaption class="center">Candy comparing subway maps and art</figcaption>
+</figure>
 </div>
 
 She also talked briefly about art versus information, and how that related to work like subway maps. The question is, how do you communicate complex concepts in the most effective way you can? Candy explored existing subway maps, including maps that show all lines and hand-drawn maps. She also took inspiration from maps like Hong Kong's transit system map, which is more sterile and informational, and artwork, which is more friendly.
 
 <div class="center width70">
-  <a href="/images/posts/2018-10-18/2018-10-18-06-candy-chan.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2018-10-18/2018-10-18-06-candy-chan.jpg" width="2048" height="1536" alt="Candy presenting her work to the meetup" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-06-candy-chan.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-06-candy-chan.jpg" width="2048" height="1536" alt="Candy presenting her work to the meetup" class="responsive" />
   </a>
   <figcaption class="center">Candy presenting her work to the meetup</figcaption>
+</figure>
 </div>
 
 Candy started with pen and paper, and doing things like counting the number of steps. She took this through multiple iterations, with the later drawings including color-coded lines and multiple stations.
@@ -97,10 +109,12 @@ Candy started with pen and paper, and doing things like counting the number of s
 Next, she questioned whether or not the average person would understand her work. She again looked to places like Hong Kong, where station exits are lettered, and Tokyo, where train displays update constantly. She also looked to New York City precedents, like "Exit Strategy."
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-07-candy-chan.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-07-candy-chan.gif" width="320" height="320" alt="Candy demoing one of her models" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-07-candy-chan.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-07-candy-chan.gif" width="320" height="320" alt="Candy demoing one of her models" class="responsive" />
   </a>
   <figcaption class="center">Candy demoing one of her models</figcaption>
+</figure>
 </div>
 
 To create these maps, she combines existing CAD models, further models from places like Google Earth, added ornamentation and design elements to above-ground buildings, and the from-scratch underground models themselves.
@@ -118,10 +132,12 @@ His first attempt was suing UPS. It didn't go his way the first time. Nor the se
 The question was, how can he prove what the major blockers of bike lanes are?
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-08-alex-bell.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-08-alex-bell.gif" width="320" height="320" alt="Alex showing a 10-day analysis of bike lane blockage" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-08-alex-bell.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-08-alex-bell.gif" width="320" height="320" alt="Alex showing a 10-day analysis of bike lane blockage" class="responsive" />
   </a>
   <figcaption class="center">Alex showing a 10-day analysis of bike lane blockage</figcaption>
+</figure>
 </div>
 
 He started by pulling images from the New York City Department of Transportation (NYC DOT) publicly available camera feeds. He annotated around 2,000 images by hand so that he could train a TensorFlow-based model on what trucks and cars are in the images he captured.
@@ -129,10 +145,12 @@ He started by pulling images from the New York City Department of Transportation
 Next, he marked off (hard coded) the different regions of the image feed to annotate where bike lanes, bus lanes, and certain parked cars were. This is one of the issues with the current code; hard-coded regions on the images. That means that this system would fall apart if the NYC DOT rotates any of its cameras!
 
 <div class="center width70">
-  <a href="/images/posts/2018-10-18/2018-10-18-09-annotated.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-09-annotated_64color.gif" width="704" height="240" alt="How the images look after being automatically annotated" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-09-annotated.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-09-annotated_64color.gif" width="704" height="240" alt="How the images look after being automatically annotated" class="responsive" />
   </a>
   <figcaption class="center">How the images look after being automatically annotated</figcaption>
+</figure>
 </div>
 
 An article about this ended up in the NY Times (due to Alex's persistence!): [https://www.nytimes.com/2018/03/15/nyregion/bike-lane-blocked-new-york.html](https://www.nytimes.com/2018/03/15/nyregion/bike-lane-blocked-new-york.html){:target="_blank"}{:rel="noopener"}
@@ -140,10 +158,12 @@ An article about this ended up in the NY Times (due to Alex's persistence!): [ht
 It wasn't until Alex started at Intersection and connected with NYC DOITT that the project came back up. Now, the code is running in AWS and processes all 700 NYC DOT feeds once a minute and annotates the each image in a tenth of a second.
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-10-anders-lisdorf.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-10-anders-lisdorf.gif" width="320" height="320" alt="Anders talking about future areas of work" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-10-anders-lisdorf.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-10-anders-lisdorf.gif" width="320" height="320" alt="Anders talking about future areas of work" class="responsive" />
   </a>
   <figcaption class="center">Anders talking about future areas of work</figcaption>
+</figure>
 </div>
 
 [Anders Lisdorf](https://www.linkedin.com/in/anderslisdorf/){:target="_blank"}{:rel="noopener"} from the New York City Department of Information Technology & Telecommunications (DoITT) came up. This type of technology has the possibility to improve a variety of situations, such as firefighters being able to more quickly locate a traffic accident. In general, traffic cameras are an untapped resource for city intelligence.
@@ -159,10 +179,12 @@ You can check out and contribute to Alex's work by [visiting the repository here
 This would help answer questions like "what does the track look like now" and "has it changed since the last time photos were taken?"
 
 <div class="center width70">
-  <a href="/images/posts/2018-10-18/2018-10-18-11-kurt-raschke.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2018-10-18/2018-10-18-11-kurt-raschke.jpg" width="1613" height="1210" alt="Kurt giving an overview of the NYCT TunnelView system" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-11-kurt-raschke.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-11-kurt-raschke.jpg" width="1613" height="1210" alt="Kurt giving an overview of the NYCT TunnelView system" class="responsive" />
   </a>
   <figcaption class="center">Kurt giving an overview of the NYCT TunnelView system</figcaption>
+</figure>
 </div>
 
 NYCT already has Track Geometry Cars that go out and capture information about tracks, so they've added spherical cameras permanently to Cars 3 and 4. They've built out a tech stack behind it as well, using tools like PostGIS, Python, Django, Leaflet, and more.
@@ -170,10 +192,12 @@ NYCT already has Track Geometry Cars that go out and capture information about t
 This system now gets used for nearly everything, with 1400+ users looking at situational awareness, site surveys, and more! Most of this user growth has been organic so far.
 
 <div class="float-left width30">
-  <a href="/images/posts/2018-10-18/2018-10-18-12-kurt-raschke.gif" target="_blank" rel="noopener">
-    <amp-anim src="/images/posts/2018-10-18/2018-10-18-12-kurt-raschke.gif" width="320" height="320" alt="Kurt giving details on TunnelView" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2018-10-18/2018-10-18-12-kurt-raschke.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2018-10-18/2018-10-18-12-kurt-raschke.gif" width="320" height="320" alt="Kurt giving details on TunnelView" class="responsive" />
   </a>
   <figcaption class="center">Kurt giving details on TunnelView</figcaption>
+</figure>
 </div>
 
 Interesting question: how does location work? The analyst on the train actually pulls up to a known location, puts that in, and then using wheel rotations, location is tracked. Pretty cool!

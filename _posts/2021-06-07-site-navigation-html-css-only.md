@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Implementing site navigation with the &lt;details&gt; element
 image: /images/posts/2021-06-07/04-ipad.png
 excerpt: Create a fast, responsive, clean, and accessible site navigation using HTML and CSS
@@ -48,34 +48,44 @@ I have also tested this with the system screen reader turned on for Windows 10, 
 A few screenshots on differently sized devices:
 
 <div class="center width30">
-  <a href="/images/posts/2021-06-07/03-iphone-se-open.png" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-07/03-iphone-se-open.png" width="320" height="568" alt="Screenshot on an iPhone SE-sized layout with the menu open" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-07/03-iphone-se-open.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-07/03-iphone-se-open.png" width="320" height="568" alt="Screenshot on an iPhone SE-sized layout with the menu open" class="responsive" />
   </a>
+  <figcaption class="center">Screenshot on an iPhone SE-sized layout with the menu open</figcaption>
+</figure>
 </div>
-<figcaption class="center">Screenshot on an iPhone SE-sized layout with the menu open</figcaption>
 
 <div class="center width30">
-  <a href="/images/posts/2021-06-07/04-ipad.png" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-07/04-ipad.png" width="576" height="768" alt="Screenshot on an iPad-sized layout" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-07/04-ipad.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-07/04-ipad.png" width="576" height="768" alt="Screenshot on an iPad-sized layout" class="responsive" />
   </a>
+  <figcaption class="center">Screenshot on an iPad-sized layout</figcaption>
+</figure>
 </div>
-<figcaption class="center">Screenshot on an iPad-sized layout</figcaption>
 
 Here is a visual demo of the menu in use on an Android 11 mobile device:
 
-<div class="center width30">
-  <amp-anim src="/images/posts/2021-06-07/05-gif-android.gif" width="540" height="1170" alt="" layout="responsive">Demo on an Android 11 device</amp-anim>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-07/05-gif-android.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-07/05-gif-android.gif" width="540" height="1170" alt="Demo on an Android 11 device" class="responsive" />
+  </a>
+  <figcaption class="center">Demo on an Android 11 device</figcaption>
+</figure>
 </div>
-<figcaption class="center">Demo on an Android 11 device</figcaption>
 
 This still functions without any CSS, though it certainly could look better:
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-07/01-no-style.png" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-07/01-no-style.png" width="1254" height="620" alt="Screenshot without any CSS" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-07/01-no-style.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-07/01-no-style.png" width="1254" height="620" alt="Screenshot without any CSS" class="responsive" />
   </a>
+  <figcaption class="center">Screenshot without any CSS</figcaption>
+</figure>
 </div>
-<figcaption class="center">Screenshot without any CSS</figcaption>
 
 ## Future enhancements
 

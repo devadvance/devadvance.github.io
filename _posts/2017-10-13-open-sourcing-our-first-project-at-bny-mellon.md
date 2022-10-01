@@ -1,18 +1,23 @@
 ---
-layout: 2018design-post
+layout: post
 title: Open sourcing our first project at BNY Mellon
+image: /images/posts/2017-10-13_1.png
 ---
 
 # Open sourcing our first project at BNY Mellon
 
-## I finally get to say it: BNY Mellon has open sourced a project. 😄
+**I finally get to say it: BNY Mellon has open sourced a project. 😄**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
 [Click here to go to all posts](/posts/). *Also published on [Medium](https://medium.com/@mattjoseph/open-sourcing-our-first-project-at-bny-mellon-cf28cc3fd91d){:target="_blank"}{:rel="noopener"}*
 
-<div class="center width70"><amp-img src="/images/posts/2017-10-13_1.png" width="641" height="501" alt="BNY Mellon Code Katas on GitHub" layout="responsive"></amp-img></div>
-<figcaption class="center">BNY Mellon Code Katas on GitHub</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2017-10-13_1.png" width="641" height="501" alt="BNY Mellon Code Katas on GitHub" class="responsive" />
+    <figcaption class="center">BNY Mellon Code Katas on GitHub</figcaption>
+  </figure>
+</div>
 
 To some, this may seem like much ado about nothing. I assure you, however, that a 230-year plus institution contributing open source to the world is a proud achievement for everyone involved.
 

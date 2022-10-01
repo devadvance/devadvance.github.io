@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Optimizing Postgres Queries for Faster Kiosk Data Delivery
 image: /images/posts/2019-07-23/2019-07-23-dbcpu.png
 ---
@@ -19,9 +19,13 @@ Beyond some of the previous areas of focus, such as advanced caching and optimal
 This is best demonstrated by example. Take a look at this interface for the bus alerts within the Chicago Transit Authority (CTA):
 
 <div class="center width70">
-  <amp-anim src="/images/posts/2019-07-23/2019-07-23-cta.gif" width="540" height="960" alt="Bus Alerts and Bus Alert Details view for CTA interactive kiosk" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-23/2019-07-23-cta.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-23/2019-07-23-cta.gif" width="540" height="960" alt="Bus Alerts and Bus Alert Details view for CTA interactive kiosk" class="responsive" />
+  </a>
+  <figcaption class="center">Bus Alerts and Bus Alert Details view for CTA interactive kiosk</figcaption>
+</figure>
 </div>
-<figcaption class="center">Bus Alerts and Bus Alert Details view for CTA interactive kiosk</figcaption>
 
 You'll notice that the detailed alert information for each route is instantly loaded when the user taps on a specific route. This isn't by chance: we fetch all alerts for each route on a regular basis.
 
@@ -56,18 +60,26 @@ Unfortunately, this means a bit of processing in order to figure out the full li
 Again, using the example from the IxNTouch kiosk GIF, let's look at one of the alerts that shows up for the #6 bus line:
 
 <div class="center width70">
-  <amp-img src="/images/posts/2019-07-23/2019-07-23-targeting.png" width="1600" height="1029" alt="IxNConnect alert page: targeting details" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-23/2019-07-23-targeting.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-23/2019-07-23-targeting.png" width="1600" height="1029" alt=""IxNConnect alert page: targeting details" class="responsive" />
+  </a>
+  <figcaption class="center">"IxNConnect alert page: targeting details</figcaption>
+</figure>
 </div>
-<figcaption class="center">IxNConnect alert page: targeting details</figcaption>
 
 In this case, this particular alert is targeted at several lines (routes). In other cases, an alert will be targeted at a stop, which means it needs to be related back up to routes.
 
 While our model of the built environment varies by vertical (transit, community, district, etc.), the hierarchy of targeting for transit can be generalized to this:
 
 <div class="center width70">
-  <amp-img src="/images/posts/2019-07-23/2019-07-23-hierarchy.png" width="453" height="645" alt="Basic transit hierarchy in IxNConnect" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-23/2019-07-23-hierarchy.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-23/2019-07-23-hierarchy.png" width="453" height="645" alt="Basic transit hierarchy in IxNConnect" class="responsive" />
+  </a>
+  <figcaption class="center">Basic transit hierarchy in IxNConnect</figcaption>
+</figure>
 </div>
-<figcaption class="center">Basic transit hierarchy in IxNConnect</figcaption>
 
 We take the vast majority of our transit hierarchy from the transit agency's own GTFS data!
 
@@ -284,9 +296,13 @@ So, a ~5x improvement in query cost and an order of magnitude (or more!) improve
 Let's take a look at our Postgres DB CPU utilization before and after this query update was deployed to production:
 
 <div class="center width70">
-  <amp-img src="/images/posts/2019-07-23/2019-07-23-dbcpu.png" width="1600" height="670" alt="A big drop in our Postgres DB CPU utilization after deploying this query change" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-23/2019-07-23-dbcpu.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-23/2019-07-23-dbcpu.png" width="1600" height="670" alt="A big drop in our Postgres DB CPU utilization after deploying this query change" class="responsive" />
+  </a>
+  <figcaption class="center">A big drop in our Postgres DB CPU utilization after deploying this query change</figcaption>
+</figure>
 </div>
-<figcaption class="center">A big drop in our Postgres DB CPU utilization after deploying this query change</figcaption>
 
 Not bad at all! We still have room to improve, but the investment in optimizing a single query went a long way.
 

@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Using a mirrorless camera or DSLR for video conferencing
 image: /images/posts/2020-07-07_-_Hardware_Camera.jpg
 ---
@@ -91,18 +91,39 @@ Let's walk through how I have this working.
 
 Sony A7II powered via wall adapter and connected to the micro-HDMI end of the micro-HDMI-to-HDMI cable:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Hardware_Camera.jpg" width="1600" height="1067" alt="Cables plugged into the Sony Alpha A7II" layout="responsive"></amp-img></div>
-<figcaption class="center">Cables plugged into the Sony Alpha A7II</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_Hardware_Camera.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_Hardware_Camera.jpg" width="1600" height="1067" alt="Cables plugged into the Sony Alpha A7II" class="responsive" />
+  </a>
+  <figcaption class="center">Cables plugged into the Sony Alpha A7II</figcaption>
+</figure>  
+</div>
+
 
 HDMI end of the micro-HDMI-to-HDMI cable, power cord, and Thunderbolt 3 cable plugged into the UltraStudio 4K Mini:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Hardware_UltraStudio.jpg" width="1600" height="1067" alt="Cables plugged into the Blackmagic UltraStudio 4K Mini" layout="responsive"></amp-img></div>
-<figcaption class="center">Cables plugged into the Blackmagic UltraStudio 4K Mini</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_Hardware_UltraStudio.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_Hardware_UltraStudio.jpg" width="1600" height="1067" alt="Cables plugged into the Blackmagic UltraStudio 4K Mini" class="responsive" />
+  </a>
+  <figcaption class="center">Cables plugged into the Blackmagic UltraStudio 4K Mini</figcaption>
+</figure>  
+</div>
+
 
 Thunderbolt 3 cable plugged into the MacBook Pro 16 (2019):
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Hardware_MacBook.jpg" width="1600" height="1067" alt="Thunderbolt 3 cable plugged into a MacBook Pro (2019)" layout="responsive"></amp-img></div>
-<figcaption class="center">Thunderbolt 3 cable plugged into a MacBook Pro (2019)</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_Hardware_MacBook.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_Hardware_MacBook.jpg" width="1600" height="1067" alt="Thunderbolt 3 cable plugged into a MacBook Pro (2019)" class="responsive" />
+  </a>
+  <figcaption class="center">Thunderbolt 3 cable plugged into a MacBook Pro (2019)</figcaption>
+</figure>  
+</div>
+
 
 ## Software setup
 
@@ -110,33 +131,75 @@ In terms of software, I have OBS and obs-mac-virtualcam installed and running. L
 
 After you've installed OBS and your virtual webcam plugin, you can proceed to setup.
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_OBS_Add_Source.gif" width="1080" height="810" alt="Walking through adding the UltraStudio 4K Mini as a source in OBS" layout="responsive"></amp-img></div>
-<figcaption class="center">Walking through adding the UltraStudio 4K Mini as a source in OBS</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_OBS_Add_Source.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_OBS_Add_Source.gif" width="1080" height="810" alt="Walking through adding the UltraStudio 4K Mini as a source in OBS" class="responsive" />
+  </a>
+  <figcaption class="center">Walking through adding the UltraStudio 4K Mini as a source in OBS</figcaption>
+</figure>  
+</div>
+
 
 Let's go step by step. First, you'll open OBS to a screen that looks similar to this:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_1_OBS_Open.png" width="1079" height="752" alt="Initial OBS screen upon launch" layout="responsive"></amp-img></div>
-<figcaption class="center">Initial OBS screen upon launch</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_1_OBS_Open.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_1_OBS_Open.png" width="1079" height="752" alt="Initial OBS screen upon launch" class="responsive" />
+  </a>
+  <figcaption class="center">Initial OBS screen upon launch</figcaption>
+</figure>  
+</div>
+
 
 OBS already has an initial empty scene, so we'll just add our capture device to that. If you're using an UltraStudio like I am, you'll get to select the "Blackmagic Device" option directly. Otherwise, pick the option for your capture device.
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_2_-_Add_Source.png" width="1081" height="754" alt="Add a new Blackmagic Device source" layout="responsive"></amp-img></div>
-<figcaption class="center">Add a new Blackmagic Device source</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_2_-_Add_Source.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_2_-_Add_Source.png" width="1081" height="754" alt="Add a new Blackmagic Device source" class="responsive" />
+  </a>
+  <figcaption class="center">Add a new Blackmagic Device source</figcaption>
+</figure>  
+</div>
+
 
 Naming this new source:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_3_Name_Source.png" width="1079" height="752" alt="Naming the new source" layout="responsive"></amp-img></div>
-<figcaption class="center">Naming the new source</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_3_Name_Source.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_3_Name_Source.png" width="1079" height="752" alt="Naming the new source" class="responsive" />
+  </a>
+  <figcaption class="center">Naming the new source</figcaption>
+</figure>  
+</div>
+
 
 Configuring the source. In my case, I know that my Sony A7II outputs at 1080p59.94 over HDMI. You can also try Auto.
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_4_Config_Source.png" width="720" height="602" alt="Properties for the Blackmagic source" layout="responsive"></amp-img></div>
-<figcaption class="center">Properties for the Blackmagic source</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_4_Config_Source.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_4_Config_Source.png" width="720" height="602" alt="Properties for the Blackmagic source" class="responsive" />
+  </a>
+  <figcaption class="center">Properties for the Blackmagic source</figcaption>
+</figure>  
+</div>
+
 
 Depending on your OBS canvas size, you may need to resize the video:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_5_After_Resize.png" width="1079" height="752" alt="Layout in OBS after resizing" layout="responsive"></amp-img></div>
-<figcaption class="center">Layout in OBS after resizing</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_5_After_Resize.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_5_After_Resize.png" width="1079" height="752" alt="Layout in OBS after resizing" class="responsive" />
+  </a>
+  <figcaption class="center">Layout in OBS after resizing</figcaption>
+</figure>  
+</div>
+
 
 ## What about audio?
 
@@ -150,23 +213,51 @@ Now we need to turn on our virtual webcam. Let's take a look before and after.
 
 Here's Google Meet without virtual camera turned on:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_6_Meet_Before_Virtual_Cam.png" width="1792" height="1097" alt="Google Meet before virtual camera is turned on" layout="responsive"></amp-img></div>
-<figcaption class="center">Google Meet before virtual camera is turned on</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_6_Meet_Before_Virtual_Cam.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_6_Meet_Before_Virtual_Cam.png" width="1792" height="1097" alt="Google Meet before virtual camera is turned on" class="responsive" />
+  </a>
+  <figcaption class="center">Google Meet before virtual camera is turned on</figcaption>
+</figure>  
+</div>
+
 
 OBS provides a helpful test screen. Let's turn on our virtual camera in OBS:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Start_Virtual_Camera.gif" width="540" height="252" alt="Turning on the OBS virtual camera" layout="responsive"></amp-img></div>
-<figcaption class="center">Turning on the OBS virtual camera</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_Start_Virtual_Camera.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_Start_Virtual_Camera.gif" width="540" height="252" alt="Turning on the OBS virtual camera" class="responsive" />
+  </a>
+  <figcaption class="center">Turning on the OBS virtual camera</figcaption>
+</figure>  
+</div>
+
 
 And now in Google Meet:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_8_Meet_After_Virtual_Cam.png" width="1792" height="1097" alt="Virtual webcam working in Google Meet" layout="responsive"></amp-img></div>
-<figcaption class="center">Virtual webcam working in Google Meet</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_8_Meet_After_Virtual_Cam.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_8_Meet_After_Virtual_Cam.png" width="1792" height="1097" alt="Virtual webcam working in Google Meet" class="responsive" />
+  </a>
+  <figcaption class="center">Virtual webcam working in Google Meet</figcaption>
+</figure>  
+</div>
+
 
 Looks like we're good to go! What about other applications, such as Zoom?
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_9_Zoom_Virtual_Camera.png" width="800" height="660" alt="Virtual webcam working in Zoom" layout="responsive"></amp-img></div>
-<figcaption class="center">Virtual webcam working in Zoom</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_9_Zoom_Virtual_Camera.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_9_Zoom_Virtual_Camera.png" width="800" height="660" alt="Virtual webcam working in Zoom" class="responsive" />
+  </a>
+  <figcaption class="center">Virtual webcam working in Zoom</figcaption>
+</figure>  
+</div>
+
 
 Looks like it's working there too.
 
@@ -176,8 +267,15 @@ This is just a small sample of what is possible using camera gear you may alread
 
 Does it make a difference? I've had a high number of folks in video calls notice the difference. As an example:
 
-<div class="center width70"><amp-img src="/images/posts/2020-07-07_-_Email.png" width="1429" height="117" alt="An email I received after a recent video call" layout="responsive"></amp-img></div>
-<figcaption class="center">An email I received after a recent video call</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2020-07-07_-_Email.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2020-07-07_-_Email.png" width="1429" height="117" alt="An email I received after a recent video call" class="responsive" />
+  </a>
+  <figcaption class="center">An email I received after a recent video call</figcaption>
+</figure>  
+</div>
+
 
 That being said, always balance what you're looking to accomplish with your budget, your passions, and the amount of work you want to put in. While you *can* spend [hundreds of thousands of dollars on a video calling setup](https://www.youtube.com/watch?v=LJ5vBS_S7Hg){:target="_blank"}{:rel="noopener"}, that doesn't always mean you should!
 

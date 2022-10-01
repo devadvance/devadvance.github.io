@@ -1,6 +1,3 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond%7CWork+Sans:400,700" rel="stylesheet">
-
 <style>
 /*!
 Pure v1.0.0
@@ -31,9 +28,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   background-color: black;
 }
 
-.hero-image img {
+.hero-container figure {
+  height: 100%;
+}
+
+.hero-image {
+  min-height: 100%;
   object-fit: cover;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-caption {
@@ -211,15 +215,6 @@ a.pure-button {
   margin-top: 0.625rem;
 }
 
-@font-face {
-  font-display: swap;
-}
-
-/* Quick fix for an AMP CSS change */
-amp-sidebar header {
-  border: 0;
-}
-
 /* For code sections */
 pre.highlight {
   background-color: #e8e8e8;
@@ -373,10 +368,27 @@ a.image-link {
   display: flex;
 }
 
-img.responsive {
+img.responsive, video.responsive {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 </style>

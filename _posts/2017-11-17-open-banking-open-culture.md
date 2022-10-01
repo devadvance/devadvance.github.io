@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Interview - "Open Banking Starts With Opening Bank Culture"
 excerpt: Interview - "Open Banking Starts With Opening Bank Culture"
 ---

@@ -1,18 +1,24 @@
 ---
-layout: 2018design-post
+layout: post
 title: Open source software as a public good
+image: /images/posts/2018-08-27_1.jpg
 ---
 
 # Open source software as a public good
 
-## What do sculptures and software have in common?
+**What do sculptures and software have in common?**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
 [Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/open-source-software-as-a-public-good-ec040bf9cc46){:target="_blank"}{:rel="noopener"}*
 
-<div class="center width70"><amp-img src="/images/posts/2018-08-27_1.jpg" width="2600" height="1088" alt="Article I, Section 8, Clause 8 of the United States Constitution" layout="responsive"></amp-img></div>
-<figcaption class="center">Article I, Section 8, Clause 8 of the United States Constitution</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2018-08-27_1.jpg" width="2600" height="1088" alt="Article I, Section 8, Clause 8 of the United States Constitution" class="responsive" />
+    <figcaption class="center">Article I, Section 8, Clause 8 of the United States Constitution</figcaption>
+  </figure>
+</div>
+
 
 I think it's important to start off by saying two things:
 
@@ -62,8 +68,12 @@ We circle back to the section I quoted above, which is re-quoted below for ease 
 
 This portion of John Mark's position is predicated on the inherent intellectual property qualities of software, including open source. While I understand — and even agree in some cases — that institutional use and creation of intellectual property is in many ways not the benevolent, world-improving behavior it's chalked up to be, the section above remains without merit.
 
-<div class="center width70"><amp-img src="/images/posts/2018-08-27_2.png" width="128" height="128" alt="Icon representing code"></amp-img></div>
-<figcaption class="center">Icon representing code</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2018-08-27_2.png" width="128" height="128" alt="Icon representing code" />
+    <figcaption class="center">Icon representing code</figcaption>
+  </figure>
+</div>
 
 Let us disentangle the question of intellectual property ownership or transfer. Just as the sculptor absolutely retains their ownership and copyright to their created work of art, so does an individual or non-person entity retain ownership of their software. That, however, does not preclude the possibility that the software can be "open sourced" and further value extended beyond its mere existence.
 

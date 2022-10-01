@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Unboxing the KBDfans Epoch TKL (80%) keyboard kit
 image: /images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_front.jpg
 excerpt: A quick unboxing of the KBDfans Epoch TKL (80%) with macro shots
@@ -28,76 +28,92 @@ Includes:
 Here is a brief layer-by-layer breakdown of what is included in the Epoch keyboard kit box.
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_box.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_box.jpg" width="2880" height="1920" alt="Unopened Epoch box" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_box.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_box.jpg" width="2880" height="1920" alt="Unopened Epoch box" class="responsive" />
   </a>
+  <figcaption class="center">Unopened Epoch box</figcaption>
+</figure>
 </div>
-<figcaption class="center">Unopened Epoch box</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing1.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing1.jpg" width="2880" height="1920" alt="Accessories at the top of the box" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing1.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing1.jpg" width="2880" height="1920" alt="Accessories at the top of the box" class="responsive" />
   </a>
+  <figcaption class="center">Accessories at the top of the box</figcaption>
+</figure>
 </div>
-<figcaption class="center">Accessories at the top of the box</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing2.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing2.jpg" width="2880" height="1920" alt="Epoch PCB in the box" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing2.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing2.jpg" width="2880" height="1920" alt="Epoch PCB in the box" class="responsive" />
   </a>
+  <figcaption class="center">Epoch PCB in the box</figcaption>
+</figure>
 </div>
-<figcaption class="center">Epoch PCB in the box</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing3.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing3.jpg" width="2880" height="1920" alt="Epoch case in the box" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing3.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing3.jpg" width="2880" height="1920" alt="Epoch case in the box" class="responsive" />
   </a>
+  <figcaption class="center">Epoch case in the box</figcaption>
+</figure>
 </div>
-<figcaption class="center">Epoch case in the box</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing4.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing4.jpg" width="2880" height="1920" alt="Epoch plate in the box" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing4.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_unboxing4.jpg" width="2880" height="1920" alt="Epoch plate in the box" class="responsive" />
   </a>
+  <figcaption class="center">Epoch plate in the box</figcaption>
+</figure>
 </div>
-<figcaption class="center">Epoch plate in the box</figcaption>
 
 ## Epoch case (e-white)
 
 The Epoch keyboard kit was offered in black, grey, and e-white. The case is aluminum, with the black and grey options likely being anodized and the e-white, as the name implies, being electrophoresis.
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_front.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_front.jpg" width="2880" height="1920" alt="Front of the Epoch case (e-white)" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_front.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_front.jpg" width="2880" height="1920" alt="Front of the Epoch case (e-white)" class="responsive" />
   </a>
+  <figcaption class="center">Front of the Epoch case (e-white)</figcaption>
+</figure>
 </div>
-<figcaption class="center">Front of the Epoch case (e-white)</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_back.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_back.jpg" width="2880" height="1920" alt="Back of the Epoch case (e-white)" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_back.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_back.jpg" width="2880" height="1920" alt="Back of the Epoch case (e-white)" class="responsive" />
   </a>
+  <figcaption class="center">Back of the Epoch case (e-white)</figcaption>
+</figure>
 </div>
-<figcaption class="center">Back of the Epoch case (e-white)</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_interior.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_interior.jpg" width="2880" height="1920" alt="Interior of the Epoch case (e-white)" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_interior.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_interior.jpg" width="2880" height="1920" alt="Interior of the Epoch case (e-white)" class="responsive" />
   </a>
+  <figcaption class="center">Interior of the Epoch case (e-white)</figcaption>
+</figure>
 </div>
-<figcaption class="center">Interior of the Epoch case (e-white)</figcaption>
 
 
 ## PCB and daugherboard
@@ -105,35 +121,43 @@ The Epoch keyboard kit was offered in black, grey, and e-white. The case is alum
 The initial 2021-02-22 spot sale and group buy for the Epoch only offered a solder PCB. Extras had to be requested via customer support.
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBfront.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBfront.jpg" width="2880" height="1920" alt="Front of the Epoch solder PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBfront.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBfront.jpg" width="2880" height="1920" alt="Front of the Epoch solder PCB" class="responsive" />
   </a>
+  <figcaption class="center">Front of the Epoch solder PCB</figcaption>
+</figure>
 </div>
-<figcaption class="center">Front of the Epoch solder PCB</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBback.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBback.jpg" width="2880" height="1920" alt="Back of the Epoch solder PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBback.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_PCBback.jpg" width="2880" height="1920" alt="Back of the Epoch solder PCB" class="responsive" />
   </a>
+  <figcaption class="center">Back of the Epoch solder PCB</figcaption>
+</figure>
 </div>
-<figcaption class="center">Back of the Epoch solder PCB</figcaption>
 
 <br />
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_atmega.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_atmega.jpg" width="2880" height="1920" alt="Close of up of the ATmega chip on the Epoch solder PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_atmega.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_atmega.jpg" width="2880" height="1920" alt="Close of up of the ATmega chip on the Epoch solder PCB" class="responsive" />
   </a>
+  <figcaption class="center">Close of up of the ATmega chip on the Epoch solder PCB</figcaption>
+</figure>
 </div>
-<figcaption class="center">Close of up of the ATmega chip on the Epoch solder PCB</figcaption>
 
 The kit includes a small daughterboard PCB with USB-C.
 
 <div class="center width70">
-  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_daughterboard.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_daughterboard.jpg" width="2880" height="1920" alt="Epoch daugherboard PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_daughterboard.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-03-05_-_epoch/2021-03-05_-_epoch_daughterboard.jpg" width="2880" height="1920" alt="Epoch daugherboard PCB" class="responsive" />
   </a>
+  <figcaption class="center">Epoch daugherboard PCB</figcaption>
+</figure>
 </div>
-<figcaption class="center">Epoch daugherboard PCB</figcaption>
