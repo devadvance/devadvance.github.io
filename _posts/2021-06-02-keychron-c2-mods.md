@@ -128,6 +128,6 @@ Below is a sound test video comparing the unmodified Keychron C2 with the modded
   <div class="videowrapper">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UE7CFYzMLKY" title="Sound test video on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <figcaption class="center">Sound test video on YouTub</figcaption>
+  <figcaption class="center">Sound test video on YouTube</figcaption>
 </figure>
 </div>
