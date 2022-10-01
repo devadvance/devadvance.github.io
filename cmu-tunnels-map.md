@@ -1,16 +1,16 @@
 ---
-layout: 2018design-project
+layout: project
 title: CMU Steam Tunnels
 excerpt: Project to explore a 1988 CMU Steam Tunnels Map
 permalink: /cmu-tunnels-map/
 ---
-<div class="center"><amp-img src="/images/tunnel_icon.png" width="128" height="128" alt="RootCloak Icon"></amp-img></div>
+<div class="center"><img src="/images/tunnel_icon.png" width="128" height="128" alt="RootCloak Icon" /></div>
 
 # CMU Steam Tunnels Map
 {: .center}
 
 <figure>
-  <amp-img src="/images/cmutunnelmap.png" width="972" height="376" layout="responsive" class="" alt="CMU Steam Tunnels Map Image"></amp-img>
+  <img src="/images/cmutunnelmap.png" width="972" height="376" class="responsive" alt="CMU Steam Tunnels Map Image" />
   <figcaption>
     Combined and edited image version &copy; 2013 Matt Joseph 
       <span class="image-credit">

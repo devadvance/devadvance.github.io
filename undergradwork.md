@@ -5,7 +5,7 @@ excerpt: Software projects coded for University of Pittsburgh Computer Science c
 permalink: /undergradwork/
 published: true
 ---
-<div class="center"><amp-img src="/images/PittIcon.png" width="213" height="106" alt="University of Pittsburgh Icon"></amp-img></div>
+<div class="center"><img src="/images/PittIcon.png" width="213" height="106" alt="University of Pittsburgh Icon" /></div>
 
 # Undergraduate Work
 {: .center}

@@ -1,11 +1,11 @@
 ---
-layout: 2018design-project
+layout: project
 title: Video2WebP
 excerpt: A web app to convert videos to animated WebP in the browser.
 permalink: /video2webp/
 ---
 
-<div class="center"><a href="https://video2webp.mattj.io" target="_blank"><amp-img src="/images/video2webp.png" width="1580" height="813" alt="Screenshot of the Video2WebP project" layout="responsive"></amp-img></a></div>
+<div class="center"><a href="https://video2webp.mattj.io" target="_blank" class="text-decoration-none"><img src="/images/video2webp.png" width="1580" height="813" alt="Screenshot of the Video2WebP project" class="responsive" /></a></div>
 
 # Video2WebP
 {: .center}

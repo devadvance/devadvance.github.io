@@ -1,11 +1,11 @@
 ---
-layout: 2018design-project
+layout: project
 title: Terminal Cheat Sheet
 excerpt: A project to help folks get up and running on terminal.
 permalink: /tcs/
 ---
 
-<div class="center"><amp-img src="/images/tcs-multidevice.png" width="1411" height="679" alt="Screenshot of Terminal Cheat Sheet project on multiple devices" layout="responsive"></amp-img></div>
+<div class="center"><img src="/images/tcs-multidevice.png" width="1411" height="679" alt="Screenshot of Terminal Cheat Sheet project on multiple devices" class="responsive" /></div>
 
 # Terminal Cheat Sheet
 {: .center}

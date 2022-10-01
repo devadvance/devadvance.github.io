@@ -1,10 +1,10 @@
 ---
-layout: 2018design-project
+layout: project
 title: SMS Backup Reader (PC/Mac/*nix/Web)
 excerpt: SMS Backup Reader reads SMS backup files from Android devices
 permalink: /sms-backup-reader/
 ---
-<div class="center"><amp-img src="/images/smsBackupReader_v0.7.png" width="128" height="128" alt="SMS Backup Reader Icon"></amp-img></div>
+<div class="center"><img src="/images/smsBackupReader_v0.7.png" width="128" height="128" alt="SMS Backup Reader Icon" /></div>
 
 # SMS Backup Reader (PC/Mac/*nix/Web)
 {: .center}
