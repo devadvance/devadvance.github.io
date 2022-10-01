@@ -136,11 +136,12 @@ Onto the keyboard!
 
 ## Included in the box
 
-<div class="center width70">
-  <amp-video autoplay loop noaudio
+<div class="center width30">
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
     width="1280"
     height="720"
-    layout="responsive"
+    class="responsive"
     title="Opening the Disarray product box (looped)">
     <source src="/images/posts/2021-06-20/DisarrayOpeningBox.webm"
       type="video/webm" />
@@ -149,8 +150,9 @@ Onto the keyboard!
     <div fallback>
       <p>This browser does not support the video element.</p>
     </div>
-  </amp-video>
+  </video>
   <figcaption class="center">Opening the Disarray product box (looped)</figcaption>
+</figure>
 </div>
 
 Immediately, you'll see a few things: the aluminum case and some of the accessories. 

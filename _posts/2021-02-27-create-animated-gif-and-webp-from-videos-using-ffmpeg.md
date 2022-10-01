@@ -68,9 +68,13 @@ FFmpeg version 4.3.1 Copyright © 2000–2020 the FFmpeg developers
 ```
 
 <div class="center width70">
-  <amp-anim src="/images/posts/2021-02-27_-_ffmpeg_version.gif" width="480" height="279" alt="Checking the FFmpeg version on Linux" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-02-27_-_ffmpeg_version.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-02-27_-_ffmpeg_version.gif" width="480" height="279" alt="Checking the FFmpeg version on Linux" class="responsive" />
+  </a>
+  <figcaption class="center">Checking the FFmpeg version on Linux</figcaption>
+</figure>
 </div>
-<figcaption class="center">Checking the FFmpeg version on Linux</figcaption>
 
 Version 4 or higher of FFmpeg is recommended for this guide.
 

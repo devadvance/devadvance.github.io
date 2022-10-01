@@ -52,13 +52,12 @@ Google provides simple PHP GTFS-rt bindings, which makes it straightforward to p
 Next, Abhijit talked about the REST API he created for his app to use. He then demoed the app for all of us to see! It shows the time for the next train, and several others beyond that.
 
 <div class="center width70">
-  <amp-youtube
-    data-videoid="7ugSNfB-xJ0"
-    layout="responsive"
-    width="480"
-    height="270"
-  ></amp-youtube>
+<figure class="fill-parent">
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7ugSNfB-xJ0" title="Abhijit demoing his smartwatch app" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <figcaption class="center">Abhijit demoing his smartwatch app</figcaption>
+</figure>
 </div>
 
 An audience member asked about the smartwatch connectivity. Abhijit explained that this smartwatch uses Bluetooth to connect to the phone.
@@ -83,13 +82,12 @@ From Google Maps biking directions API, you get a list of all inflection poin
 To fix that, Mallory ended up calculating a per segment speed based on the length of the whole trip.
 
 <div class="center width70">
-  <amp-youtube
-    data-videoid="pp2cy0DaEsA"
-    layout="responsive"
-    width="480"
-    height="270"
-  ></amp-youtube>
+<figure class="fill-parent">
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pp2cy0DaEsA" title="Mallory speaking about her visualization work" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <figcaption class="center">Mallory speaking about her visualization work</figcaption>
+</figure>
 </div>
 
 She talked through some of the things she found, such as:
@@ -107,13 +105,12 @@ Next up was [Scott Morris](https://www.linkedin.com/in/smorris-digitalleader/){:
 They've been spending a lot of time getting feedback from users, and the idea of launching the beta was to open up feedback collection to everyone.
 
 <div class="center width70">
-  <amp-youtube
-    data-videoid="W8dS1de7xEM"
-    layout="responsive"
-    width="480"
-    height="270"
-  ></amp-youtube>
+<figure class="fill-parent">
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W8dS1de7xEM" title="Scott speaking about the MYmta app" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   <figcaption class="center">Scott speaking about the MYmta app</figcaption>
+</figure>
 </div>
 
 The day after the meetup, they're launching app updates to support Paratransit users. Paratransit provides curb-to-curb service for users with disabilities.
