@@ -1,0 +1,22 @@
+<!--- Copyright 2022 Matt Joseph -->
+
+<!doctype html>
+<html amp="" lang="en">
+<head>
+  {% include head-meta.html %}
+  {% include head-scripts.html %}
+  {% include head-style.html %}
+  {% include json-ld-page.html %}
+</head>
+<body>
+  {% include body-analytics.html %}
+  {% include body-nav.html %}
+
+  {{ content }}
+
+  <footer>
+    {% include body-shareicons.html %}
+    {% include footer-text.html %}
+  </footer>
+</body>
+</html>
