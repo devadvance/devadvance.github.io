@@ -1,9 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond%7CWork+Sans:400,700" rel="stylesheet">
-
-<style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-<style amp-custom="">
+<style>
 /*!
 Pure v1.0.0
 Copyright 2013 Yahoo!
@@ -33,9 +28,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   background-color: black;
 }
 
-.hero-image img {
+.hero-container figure {
+  height: 100%;
+}
+
+.hero-image {
+  min-height: 100%;
   object-fit: cover;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-caption {
@@ -213,15 +215,6 @@ a.pure-button {
   margin-top: 0.625rem;
 }
 
-@font-face {
-  font-display: swap;
-}
-
-/* Quick fix for an AMP CSS change */
-amp-sidebar header {
-  border: 0;
-}
-
 /* For code sections */
 pre.highlight {
   background-color: #e8e8e8;
@@ -363,6 +356,39 @@ details.navbar-details > summary {
   .navbar-title {
     margin: 0 0 0 2rem;
   }
+}
+
+figure.fill-parent {
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+a.image-link {
+  display: flex;
+}
+
+img.responsive, video.responsive {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 </style>

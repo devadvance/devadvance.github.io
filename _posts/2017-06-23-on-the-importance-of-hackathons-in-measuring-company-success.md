@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: On the importance of hackathons in measuring company success
 ---
 

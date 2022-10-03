@@ -1,10 +1,10 @@
 ---
-layout: 2018design-project
+layout: project
 title: RootCloak (Xposed)
 excerpt: Android Xposed module to hide root from other apps
 permalink: /rootcloak/
 ---
-<div class="center"><amp-img src="/images/RootCloakIcon.png" width="128" height="128" alt="RootCloak Icon"></amp-img></div>
+<div class="center"><img src="/images/RootCloakIcon.png" width="128" height="128" alt="RootCloak Icon" /></div>
 
 # RootCloak (Xposed)
 {: .center}

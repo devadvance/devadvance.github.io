@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: Building Smart City Kiosks with Web App Practices
+image: /images/posts/2019-02-12_2.png
 ---
 
 # Building Smart City Kiosks with Web App Practices
 
-## Making cities smarter requires smart engineering habits 🏗️
+**Making cities smarter requires smart engineering habits 🏗️**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -13,8 +14,14 @@ title: Building Smart City Kiosks with Web App Practices
 
 Building human-centered digital experiences is always a challenge. That challenge increases dramatically when trying to bridge the divide between the built environment, physical product, and digital experience. That's one of the tasks our engineering team is aiming to achieve at [Intersection](https://www.intersection.com){:target="_blank"}{:rel="noopener"}.
 
-<div class="center width70"><amp-img src="/images/posts/2019-02-12_1.jpg" width="2600" height="1733" alt="A Chicago CTA Interactive Kiosk" layout="responsive"></amp-img></div>
-<figcaption class="center">A Chicago CTA Interactive Kiosk</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-02-12_1.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-02-12_1.jpg" width="2600" height="1733" alt="A Chicago CTA Interactive Kiosk" class="responsive" />
+  </a>
+  <figcaption class="center">A Chicago CTA Interactive Kiosk</figcaption>
+</figure>
+</div>
 
 After recently launching our interactive kiosks, otherwise known as IxNTouch kiosks, with the Chicago Transit Authority, it seems like the perfect time to discuss the tech stack we used to get there. After all, these rider-centric devices are the product of years of iteration, in terms of not only user experience and design, but also engineering lessons learned.
 
@@ -28,8 +35,14 @@ For both the interactive kiosks and local development, we rely on[ Chromium](htt
 
 This is a huge engineering win, because instead of writing architecture-specific software, we can build rapidly using the latest web standards. I will touch on our web app approach in the next section, but Chromium itself is a separate win for us.
 
-<div class="center width70"><amp-img src="/images/posts/2019-02-12_2.png" width="1280" height="821" alt="The IxNTouch web app with Chrome Dev Tools open" layout="responsive"></amp-img></div>
-<figcaption class="center">The IxNTouch web app with Chrome Dev Tools open</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-02-12_2.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-02-12_2.png" width="1280" height="821" alt="The IxNTouch web app with Chrome Dev Tools open" class="responsive" />
+  </a>
+  <figcaption class="center">The IxNTouch web app with Chrome Dev Tools open</figcaption>
+</figure>
+</div>
 
 Since Chromium is our foundation, we can safely depend on Chromium Developer Tools built into the browser, as well as add-ons specific to our framework and dependency selections. When something isn't working as expected, we can debug locally or on kiosks using remote debugger, via developer tools, and drill down as needed. Exploring the DOM, stepping into functions, testing offline state, and watching data usage are made significantly easier by choosing Chromium.
 
@@ -51,8 +64,14 @@ Unlike alternative paths, this has a number of critical benefits, including:
 
 * We use awesome tools like React Storybook to drill into our components and develop them with clean reuse in mind
 
-<div class="center width70"><amp-img src="/images/posts/2019-02-12_3.jpg" width="960" height="1280" alt="Jack, one of our engineers, debugging on a test kiosk (without applying rotation! 😆)" layout="responsive"></amp-img></div>
-<figcaption class="center">Jack, one of our engineers, debugging on a test kiosk (without applying rotation! 😆)</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-02-12_3.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-02-12_3.jpg" width="960" height="1280" alt="Jack, one of our engineers, debugging on a test kiosk (without applying rotation! 😆)" class="responsive" />
+  </a>
+  <figcaption class="center">Jack, one of our engineers, debugging on a test kiosk (without applying rotation! 😆)</figcaption>
+</figure>
+</div>
 
 Additionally, since we're using Chromium, we get to take advantage of tools like[ React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en){:target="_blank"}{:rel="noopener"} and[ Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en){:target="_blank"}{:rel="noopener"} as we're building, to create quick feedback loops. Debugging and digging into the running app is essential for our development process.
 
@@ -62,8 +81,14 @@ Similar to the mobile world, our kiosks need to work 24/7. In some cases, kiosks
 
 To account for this, our web app has to work in a variety of offline states. Again, by virtue of being a regular web app in a Chromium-based environment, we take advantage of a[ Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){:target="_blank"}{:rel="noopener"} to handle transparently caching data and detecting offline state.
 
-<div class="center width70"><amp-img src="/images/posts/2019-02-12_4.gif" width="540" height="960" alt="Animated GIF showing the offline/online state switch" layout="responsive"></amp-img></div>
-<figcaption class="center">Animated GIF showing the offline/online state switch</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-02-12_4.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-02-12_4.gif" width="540" height="960" alt="Animated GIF showing the offline/online state switch" class="responsive" />
+  </a>
+  <figcaption class="center">Animated GIF showing the offline/online state switch</figcaption>
+</figure>
+</div>
 
 In particular, while we use both pre-caching and runtime caching, we also detect when requests are failing and use that to determine if we've entered an offline state. At that point, we can determine how to handle the offline state on a per-component or per-data basis. For instance, in the image above, you can see arrivals disappear after around three minutes of being offline, as this data is rapidly considered stale. On the other hand, we can continue to show alerts or video content for longer, as those are not immediately considered stale.
 

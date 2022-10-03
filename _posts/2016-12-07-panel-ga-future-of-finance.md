@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Panel - "The Future of Finance" hosted by General Assembly (GA) NYC
 excerpt: Panel - "The Future of Finance" hosted by General Assembly (GA) NYC
 ---

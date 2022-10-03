@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Sneakbox Disarray 70% with WoB keycaps
 image: /images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg
 excerpt: Build of the Sneakbox Disarray 70% with WoB keycaps
@@ -34,10 +34,11 @@ More info here:
 The process of soldering the Mill-Max sockets doesn't take much longer than soldering switches. However, you need to be careful not to get any solder into the socket, otherwise the switch will be stuck! A solder sucker is very useful for when that happens.
 
 <div class="center width30">
-  <amp-video autoplay loop noaudio
+<figure class="fill-parent">
+  <video playsinline autoplay loop muted
     width="540"
     height="960"
-    layout="responsive"
+    class="responsive"
     title="Soldering Mill-Max 7305 sockets on the PCB (looped)">
     <source src="/images/posts/2021-07-24-disarray/disarraysoldering.webm"
       type="video/webm" />
@@ -46,66 +47,81 @@ The process of soldering the Mill-Max sockets doesn't take much longer than sold
     <div fallback>
       <p>This browser does not support the video element.</p>
     </div>
-  </amp-video>
+  </video>
   <figcaption class="center">Soldering Mill-Max 7305 sockets on the PCB (looped)</figcaption>
+</figure>
 </div>
 
 ## Final build
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" width="3000" height="2000" alt="Final build on a desk mat" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" width="3000" height="2000" alt="Final build on a desk mat" class="responsive" />
   </a>
   <figcaption class="center">Final build on a desk mat</figcaption>
+</figure>
 </div>
 
 Some of the best aspects of this case are the rotary encoder and the visible internal components. It's more expensive, both in terms of design and cost, to have the components visible like this, but the result is quite beautiful.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" width="3000" height="2000" alt="Rotary encoder up closer" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" width="3000" height="2000" alt="Rotary encoder up closer" class="responsive" />
     </a>
     <figcaption class="center">Rotary encoder up closer</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" width="3000" height="2000" alt="USB-C port" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" width="3000" height="2000" alt="USB-C port" class="responsive" />
     </a>
     <figcaption class="center">USB-C port</figcaption>
+</figure>
   </div>
 </div>
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" width="3000" height="2000" alt="ATmega 32U4 visible" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" width="3000" height="2000" alt="ATmega 32U4 visible" class="responsive" />
     </a>
     <figcaption class="center">ATmega 32U4 visible</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" width="3000" height="2000" alt="Another angle on the rotary encoder" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" width="3000" height="2000" alt="Another angle on the rotary encoder" class="responsive" />
     </a>
     <figcaption class="center">Another angle on the rotary encoder</figcaption>
+</figure>
   </div>
 </div>
 
 Here are a couple more images of the final build in different light:
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" width="3000" height="2000" alt="Final build with a plain white background" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" width="3000" height="2000" alt="Final build with a plain white background" class="responsive" />
   </a>
   <figcaption class="center">Final build with a plain white background</figcaption>
+</figure>
 </div>
 
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" width="3000" height="2000" alt="Final build with natural sunlight" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" width="3000" height="2000" alt="Final build with natural sunlight" class="responsive" />
   </a>
   <figcaption class="center">Final build with natural sunlight</figcaption>
+</figure>
 </div>
 
 

@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Sneakbox MGA Standard with SA Mizu (unboxing and final build)
 image: /images/posts/2021-07-24-mga/SneakboxMGA-14.jpg
 excerpt: Sneakbox MGA Standard (Alice-style) with SA Mizu (unboxing and final build)
@@ -27,39 +27,49 @@ With Sneakbox offering a 2021 summer sale, I decided to order a B-stock black MG
 The case is an Alice-style case. It's sturdy, machined well, and doesn't have many flourishes. This case is technically B-stock, which is due to "anodizing mismatch". I don't notice unless it's the right light and I'm looking for it.
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-01.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-01.jpg" width="3000" height="2000" alt="Top of the case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-mga/SneakboxMGA-01.jpg" width="3000" height="2000" alt="Top of the case" class="responsive" />
   </a>
   <figcaption class="center">Top of the case</figcaption>
+</figure>
 </div>
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-02.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-02.jpg" width="3000" height="2000" alt="Back of the case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-mga/SneakboxMGA-02.jpg" width="3000" height="2000" alt="Back of the case" class="responsive" />
   </a>
   <figcaption class="center">Back of the case</figcaption>
+</figure>
 </div>
 
 The machining on the case is solid. I didn't spot any obvious defects.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-07.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-07.jpg" width="3000" height="2000" alt="Logo on the back of the case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-07.jpg" width="3000" height="2000" alt="Logo on the back of the case" class="responsive" />
     </a>
     <figcaption class="center">Logo on the back of the case</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-08.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-08.jpg" width="3000" height="2000" alt="The split in the middle of the case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-08.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-08.jpg" width="3000" height="2000" alt="The split in the middle of the case" class="responsive" />
     </a>
     <figcaption class="center">The split in the middle of the case</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-19.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-19.jpg" width="3000" height="2000" alt="Close macro of the LED holes" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-19.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-19.jpg" width="3000" height="2000" alt="Close macro of the LED holes" class="responsive" />
     </a>
     <figcaption class="center">Close macro of the LED holes</figcaption>
+</figure>
   </div>
 </div>
 
@@ -70,17 +80,21 @@ This is an Alice-layout PCB. It uses Kailh hotswap sockets and support stepped c
 
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-04.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-04.jpg" width="3000" height="2000" alt="Top of the PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-mga/SneakboxMGA-04.jpg" width="3000" height="2000" alt="Top of the PCB" class="responsive" />
   </a>
   <figcaption class="center">Top of the PCB</figcaption>
+</figure>
 </div>
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-03.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-03.jpg" width="3000" height="2000" alt="Back of the PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-mga/SneakboxMGA-03.jpg" width="3000" height="2000" alt="Back of the PCB" class="responsive" />
   </a>
   <figcaption class="center">Back of the PCB</figcaption>
+</figure>
 </div>
 
 
@@ -88,31 +102,39 @@ It uses an ATmega 32U4, which can be seen in one of the photos below. Note the S
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-09.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-09.jpg" width="3000" height="2000" alt="ATmega 32U4 on the PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-09.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-09.jpg" width="3000" height="2000" alt="ATmega 32U4 on the PCB" class="responsive" />
     </a>
     <figcaption class="center">ATmega 32U4 on the PCB</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-10.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-10.jpg" width="3000" height="2000" alt="Sneakbox logo on the PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-10.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-10.jpg" width="3000" height="2000" alt="Sneakbox logo on the PCB" class="responsive" />
     </a>
     <figcaption class="center">Sneakbox logo on the PCB</figcaption>
+</figure>
   </div>
 </div>
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-11.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-11.jpg" width="3000" height="2000" alt="PCB revision information" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-11.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-11.jpg" width="3000" height="2000" alt="PCB revision information" class="responsive" />
     </a>
     <figcaption class="center">PCB revision information</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-12.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-12.jpg" width="3000" height="2000" alt="Top of the PCB up close" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-12.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-12.jpg" width="3000" height="2000" alt="Top of the PCB up close" class="responsive" />
     </a>
     <figcaption class="center">Top of the PCB up close</figcaption>
+</figure>
   </div>
 </div>
 
@@ -122,16 +144,20 @@ The brass plate is sturdy, clean, and fits the various stabilizers I have. It's 
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-05.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-05.jpg" width="3000" height="2000" alt="Top of the brass plate" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-05.jpg" width="3000" height="2000" alt="Top of the brass plate" class="responsive" />
     </a>
     <figcaption class="center">Top of the brass plate</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-06.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-06.jpg" width="3000" height="2000" alt="Back of the brass plate" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-06.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-06.jpg" width="3000" height="2000" alt="Back of the brass plate" class="responsive" />
     </a>
     <figcaption class="center">Back of the brass plate</figcaption>
+</figure>
   </div>
 </div>
 
@@ -153,50 +179,62 @@ The SA Mizu keycaps were recently delivered and the uniform profile made it so I
 Here is the final build against a black background:
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-14.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-14.jpg" width="3000" height="2000" alt="MGA Standard with SA Mizu" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-14.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-mga/SneakboxMGA-14.jpg" width="3000" height="2000" alt="MGA Standard with SA Mizu" class="responsive" />
   </a>
   <figcaption class="center">MGA Standard with SA Mizu</figcaption>
+</figure>
 </div>
 
 Another shot of the final build against a colorful desk mat:
 
 <div class="center width70">
-  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-13.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-13.jpg" width="3000" height="2000" alt="MGA Standard with SA Mizu on a desk mat" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-07-24-mga/SneakboxMGA-13.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-07-24-mga/SneakboxMGA-13.jpg" width="3000" height="2000" alt="MGA Standard with SA Mizu on a desk mat" class="responsive" />
   </a>
   <figcaption class="center">MGA Standard with SA Mizu on a desk mat</figcaption>
+</figure>
 </div>
 
 The SA Mizu caps really work well on this case. Here are a few more photos of this build.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-15.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-15.jpg" width="3000" height="2000" alt="Another angle of the final build" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-15.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-15.jpg" width="3000" height="2000" alt="Another angle of the final build" class="responsive" />
     </a>
     <figcaption class="center">Another angle of the final build</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-16.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-16.jpg" width="3000" height="2000" alt="Closer view of the SA Mizu keycaps" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-16.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-16.jpg" width="3000" height="2000" alt="Closer view of the SA Mizu keycaps" class="responsive" />
     </a>
     <figcaption class="center">Closer view of the SA Mizu keycaps</figcaption>
+</figure>
   </div>
 </div>
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-17.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-17.jpg" width="3000" height="2000" alt="Close up of the modifiers and the case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-17.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-17.jpg" width="3000" height="2000" alt="Close up of the modifiers and the case" class="responsive" />
     </a>
     <figcaption class="center">Close up of the modifiers and the case</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-18.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-07-24-mga/SneakboxMGA-18.jpg" width="3000" height="2000" alt="Even closer view of the keycaps" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-07-24-mga/SneakboxMGA-18.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-07-24-mga/SneakboxMGA-18.jpg" width="3000" height="2000" alt="Even closer view of the keycaps" class="responsive" />
     </a>
     <figcaption class="center">Even closer view of the keycaps</figcaption>
+</figure>
   </div>
 </div>
 

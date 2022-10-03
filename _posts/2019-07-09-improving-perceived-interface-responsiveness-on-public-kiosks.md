@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Improving perceived interface responsiveness on public kiosks
 image: /images/posts/2019-07-09/2019-07-09-ticker.gif
 excerpt: One of the most compelling aspects of a kiosk experience is a sense of immediacy
@@ -12,7 +12,6 @@ excerpt: One of the most compelling aspects of a kiosk experience is a sense of 
 [Click here to go to all posts](/posts/). *Also published on [the Intersection blog](https://ixn.intersection.com/improving-perceived-interface-responsiveness-on-public-kiosks-955c71a48cfd){:target="_blank"}{:rel="noopener"}*
 
 *Bringing digital experiences to physical spaces requires a sense of immediacy*
-
 
 ## Sense of immediacy
 
@@ -39,9 +38,13 @@ It often takes several seconds for high-quality, computationally-complex assets 
 We have a few approaches for these resource-intensive assets. First, we try to render them ahead of time. While this does not eliminate all performance issues, it can dramatically reduce them. For example, rather than load data into a WebGL rendering every time the rendering is requested, it is less computationally intensive to simply load the data once and change where on the screen the rendering is displayed.
 
 <div class="center width70">
-  <amp-anim src="/images/posts/2019-07-09/2019-07-09-map.gif" width="538" height="960" alt="The transition of the 3D map between hidden and on-screen (displayed on an interactive kiosk at Hudson Yards, New York)" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-09/2019-07-09-map.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-09/2019-07-09-map.gif" width="538" height="960" alt="The transition of the 3D map between hidden and on-screen (displayed on an interactive kiosk at Hudson Yards, New York)" class="responsive" />
+  </a>
+  <figcaption class="center">The transition of the 3D map between hidden and on-screen (displayed on an interactive kiosk at Hudson Yards, New York)</figcaption>
+</figure>
 </div>
-<figcaption class="center">The transition of the 3D map between hidden and on-screen (displayed on an interactive kiosk at Hudson Yards, New York)</figcaption>
 
 One variation of this technique is off-screen (or hidden) rendering. This is fairly common across all web development, but it becomes especially useful when applied to these assets which require more intensive processing. Browsers are complex applications. By changing the workload from rendering an asset to simply moving an already-rendered asset's output location, we significantly reduce the number of processing paths needed to display that asset onscreen.
 
@@ -62,9 +65,13 @@ As you'll read about in the next section, we use pre-caching and caching with ou
 We rely heavily on advanced caching through the use of service workers for our kiosk web app. When initially developing the app, we started with the more common patterns, including pre-caching of static assets and caching most of our API calls.
 
 <div class="center width70">
-  <amp-img src="/images/posts/2019-07-09/2019-07-09-caching.png" width="1448" height="1214" alt="Looking at the IxNTouch cache in Chrome Dev Tools" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-09/2019-07-09-caching.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-09/2019-07-09-caching.png" width="1448" height="1214" alt="Looking at the IxNTouch cache in Chrome Dev Tools" class="responsive" />
+  </a>
+  <figcaption class="center">Looking at the IxNTouch cache in Chrome Dev Tools</figcaption>
+</figure>
 </div>
-<figcaption class="center">Looking at the IxNTouch cache in Chrome Dev Tools</figcaption>
 
 However, we've added additional logic since then which is a bit more use-case specific. For example, we need to make sure to only show information that has refreshed recently and is not "expired." In order to achieve the concept of information expiry, we keep track of cache age and provide an interface for the web app to know that age. Thus, we can determine whether or not data is "too old" on a feature-by-feature basis.
 
@@ -81,9 +88,13 @@ One of the more complex examples of using these techniques to provide that desir
 These maps are highly-designed, 3D, interactive interfaces. In order to achieve the desired experience, it takes a perceptible amount of time to load and render these maps on a screen, including on a kiosk. If you haven't used the map, you can [visit the directory map on the Hudson Yards New York website](https://www.hudsonyardsnewyork.com/directory-map#/){:target="_blank"}{:rel="noopener"} to see the same map.
 
 <div class="center width70">
-  <amp-anim src="/images/posts/2019-07-09/2019-07-09-directoryswitch.gif" width="1280" height="719" alt="Switching to the Hudson Yards map view happens as fast as possible" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-09/2019-07-09-directoryswitch.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-09/2019-07-09-directoryswitch.gif" width="1280" height="719" alt="Switching to the Hudson Yards map view happens as fast as possible" class="responsive" />
+  </a>
+  <figcaption class="center">Switching to the Hudson Yards map view happens as fast as possible</figcaption>
+</figure>
 </div>
-<figcaption class="center">Switching to the Hudson Yards map view happens as fast as possible</figcaption>
 
 Unlike on a desktop or mobile website, where a user may be more willing to wait for a map to load, the benchmark we are unconsciously compared against is analog signage. Shoppers are likely accustomed to a large printed map of the mall, which effectively has a loading time of zero.
 
@@ -94,9 +105,13 @@ As a result, we need to pre-render this 3D map offscreen when the kiosk starts u
 For our transit markets, we have an "arrivals ticker" that we display at the top of our transit kiosks during idle times when there are no commuters interacting with the device. As with transit countdown clocks in general, there is a huge amount of effort in displaying this real-time information, some of which is covered in my post, [*The hidden complexity of the humble transit countdown clock*](/posts/2019-06-07-the-hidden-complexity-of-the-humble-transit-countdown-clock/).
 
 <div class="center width70">
-  <amp-anim src="/images/posts/2019-07-09/2019-07-09-ticker.gif" width="960" height="248" alt="Our IxNTouch arrival ticker for LA Metro" layout="responsive"></amp-anim>
+<figure class="fill-parent">
+  <a href="/images/posts/2019-07-09/2019-07-09-ticker.gif" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-07-09/2019-07-09-ticker.gif" width="960" height="248" alt="Our IxNTouch arrival ticker for LA Metro" class="responsive" />
+  </a>
+  <figcaption class="center">Our IxNTouch arrival ticker for LA Metro</figcaption>
+</figure>
 </div>
-<figcaption class="center">Our IxNTouch arrival ticker for LA Metro</figcaption>
 
 When it comes to our kiosk app, we focused on a few small details to make sure that the ticker always had real-time, glanceable information:
 

@@ -1,6 +1,7 @@
 ---
-layout: 2018design-post
+layout: post
 title: Continuous learning with polyglot development
+image: /images/posts/2017-07-18_1.png
 ---
 
 # Continuous learning with polyglot development
@@ -9,8 +10,12 @@ title: Continuous learning with polyglot development
 
 [Click here to go to all posts](/posts/). *Also published on [Hacker Noon](https://hackernoon.com/continuous-learning-with-polyglot-development-9308df575a2e){:target="_blank"}{:rel="noopener"}*
 
-<div class="center width70"><amp-img src="/images/posts/2017-07-18_1.png" width="1600" height="414" alt="You have discovered an interesting development topic when your Google search returns fewer than a million results." layout="responsive"></amp-img></div>
-<figcaption class="center">You have discovered an interesting development topic when your Google search returns fewer than a million results.</figcaption>
+<div class="center width70">
+  <figure class="fill-parent">
+    <img src="/images/posts/2017-07-18_1.png" width="1600" height="414" alt="You have discovered an interesting development topic when your Google search returns fewer than a million results." class="responsive" />
+    <figcaption class="center">You have discovered an interesting development topic when your Google search returns fewer than a million results.</figcaption>
+  </figure>
+</div>
 
 Over the past two years, I've spent a good amount of time playing with different programming languages. I've learned the fundamentals of ES6 and written several APIs and CLIs using Node.js. I've automated tasks using my first Python scripts (phew!) and practiced the wonders of concurrency in Go.
 

@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: A CSS Pixel and a Kiosk Walk into a Bar
+image: /images/posts/2019-03-14_2.png
 ---
 
 # A CSS Pixel and a Kiosk Walk into a Bar
 
-## There are pixels and then there are CSS pixels
+**There are pixels and then there are CSS pixels**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -25,8 +26,14 @@ Today's example is the misunderstood CSS pixel.
 
 As someone who has been long-interested in digital photography and video, I'm quite comfortable talking in pixels. Whether it's the Sony Mavica with its glorious &lt;1 megapixel shots, the relative beauty of the first 1080p TV I owned, or the modern sorcery of the 2960x1440 screen on my phone, these devices all have physical pixels. For the sake of this post, let's just consider pixels to be the individual dots that make up a screen or image.
 
-<div class="center width70"><amp-img src="/images/posts/2019-03-14_1.jpg" width="1600" height="1200" alt="Kohzy, our product manager, inspecting pixels on a kiosk 🧐😉" layout="responsive"></amp-img></div>
-<figcaption class="center">Kohzy, our product manager, inspecting pixels on a kiosk 🧐😉</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-03-14_1.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-03-14_1.jpg" width="1600" height="1200" alt="Kohzy, our product manager, inspecting pixels on a kiosk 🧐😉" class="responsive" />
+  </a>
+  <figcaption class="center">Kohzy, our product manager, inspecting pixels on a kiosk 🧐😉</figcaption>
+</figure>
+</div>
 
 *Enter from stage left: the CSS pixel.*
 
@@ -46,8 +53,14 @@ On most devices, be they phones, laptops, tablets, or other odd configurations, 
 
 The exact mechanics vary, but the browser will try to determine the scaling set on the operating system and apply that for pages loaded. For example, [here's the source code in Chromium that determines the scaling on macOS](https://cs.chromium.org/chromium/src/ui/display/mac/screen_mac.mm?sq=package:chromium&dr=C&g=0){:target="_blank"}{:rel="noopener"}. The relevant snippet:
 
-<div class="center width70"><amp-img src="/images/posts/2019-03-14_2.png" width="1044" height="210" alt="Chromium source code to compute the device scale factor" layout="responsive"></amp-img></div>
-<figcaption class="center">Chromium source code to compute the device scale factor</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-03-14_2.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-03-14_2.png" width="1044" height="210" alt="Chromium source code to compute the device scale factor" class="responsive" />
+  </a>
+  <figcaption class="center">Chromium source code to compute the device scale factor</figcaption>
+</figure>
+</div>
 
 If you're curious about your own device, you can see your info on sites like [MyDevice](https://www.mydevice.io){:target="_blank"}{:rel="noopener"}. Scroll down on the site to see common physical and CSS sizes.
 

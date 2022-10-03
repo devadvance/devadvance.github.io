@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Modding the $35 Redragon K552 TKL (80%) keyboard
 image: /images/posts/2021-12-18-k552/RedragonK552-13.jpg
 excerpt: Modding the $35 Redragon K552 TKL (80%) keyboard
@@ -20,13 +20,14 @@ excerpt: Modding the $35 Redragon K552 TKL (80%) keyboard
 
 ## Introduction
 
-<amp-youtube
-  data-videoid="gCaAEuVqOsQ"
-  layout="responsive"
-  width="480"
-  height="270"
-></amp-youtube>
-<figcaption class="center">Before and after sound test</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gCaAEuVqOsQ" title="Sound test video on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <figcaption class="center">Before and after sound test</figcaption>
+</figure>
+</div>
 
 The Redragon K552 is an extremely popular, medium-low cost mechanical keyboard. It comes in a few variations with different mechanical switches and LED configurations.
 
@@ -112,36 +113,44 @@ I wanted a pretty clean look to the keyboard, so I decided to try my hand at usi
 Fortunately, a set of digital calipers came in handy here! I chose to do the time-tested method of sketching this out on paper as I was going, which I highly recommend.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/K552Sketch.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/K552Sketch.jpg" width="3000" height="2000" alt="Sketch of the part to print" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/K552Sketch.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/K552Sketch.jpg" width="3000" height="2000" alt="Sketch of the part to print" class="responsive" />
   </a>
   <figcaption class="center">Sketch of the part to print</figcaption>
+</figure>
 </div>
 
 From there, I modeled the part in Blender. This is my second time doing precision modeling in Blender, so it was a fun learning experience and a mostly straightforward part to begin with. A more advanced modeler could probably create a version that uses less material and prints faster while retaining sufficient structural integrity, but I'm content with where I landed.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/BlenderInterior.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/BlenderInterior.jpg" width="3000" height="2000" alt="Interior of the part in Blender" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/BlenderInterior.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/BlenderInterior.jpg" width="3000" height="2000" alt="Interior of the part in Blender" class="responsive" />
     </a>
     <figcaption class="center">Interior of the part in Blender</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/BlenderExterior.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/BlenderExterior.jpg" width="3000" height="2000" alt="Exterior of the part in Blender" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/BlenderExterior.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/BlenderExterior.jpg" width="3000" height="2000" alt="Exterior of the part in Blender" class="responsive" />
     </a>
     <figcaption class="center">Exterior of the part in Blender</figcaption>
+</figure>
   </div>
 </div>
 
 I printed a couple initial versions to gauge corner rounding, part height, and screw hole dimensions. By the third print, I felt it was sufficiently accurate to proceed. Here are the prints side-by-side, along with the original part.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" width="3000" height="2000" alt="Comparison of the parts" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" width="3000" height="2000" alt="Comparison of the parts" class="responsive" />
   </a>
   <figcaption class="center">Comparison of the parts</figcaption>
+</figure>
 </div>
 
 Check the [**Digital files**](#digital-files) section earlier to download the STL and Blender project for this part.
@@ -159,10 +168,12 @@ You can likely use most common materials, such as PLA, PETG, and ABS. I have onl
 Once you have 3D printed the part, you're ready to go. To perform this modification, you'll need to disassemble the keyboard and detach the cable from the PCB, like this:
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" width="3000" height="2000" alt="Detached cable from PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" width="3000" height="2000" alt="Detached cable from PCB" class="responsive" />
   </a>
   <figcaption class="center">Detached cable from PCB</figcaption>
+</figure>
 </div>
 
 Next, you'll need to cut the USB cable at a good spot. I chose to cut it near where the cable was previously held by the case.
@@ -171,22 +182,28 @@ Once you strip the individual wires, they can be soldered to the receptacle. Her
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" width="3000" height="2000" alt="Wires waiting to be soldered" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" width="3000" height="2000" alt="Wires waiting to be soldered" class="responsive" />
     </a>
     <figcaption class="center">Wires waiting to be soldered</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" width="3000" height="2000" alt="Soldered wires view from top" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" width="3000" height="2000" alt="Soldered wires view from top" class="responsive" />
     </a>
     <figcaption class="center">Soldered wires view from top</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" width="3000" height="2000" alt="Soldered wires view from beneath" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" width="3000" height="2000" alt="Soldered wires view from beneath" class="responsive" />
     </a>
     <figcaption class="center">Soldered wires view from beneath</figcaption>
+</figure>
   </div>
 </div>
 
@@ -194,19 +211,23 @@ Once you strip the individual wires, they can be soldered to the receptacle. Her
 From there, you'll mount the receptacle to the printed part with the M2.5 4mm screws. I chose these as the right balance of length, width, and head size. Here's what this looks like when mounted.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" width="3000" height="2000" alt="Receptacle mounted to printed part" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" width="3000" height="2000" alt="Receptacle mounted to printed part" class="responsive" />
   </a>
   <figcaption class="center">Receptacle mounted to printed part</figcaption>
+</figure>
 </div>
 
 You should now do a test fit on the keyboard to make sure that the part fits and the USB cable can successfully plug into the receptacle. You may need to slightly adjust the receptacle, given that there's room around the screws.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" width="3000" height="2000" alt="Mounted in the keyboard case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" width="3000" height="2000" alt="Mounted in the keyboard case" class="responsive" />
   </a>
   <figcaption class="center">Mounted in the keyboard case</figcaption>
+</figure>
 </div>
 
 At this point, you can optionally choose to do the design modifications!
@@ -225,75 +246,93 @@ I cleaned the stabilizers and tuned them up using Krytox 205g0 and Permatex grea
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" width="3000" height="2000" alt="Pads on PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" width="3000" height="2000" alt="Pads on PCB" class="responsive" />
     </a>
     <figcaption class="center">Pads on PCB</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" width="3000" height="2000" alt="Tuned stabilizers" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" width="3000" height="2000" alt="Tuned stabilizers" class="responsive" />
     </a>
     <figcaption class="center">Tuned stabilizers</figcaption>
+</figure>
   </div>
 </div>
 
 Here's the cured silicon mold in the bottom case. I used a similar mold for the Keychron C2 in [this post](/posts/2021-06-02-keychron-c2-mods/){:target="_blank"}.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" width="3000" height="2000" alt="Silicon mold in the bottom case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" width="3000" height="2000" alt="Silicon mold in the bottom case" class="responsive" />
   </a>
   <figcaption class="center">Silicon mold in the bottom case</figcaption>
+</figure>
 </div>
 
 Next up is the custom-cut EVA foam. I chose to use a laser engraver for this. However, I traced this out using the switch plate and...that definitely did not include all of the standoffs from the bottom case!
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" width="3000" height="2000" alt="Tracing the switch plate" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" width="3000" height="2000" alt="Tracing the switch plate" class="responsive" />
   </a>
   <figcaption class="center">Tracing the switch plate</figcaption>
+</figure>
 </div>
 
 I ended up using a hobby knife to trim the foam in a few places to let the standoffs poke through.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" width="3000" height="2000" alt="Foam on PCB" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" width="3000" height="2000" alt="Foam on PCB" class="responsive" />
   </a>
   <figcaption class="center">Foam on PCB</figcaption>
+</figure>
 </div>
 
 Here's another photo with the PCB, foam, and bottom case.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" class="responsive" />
   </a>
   <figcaption class="center">Foam on PCB in bottom case</figcaption>
+</figure>
 </div>
 
 From there, it was a matter of assembly.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" class="responsive" />
     </a>
     <figcaption class="center">Another photo of the foam on PCB in bottom case</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" width="3000" height="2000" alt="Switch plate mounted with stabilizers and a few switches in" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" width="3000" height="2000" alt="Switch plate mounted with stabilizers and a few switches in" class="responsive" />
     </a>
     <figcaption class="center">Switch plate mounted with stabilizers and a few switches in</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" width="3000" height="2000" alt="All switches in and some keycaps mounted" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" width="3000" height="2000" alt="All switches in and some keycaps mounted" class="responsive" />
     </a>
     <figcaption class="center">All switches in and some keycaps mounted</figcaption>
+</figure>
   </div>
 </div>
 
@@ -302,30 +341,35 @@ From there, it was a matter of assembly.
 The finished board looks pretty much the same, minus the detachable USB cable. Many folks either erase the Redragon logo using a pencil eraser or 3D print a replacement part.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" width="3000" height="2000" alt="Photo of the finished K552" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" width="3000" height="2000" alt="Photo of the finished K552" class="responsive" />
   </a>
   <figcaption class="center">Photo of the finished K552</figcaption>
+</figure>
 </div>
 
 I chose to use white PETG filament for the part to make the change super visible for this post. I recommend choosing the color that meets your needs, such as black to blend in, or another color to have a bit of pop on the back of the keyboard.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" width="3000" height="2000" alt="USB receptacle and 3D printed part" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" width="3000" height="2000" alt="USB receptacle and 3D printed part" class="responsive" />
   </a>
   <figcaption class="center">USB receptacle and 3D printed part</figcaption>
+</figure>
 </div>
 
 If you didn't catch it at the beginning of the post, here is the sound test video again.
 
-<amp-youtube
-  data-videoid="gCaAEuVqOsQ"
-  layout="responsive"
-  width="480"
-  height="270"
-></amp-youtube>
-<figcaption class="center">Before and after sound test</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gCaAEuVqOsQ" title="Sound test video on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <figcaption class="center">Before and after sound test</figcaption>
+</figure>
+</div>
 
 ## Thoughts and future modifications
 

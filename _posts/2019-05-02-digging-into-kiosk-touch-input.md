@@ -1,11 +1,12 @@
 ---
-layout: 2018design-post
+layout: post
 title: Digging into Kiosk Touch Input
+image: /images/posts/2019-05-02_1.pn
 ---
 
 # Digging into Kiosk Touch Input
 
-## Or, getting in touch with the input pipeline 👈
+**Or, getting in touch with the input pipeline 👈**
 
 {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
 
@@ -23,8 +24,14 @@ As you may have read in my prior post, touch input on Linux — and most operati
 
 For the sake of this post, let's use this purposefully-simplified diagram of how touch works:
 
-<div class="center width70"><amp-img src="/images/posts/2019-05-02_1.png" width="1600" height="1371" alt="Simplified diagram of how touch input works for our kiosk" layout="responsive"></amp-img></div>
-<figcaption class="center">Simplified diagram of how touch input works for our kiosk</figcaption>
+<div class="center width70">
+<figure class="fill-parent">
+  <a href="/images/posts/2019-05-02_1.png" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2019-05-02_1.png" width="1600" height="1371" alt="Simplified diagram of how touch input works for our kiosk" class="responsive" />
+  </a>
+  <figcaption class="center">Simplified diagram of how touch input works for our kiosk</figcaption>
+</figure>
+</div>
 
 For all of our current touchscreen kiosk products, this diagram is similar. In the case of Hudson Yards, the kiosks are higher resolution with greater processing power, but the flow of events and visual output remains the same.
 

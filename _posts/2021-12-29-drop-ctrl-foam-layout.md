@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Custom foam for the Drop CTRL keyboards (SVG file download)
 image: /images/posts/2021-12-29-foam/CTRL-Foam-03.jpg
 excerpt: A post that covers custom laser-cut foam for the Drop CTRL keyboards and includes SVG downloads for the layouts.
@@ -39,41 +39,51 @@ By downloading these files, you agree to the CC BY-NC-SA 4.0 license. If you use
 The foam turned out decently. It's not perfect by any means, but it does the job. In particular, the plate foam is challenging to design due to the additional wavy mid-plate cutouts needed.
 
 <div class="center width70">
-  <a href="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" class="responsive" />
   </a>
   <figcaption class="center">Plate foam in the Drop CTRL High Profile</figcaption>
+</figure>
 </div>
 
 The hotswap sockets worked well.
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile" class="responsive" />
     </a>
     <figcaption class="center">Case foam in the Drop CTRL High Profile</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile - no diffuser" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile - no diffuser" class="responsive" />
     </a>
     <figcaption class="center">Case foam in the Drop CTRL High Profile - no diffuser</figcaption>
+</figure>
   </div>
 </div>
 
 <div class="flex-horizontal">
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" class="responsive" />
     </a>
     <figcaption class="center">Plate foam in the Drop CTRL High Profile</figcaption>
+</figure>
   </div>
   <div class="flex-item-horizontal">
-    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" target="_blank" rel="noopener">
-      <amp-img src="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" width="3000" height="2000" alt="Plate foam by itself" layout="responsive"></amp-img>
+<figure class="fill-parent">
+    <a href="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" width="3000" height="2000" alt="Plate foam by itself" class="responsive" />
     </a>
     <figcaption class="center">Plate foam by itself</figcaption>
+</figure>
   </div>
 </div>
 

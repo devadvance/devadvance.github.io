@@ -1,7 +1,8 @@
 ---
-layout: 2018design-post
+layout: post
 title: News - "BNY Mellon Hosts Winternship Program to Help Advance Women in Technology"
 excerpt: News - "BNY Mellon Hosts Winternship Program to Help Advance Women in Technology"
+image: /images/posts/2018-02-09/tweet.png
 ---
 
 # News - "BNY Mellon Hosts Winternship Program to Help Advance Women in Technology"
@@ -19,8 +20,10 @@ A backup of the post is also available from the [Internet Archive](https://web.a
 Note: please distinguish between any summary of my answers in this article and the commentary from the article's author.
 
 <div class="center width70">
-  <a href="/images/posts/2018-02-09/tweet.png" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2018-02-09/tweet.png" width="594" height="528" alt="Screenshot of the tweet about the Winternship program" layout="responsive"></amp-img>
-  </a>
-  <figcaption class="center">Screenshot of the tweet about the Winternship program</figcaption>
+  <figure class="fill-parent">
+    <a href="/images/posts/2018-02-09/tweet.png" target="_blank" rel="noopener" class="text-decoration-none">
+      <img src="/images/posts/2018-02-09/tweet.png" width="594" height="528" alt="Screenshot of the tweet about the Winternship program" class="responsive" />
+    </a>
+    <figcaption class="center">Screenshot of the tweet about the Winternship program</figcaption>
+  </figure>
 </div>

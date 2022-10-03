@@ -1,10 +1,10 @@
 ---
-layout: 2018design-project
+layout: project
 title: CircularSeekBar (Android View/Widget)
 excerpt: CircularSeekBar is an Android view/widget to create circular seekbars
 permalink: /circularseekbar/
 ---
-<div class="center"><amp-img src="/images/circularseekbar_icon.png" width="128" height="128" alt="CircularSeekBar Icon"></amp-img></div>
+<div class="center"><img src="/images/circularseekbar_icon.png" width="128" height="128" alt="CircularSeekBar Icon" /></div>
 
 # CircularSeekBar (Android View/Widget)
 {: .center}

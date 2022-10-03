@@ -1,5 +1,5 @@
 ---
-layout: 2018design-post
+layout: post
 title: Modding the Keychron C2 Wired Mechanical Keyboard
 image: /images/posts/2021-04-08/2021-04-08_GMMK-PRO_05.jpg
 excerpt: Modding the Keychron C2 - bandaids, stabilizers, and silicone
@@ -50,70 +50,84 @@ Once you have the switches and stabilizers removed, you can start the mods.
 First, you will likely want to clean the stabilizers and re-lubricate them. Common options involve Krytox 205g0 and Permatex dielectric grease. Here are the modded stabilizers:
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-06.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-06.jpg" width="3000" height="2000" alt="Tuned stabilizers" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-06.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-06.jpg" width="3000" height="2000" alt="Tuned stabilizers" class="responsive" />
   </a>
+  <figcaption class="center">Tuned stabilizers</figcaption>
+</figure>
 </div>
-<figcaption class="center">Tuned stabilizers</figcaption>
 
 Next up, you'll want to bandaid mod the PCB. I did this without removing the other switches. Here's what that looks like:
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-04.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-04.jpg" width="3000" height="2000" alt="Bandaid mod" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-04.jpg" width="3000" height="2000" alt="Bandaid mod" class="responsive" />
   </a>
+  <figcaption class="center">Bandaid mod</figcaption>
+</figure>
 </div>
-<figcaption class="center">Bandaid mod</figcaption>
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-05.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-05.jpg" width="3000" height="2000" alt="Bandaid mod from side" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-05.jpg" width="3000" height="2000" alt="Bandaid mod from side" class="responsive" />
   </a>
+  <figcaption class="center">Bandaid mod from side</figcaption>
+</figure>
 </div>
-<figcaption class="center">Bandaid mod from side</figcaption>
 
 Finally, you will create the silicone dampener. Make sure you seal off any holes. I used painter's tape, which worked fairly well. Here are some photos of the dampener once finished and installed:
 
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-01.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-01.jpg" width="3000" height="2000" alt="Silicone dampener installed" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-01.jpg" width="3000" height="2000" alt="Silicone dampener installed" class="responsive" />
   </a>
+  <figcaption class="center">Silicone dampener installed</figcaption>
+</figure>
 </div>
-<figcaption class="center">Silicone dampener installed</figcaption>
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-02.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-02.jpg" width="3000" height="2000" alt="Silicone dampener tilted up" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-02.jpg" width="3000" height="2000" alt="Silicone dampener tilted up" class="responsive" />
   </a>
+  <figcaption class="center">Silicone dampener tilted up</figcaption>
+</figure>
 </div>
-<figcaption class="center">Silicone dampener tilted up</figcaption>
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-03.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-03.jpg" width="3000" height="2000" alt="Silicone dampener up close" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-03.jpg" width="3000" height="2000" alt="Silicone dampener up close" class="responsive" />
   </a>
+  <figcaption class="center">Silicone dampener up close</figcaption>
+</figure>
 </div>
-<figcaption class="center">Silicone dampener up close</figcaption>
 
 All together, this involves a small number of parts and is a great place for folks to start with modding. Here are all the pieces before putting the keyboard back together:
 
 <div class="center width70">
-  <a href="/images/posts/2021-06-02/Keychron-C2-07.jpg" target="_blank" rel="noopener">
-    <amp-img src="/images/posts/2021-06-02/Keychron-C2-07.jpg" width="3000" height="2000" alt="All the parts" layout="responsive"></amp-img>
+<figure class="fill-parent">
+  <a href="/images/posts/2021-06-02/Keychron-C2-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+    <img src="/images/posts/2021-06-02/Keychron-C2-07.jpg" width="3000" height="2000" alt="All the parts" class="responsive" />
   </a>
+  <figcaption class="center">All the parts</figcaption>
+</figure>
 </div>
-<figcaption class="center">All the parts</figcaption>
 
 ## Final product
 
 Below is a sound test video comparing the unmodified Keychron C2 with the modded one. Direct link to the video is [here](https://youtu.be/UE7CFYzMLKY){:target="_blank"}{:rel="noopener"}.
 
-<amp-youtube
-  data-videoid="UE7CFYzMLKY"
-  layout="responsive"
-  width="480"
-  height="270"
-></amp-youtube>
-<figcaption class="center">Sound test video on YouTube</figcaption>
-
+<div class="center width70">
+<figure class="fill-parent">
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UE7CFYzMLKY" title="Sound test video on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <figcaption class="center">Sound test video on YouTube</figcaption>
+</figure>
+</div>
