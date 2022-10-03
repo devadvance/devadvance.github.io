@@ -52,7 +52,11 @@ First, you will likely want to clean the stabilizers and re-lubricate them. Comm
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-06.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-06.jpg" width="3000" height="2000" alt="Tuned stabilizers" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-06.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-06.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-06.jpg" width="3000" height="2000" alt="Tuned stabilizers" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Tuned stabilizers</figcaption>
 </figure>
@@ -63,7 +67,11 @@ Next up, you'll want to bandaid mod the PCB. I did this without removing the oth
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-04.jpg" width="3000" height="2000" alt="Bandaid mod" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-04.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-04.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-04.jpg" width="3000" height="2000" alt="Bandaid mod" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Bandaid mod</figcaption>
 </figure>
@@ -72,7 +80,11 @@ Next up, you'll want to bandaid mod the PCB. I did this without removing the oth
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-05.jpg" width="3000" height="2000" alt="Bandaid mod from side" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-05.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-05.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-05.jpg" width="3000" height="2000" alt="Bandaid mod from side" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Bandaid mod from side</figcaption>
 </figure>
@@ -84,7 +96,11 @@ Finally, you will create the silicone dampener. Make sure you seal off any holes
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-01.jpg" width="3000" height="2000" alt="Silicone dampener installed" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-01.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-01.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-01.jpg" width="3000" height="2000" alt="Silicone dampener installed" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Silicone dampener installed</figcaption>
 </figure>
@@ -93,7 +109,11 @@ Finally, you will create the silicone dampener. Make sure you seal off any holes
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-02.jpg" width="3000" height="2000" alt="Silicone dampener tilted up" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-02.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-02.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-02.jpg" width="3000" height="2000" alt="Silicone dampener tilted up" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Silicone dampener tilted up</figcaption>
 </figure>
@@ -102,7 +122,11 @@ Finally, you will create the silicone dampener. Make sure you seal off any holes
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-03.jpg" width="3000" height="2000" alt="Silicone dampener up close" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-03.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-03.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-03.jpg" width="3000" height="2000" alt="Silicone dampener up close" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Silicone dampener up close</figcaption>
 </figure>
@@ -113,7 +137,11 @@ All together, this involves a small number of parts and is a great place for fol
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-06-02/Keychron-C2-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-06-02/Keychron-C2-07.jpg" width="3000" height="2000" alt="All the parts" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-06-02/Keychron-C2-07.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-06-02/Keychron-C2-07.jpg" />
+      <img src="/images/posts/2021-06-02/Keychron-C2-07.jpg" width="3000" height="2000" alt="All the parts" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">All the parts</figcaption>
 </figure>

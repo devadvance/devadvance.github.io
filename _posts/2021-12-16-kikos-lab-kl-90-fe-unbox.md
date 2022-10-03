@@ -24,7 +24,11 @@ In addition to the aluminum edition group buy, a limited number of Founder's Edi
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" width="3000" height="2000" alt="Switch plate inside of the case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-02.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" width="3000" height="2000" alt="Switch plate inside of the case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Switch plate inside of the case</figcaption>
 </figure>
@@ -58,7 +62,11 @@ Here is the top case with dual encoder support.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-22.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-22.jpg" width="3000" height="2000" alt="Dual encoder top case exterior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-22.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-22.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-22.jpg" width="3000" height="2000" alt="Dual encoder top case exterior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Dual encoder top case exterior</figcaption>
 </figure>
@@ -66,7 +74,11 @@ Here is the top case with dual encoder support.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-23.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-23.jpg" width="3000" height="2000" alt="Dual encoder top case interior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-23.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-23.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-23.jpg" width="3000" height="2000" alt="Dual encoder top case interior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Dual encoder top case interior</figcaption>
 </figure>
@@ -79,7 +91,11 @@ Here is the top case with encoder and OLED support.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-19.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-19.jpg" width="3000" height="2000" alt="Encoder and OLED top case exterior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-19.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-19.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-19.jpg" width="3000" height="2000" alt="Encoder and OLED top case exterior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Encoder and OLED top case exterior</figcaption>
 </figure>
@@ -87,7 +103,11 @@ Here is the top case with encoder and OLED support.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-20.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-20.jpg" width="3000" height="2000" alt="Encoder and OLED top case interior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-20.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-20.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-20.jpg" width="3000" height="2000" alt="Encoder and OLED top case interior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Encoder and OLED top case interior</figcaption>
 </figure>
@@ -97,7 +117,11 @@ Here is the top case with encoder and OLED support.
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-21.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-21.jpg" width="3000" height="2000" alt="A closer view of the interior of the top case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-21.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-21.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-21.jpg" width="3000" height="2000" alt="A closer view of the interior of the top case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">A closer view of the interior of the top case</figcaption>
 </figure>
@@ -110,7 +134,11 @@ Here is a close up of the top case design:
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-10.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-10.jpg" width="3000" height="2000" alt="Macro shot of the top case design" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-10.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-10.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-10.jpg" width="3000" height="2000" alt="Macro shot of the top case design" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Macro shot of the top case design</figcaption>
 </figure>
@@ -122,7 +150,11 @@ The switch plate is made of anodized titanium.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-17.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-17.jpg" width="3000" height="2000" alt="Front of the switch plate" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-17.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-17.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-17.jpg" width="3000" height="2000" alt="Front of the switch plate" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Front of the switch plate</figcaption>
 </figure>
@@ -130,7 +162,11 @@ The switch plate is made of anodized titanium.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-18.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-18.jpg" width="3000" height="2000" alt="Back of the switch plate" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-18.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-18.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-18.jpg" width="3000" height="2000" alt="Back of the switch plate" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Back of the switch plate</figcaption>
 </figure>
@@ -140,7 +176,11 @@ The switch plate is made of anodized titanium.
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-34.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-34.jpg" width="3000" height="2000" alt="Switch plate close up" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-34.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-34.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-34.jpg" width="3000" height="2000" alt="Switch plate close up" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Switch plate close up</figcaption>
 </figure>
@@ -152,7 +192,11 @@ The switch plate fits well into the top case.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-12.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-12.jpg" width="3000" height="2000" alt="Switch plate in the top case" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-12.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-12.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-12.jpg" width="3000" height="2000" alt="Switch plate in the top case" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Switch plate in the top case</figcaption>
 </figure>
@@ -160,7 +204,11 @@ The switch plate fits well into the top case.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-13.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-13.jpg" width="3000" height="2000" alt="Closer shot of the switch plate in the top case" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-13.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-13.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-13.jpg" width="3000" height="2000" alt="Closer shot of the switch plate in the top case" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Closer shot of the switch plate in the top case</figcaption>
 </figure>
@@ -172,7 +220,11 @@ The contrast of the switch plate against the top case is really great.
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" width="3000" height="2000" alt="Switch plate inside of the case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-02.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-02.jpg" width="3000" height="2000" alt="Switch plate inside of the case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Switch plate inside of the case</figcaption>
 </figure>
@@ -184,7 +236,11 @@ The bottom case is made from black anodized aluminum.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-16.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-16.jpg" width="3000" height="2000" alt="Bottom case interior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-16.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-16.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-16.jpg" width="3000" height="2000" alt="Bottom case interior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Bottom case interior</figcaption>
 </figure>
@@ -192,7 +248,11 @@ The bottom case is made from black anodized aluminum.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-15.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-15.jpg" width="3000" height="2000" alt="Bottom case exterior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-15.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-15.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-15.jpg" width="3000" height="2000" alt="Bottom case exterior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Bottom case exterior</figcaption>
 </figure>
@@ -205,7 +265,11 @@ Starting with the interior of the bottom case, you can see the signatures of Kik
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-35.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-35.jpg" width="3000" height="2000" alt="Kiko and AF signature" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-35.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-35.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-35.jpg" width="3000" height="2000" alt="Kiko and AF signature" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Kiko and AF signature</figcaption>
 </figure>
@@ -213,7 +277,11 @@ Starting with the interior of the bottom case, you can see the signatures of Kik
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-36.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-36.jpg" width="3000" height="2000" alt="CadLab signature" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-36.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-36.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-36.jpg" width="3000" height="2000" alt="CadLab signature" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">CadLab signature</figcaption>
 </figure>
@@ -221,7 +289,11 @@ Starting with the interior of the bottom case, you can see the signatures of Kik
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-37.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-37.jpg" width="3000" height="2000" alt="Plate cutouts" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-37.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-37.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-37.jpg" width="3000" height="2000" alt="Plate cutouts" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Plate cutouts</figcaption>
 </figure>
@@ -233,7 +305,11 @@ Going to the exterior of the bottom case, you'll find the anodized titanium badg
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-03.jpg" width="3000" height="2000" alt="Badge in the bottom case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-03.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-03.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-03.jpg" width="3000" height="2000" alt="Badge in the bottom case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Badge in the bottom case</figcaption>
 </figure>
@@ -245,7 +321,11 @@ This is a great looking badge, so here are a couple close-up photos.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-08.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-08.jpg" width="3000" height="2000" alt="Close of the badge logo" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-08.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-08.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-08.jpg" width="3000" height="2000" alt="Close of the badge logo" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Close of the badge logo</figcaption>
 </figure>
@@ -253,7 +333,11 @@ This is a great looking badge, so here are a couple close-up photos.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-09.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-09.jpg" width="3000" height="2000" alt="Close up of the badge texture" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-09.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-09.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-09.jpg" width="3000" height="2000" alt="Close up of the badge texture" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Close up of the badge texture</figcaption>
 </figure>
@@ -268,7 +352,11 @@ First, the hotswap PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-24.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-24.jpg" width="3000" height="2000" alt="Hotswap PCB front" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-24.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-24.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-24.jpg" width="3000" height="2000" alt="Hotswap PCB front" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Hotswap PCB front</figcaption>
 </figure>
@@ -276,7 +364,11 @@ First, the hotswap PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-25.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-25.jpg" width="3000" height="2000" alt="Hotswap PCB back" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-25.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-25.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-25.jpg" width="3000" height="2000" alt="Hotswap PCB back" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Hotswap PCB back</figcaption>
 </figure>
@@ -289,7 +381,11 @@ Next, the solder PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-26.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-26.jpg" width="3000" height="2000" alt="Solder PCB front" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-26.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-26.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-26.jpg" width="3000" height="2000" alt="Solder PCB front" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Solder PCB front</figcaption>
 </figure>
@@ -297,7 +393,11 @@ Next, the solder PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-27.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-27.jpg" width="3000" height="2000" alt="Solder PCB back" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-27.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-27.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-27.jpg" width="3000" height="2000" alt="Solder PCB back" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Solder PCB back</figcaption>
 </figure>
@@ -310,7 +410,11 @@ Here are a few close-up photos of the PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-31.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-31.jpg" width="3000" height="2000" alt="OLED and encoder spots on the hotswap PCB" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-31.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-31.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-31.jpg" width="3000" height="2000" alt="OLED and encoder spots on the hotswap PCB" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">OLED and encoder spots on the hotswap PCB</figcaption>
 </figure>
@@ -318,7 +422,11 @@ Here are a few close-up photos of the PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-32.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-32.jpg" width="3000" height="2000" alt="Kiko logo on the PCB" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-32.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-32.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-32.jpg" width="3000" height="2000" alt="Kiko logo on the PCB" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Kiko logo on the PCB</figcaption>
 </figure>
@@ -326,7 +434,11 @@ Here are a few close-up photos of the PCB.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-33.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-33.jpg" width="3000" height="2000" alt="Close up of the MCU on the PCB" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-33.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-33.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-33.jpg" width="3000" height="2000" alt="Close up of the MCU on the PCB" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Close up of the MCU on the PCB</figcaption>
 </figure>
@@ -341,7 +453,11 @@ Most awesomely, it comes with two zircuti encoder knobs. This is a beautiful ble
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-04.jpg" width="3000" height="2000" alt="Encoder knob against a light background" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-04.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-04.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-04.jpg" width="3000" height="2000" alt="Encoder knob against a light background" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Encoder knob against a light background</figcaption>
 </figure>
@@ -349,7 +465,11 @@ Most awesomely, it comes with two zircuti encoder knobs. This is a beautiful ble
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-05.jpg" width="3000" height="2000" alt="Encoder knob against a dark background" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-05.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-05.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-05.jpg" width="3000" height="2000" alt="Encoder knob against a dark background" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Encoder knob against a dark background</figcaption>
 </figure>
@@ -362,7 +482,11 @@ Even the interior of this part looks great.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-06.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-06.jpg" width="3000" height="2000" alt="Encoder knob interior" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-06.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-06.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-06.jpg" width="3000" height="2000" alt="Encoder knob interior" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Encoder knob interior</figcaption>
 </figure>
@@ -370,7 +494,11 @@ Even the interior of this part looks great.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-07.jpg" width="3000" height="2000" alt="Encoder knob on the side" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-07.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-07.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-07.jpg" width="3000" height="2000" alt="Encoder knob on the side" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Encoder knob on the side</figcaption>
 </figure>
@@ -383,7 +511,11 @@ Another part is the custom coated coiled USB cable. It goes well with the case.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-28.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-28.jpg" width="3000" height="2000" alt="Custom coiled cable" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-28.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-28.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-28.jpg" width="3000" height="2000" alt="Custom coiled cable" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Custom coiled cable</figcaption>
 </figure>
@@ -391,7 +523,11 @@ Another part is the custom coated coiled USB cable. It goes well with the case.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-29.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-29.jpg" width="3000" height="2000" alt="A closer photo of the cable" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-29.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-29.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-29.jpg" width="3000" height="2000" alt="A closer photo of the cable" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">A closer photo of the cable</figcaption>
 </figure>
@@ -404,7 +540,11 @@ As mentioned at the beginning of this post, the KL-90 FE comes with other parts 
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-30.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-30.jpg" width="3000" height="2000" alt="Accessories laid out" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-30.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-30.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-30.jpg" width="3000" height="2000" alt="Accessories laid out" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Accessories laid out</figcaption>
 </figure>
@@ -412,7 +552,11 @@ As mentioned at the beginning of this post, the KL-90 FE comes with other parts 
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-16-kl-90/KL-90-38.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-16-kl-90/KL-90-38.jpg" width="3000" height="2000" alt="Switch plate foam" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-38.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-38.jpg" />
+        <img src="/images/posts/2021-12-16-kl-90/KL-90-38.jpg" width="3000" height="2000" alt="Switch plate foam" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Switch plate foam</figcaption>
 </figure>
@@ -428,7 +572,11 @@ One note: the colors on this case make it particularly important to color balanc
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-16-kl-90/KL-90-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-16-kl-90/KL-90-01.jpg" width="3000" height="2000" alt="KL-90 FE top case with a color palette" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-16-kl-90/KL-90-01.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-16-kl-90/KL-90-01.jpg" />
+      <img src="/images/posts/2021-12-16-kl-90/KL-90-01.jpg" width="3000" height="2000" alt="KL-90 FE top case with a color palette" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">KL-90 FE top case with a color palette</figcaption>
 </figure>

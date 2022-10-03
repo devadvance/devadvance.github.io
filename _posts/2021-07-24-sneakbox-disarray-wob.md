@@ -57,7 +57,11 @@ The process of soldering the Mill-Max sockets doesn't take much longer than sold
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" width="3000" height="2000" alt="Final build on a desk mat" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" />
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-07.jpg" width="3000" height="2000" alt="Final build on a desk mat" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Final build on a desk mat</figcaption>
 </figure>
@@ -69,7 +73,11 @@ Some of the best aspects of this case are the rotary encoder and the visible int
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" width="3000" height="2000" alt="Rotary encoder up closer" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" />
+        <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-02.jpg" width="3000" height="2000" alt="Rotary encoder up closer" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Rotary encoder up closer</figcaption>
 </figure>
@@ -77,7 +85,11 @@ Some of the best aspects of this case are the rotary encoder and the visible int
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" width="3000" height="2000" alt="USB-C port" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" />
+        <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-03.jpg" width="3000" height="2000" alt="USB-C port" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">USB-C port</figcaption>
 </figure>
@@ -88,7 +100,11 @@ Some of the best aspects of this case are the rotary encoder and the visible int
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" width="3000" height="2000" alt="ATmega 32U4 visible" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" />
+        <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-04.jpg" width="3000" height="2000" alt="ATmega 32U4 visible" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">ATmega 32U4 visible</figcaption>
 </figure>
@@ -96,7 +112,11 @@ Some of the best aspects of this case are the rotary encoder and the visible int
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" width="3000" height="2000" alt="Another angle on the rotary encoder" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" />
+        <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-05.jpg" width="3000" height="2000" alt="Another angle on the rotary encoder" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Another angle on the rotary encoder</figcaption>
 </figure>
@@ -108,7 +128,11 @@ Here are a couple more images of the final build in different light:
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" width="3000" height="2000" alt="Final build with a plain white background" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" />
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-06.jpg" width="3000" height="2000" alt="Final build with a plain white background" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Final build with a plain white background</figcaption>
 </figure>
@@ -118,7 +142,11 @@ Here are a couple more images of the final build in different light:
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" width="3000" height="2000" alt="Final build with natural sunlight" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" />
+      <img src="/images/posts/2021-07-24-disarray/SneakboxDisarrayBuilt-01.jpg" width="3000" height="2000" alt="Final build with natural sunlight" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Final build with natural sunlight</figcaption>
 </figure>

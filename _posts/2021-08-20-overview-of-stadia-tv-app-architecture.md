@@ -20,7 +20,11 @@ A backup of the post is also available from the [Internet Archive](https://web.a
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-08-20/2021-08-20-tv.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-08-20/2021-08-20-tv.jpg" width="1920" height="1280" alt="Photo of CCwGTV on a Stadia desk mat" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-08-20/2021-08-20-tv.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-08-20/2021-08-20-tv.jpg" />
+      <img src="/images/posts/2021-08-20/2021-08-20-tv.jpg" width="1920" height="1280" alt="Photo of CCwGTV on a Stadia desk mat" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Photo of CCwGTV on a Stadia desk mat</figcaption>
 </figure>
