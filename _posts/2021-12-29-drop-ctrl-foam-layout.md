@@ -41,7 +41,11 @@ The foam turned out decently. It's not perfect by any means, but it does the job
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-03.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" />
+      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-03.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Plate foam in the Drop CTRL High Profile</figcaption>
 </figure>
@@ -53,7 +57,11 @@ The hotswap sockets worked well.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-01.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" />
+        <img src="/images/posts/2021-12-29-foam/CTRL-Foam-01.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Case foam in the Drop CTRL High Profile</figcaption>
 </figure>
@@ -61,7 +69,11 @@ The hotswap sockets worked well.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile - no diffuser" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-02.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" />
+        <img src="/images/posts/2021-12-29-foam/CTRL-Foam-02.jpg" width="3000" height="2000" alt="Case foam in the Drop CTRL High Profile - no diffuser" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Case foam in the Drop CTRL High Profile - no diffuser</figcaption>
 </figure>
@@ -72,7 +84,11 @@ The hotswap sockets worked well.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-04.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" />
+        <img src="/images/posts/2021-12-29-foam/CTRL-Foam-04.jpg" width="3000" height="2000" alt="Plate foam in the Drop CTRL High Profile" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Plate foam in the Drop CTRL High Profile</figcaption>
 </figure>
@@ -80,7 +96,11 @@ The hotswap sockets worked well.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" width="3000" height="2000" alt="Plate foam by itself" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-05.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" />
+        <img src="/images/posts/2021-12-29-foam/CTRL-Foam-05.jpg" width="3000" height="2000" alt="Plate foam by itself" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Plate foam by itself</figcaption>
 </figure>

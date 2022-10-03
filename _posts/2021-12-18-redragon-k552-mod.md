@@ -115,7 +115,11 @@ Fortunately, a set of digital calipers came in handy here! I chose to do the tim
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/K552Sketch.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/K552Sketch.jpg" width="3000" height="2000" alt="Sketch of the part to print" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/K552Sketch.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/K552Sketch.jpg" />
+      <img src="/images/posts/2021-12-18-k552/K552Sketch.jpg" width="3000" height="2000" alt="Sketch of the part to print" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Sketch of the part to print</figcaption>
 </figure>
@@ -127,7 +131,11 @@ From there, I modeled the part in Blender. This is my second time doing precisio
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/BlenderInterior.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/BlenderInterior.jpg" width="3000" height="2000" alt="Interior of the part in Blender" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/BlenderInterior.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/BlenderInterior.jpg" />
+        <img src="/images/posts/2021-12-18-k552/BlenderInterior.jpg" width="3000" height="2000" alt="Interior of the part in Blender" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Interior of the part in Blender</figcaption>
 </figure>
@@ -135,7 +143,11 @@ From there, I modeled the part in Blender. This is my second time doing precisio
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/BlenderExterior.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/BlenderExterior.jpg" width="3000" height="2000" alt="Exterior of the part in Blender" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/BlenderExterior.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/BlenderExterior.jpg" />
+        <img src="/images/posts/2021-12-18-k552/BlenderExterior.jpg" width="3000" height="2000" alt="Exterior of the part in Blender" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Exterior of the part in Blender</figcaption>
 </figure>
@@ -147,7 +159,11 @@ I printed a couple initial versions to gauge corner rounding, part height, and s
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" width="3000" height="2000" alt="Comparison of the parts" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-11.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-11.jpg" width="3000" height="2000" alt="Comparison of the parts" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Comparison of the parts</figcaption>
 </figure>
@@ -170,7 +186,11 @@ Once you have 3D printed the part, you're ready to go. To perform this modificat
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" width="3000" height="2000" alt="Detached cable from PCB" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-02.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-02.jpg" width="3000" height="2000" alt="Detached cable from PCB" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Detached cable from PCB</figcaption>
 </figure>
@@ -184,7 +204,11 @@ Once you strip the individual wires, they can be soldered to the receptacle. Her
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" width="3000" height="2000" alt="Wires waiting to be soldered" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-03.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-03.jpg" width="3000" height="2000" alt="Wires waiting to be soldered" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Wires waiting to be soldered</figcaption>
 </figure>
@@ -192,7 +216,11 @@ Once you strip the individual wires, they can be soldered to the receptacle. Her
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" width="3000" height="2000" alt="Soldered wires view from top" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-04.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-04.jpg" width="3000" height="2000" alt="Soldered wires view from top" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Soldered wires view from top</figcaption>
 </figure>
@@ -200,7 +228,11 @@ Once you strip the individual wires, they can be soldered to the receptacle. Her
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" width="3000" height="2000" alt="Soldered wires view from beneath" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-05.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-05.jpg" width="3000" height="2000" alt="Soldered wires view from beneath" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Soldered wires view from beneath</figcaption>
 </figure>
@@ -213,7 +245,11 @@ From there, you'll mount the receptacle to the printed part with the M2.5 4mm sc
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" width="3000" height="2000" alt="Receptacle mounted to printed part" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-12.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-12.jpg" width="3000" height="2000" alt="Receptacle mounted to printed part" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Receptacle mounted to printed part</figcaption>
 </figure>
@@ -224,7 +260,11 @@ You should now do a test fit on the keyboard to make sure that the part fits and
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" width="3000" height="2000" alt="Mounted in the keyboard case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-13.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-13.jpg" width="3000" height="2000" alt="Mounted in the keyboard case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Mounted in the keyboard case</figcaption>
 </figure>
@@ -248,7 +288,11 @@ I cleaned the stabilizers and tuned them up using Krytox 205g0 and Permatex grea
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" width="3000" height="2000" alt="Pads on PCB" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-07.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-07.jpg" width="3000" height="2000" alt="Pads on PCB" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Pads on PCB</figcaption>
 </figure>
@@ -256,7 +300,11 @@ I cleaned the stabilizers and tuned them up using Krytox 205g0 and Permatex grea
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" width="3000" height="2000" alt="Tuned stabilizers" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-10.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-10.jpg" width="3000" height="2000" alt="Tuned stabilizers" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Tuned stabilizers</figcaption>
 </figure>
@@ -268,7 +316,11 @@ Here's the cured silicon mold in the bottom case. I used a similar mold for the 
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" width="3000" height="2000" alt="Silicon mold in the bottom case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-15.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-15.jpg" width="3000" height="2000" alt="Silicon mold in the bottom case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Silicon mold in the bottom case</figcaption>
 </figure>
@@ -279,7 +331,11 @@ Next up is the custom-cut EVA foam. I chose to use a laser engraver for this. Ho
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" width="3000" height="2000" alt="Tracing the switch plate" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-01.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-01.jpg" width="3000" height="2000" alt="Tracing the switch plate" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Tracing the switch plate</figcaption>
 </figure>
@@ -290,7 +346,11 @@ I ended up using a hobby knife to trim the foam in a few places to let the stand
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" width="3000" height="2000" alt="Foam on PCB" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-08.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-08.jpg" width="3000" height="2000" alt="Foam on PCB" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Foam on PCB</figcaption>
 </figure>
@@ -301,7 +361,11 @@ Here's another photo with the PCB, foam, and bottom case.
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-09.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-09.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Foam on PCB in bottom case</figcaption>
 </figure>
@@ -313,7 +377,11 @@ From there, it was a matter of assembly.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-16.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-16.jpg" width="3000" height="2000" alt="Foam on PCB in bottom case" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Another photo of the foam on PCB in bottom case</figcaption>
 </figure>
@@ -321,7 +389,11 @@ From there, it was a matter of assembly.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" width="3000" height="2000" alt="Switch plate mounted with stabilizers and a few switches in" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-17.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-17.jpg" width="3000" height="2000" alt="Switch plate mounted with stabilizers and a few switches in" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">Switch plate mounted with stabilizers and a few switches in</figcaption>
 </figure>
@@ -329,7 +401,11 @@ From there, it was a matter of assembly.
   <div class="flex-item-horizontal">
 <figure class="fill-parent">
     <a href="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-      <img src="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" width="3000" height="2000" alt="All switches in and some keycaps mounted" class="responsive" />
+      <picture>
+        <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-18.avif" />
+        <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" />
+        <img src="/images/posts/2021-12-18-k552/RedragonK552-18.jpg" width="3000" height="2000" alt="All switches in and some keycaps mounted" class="responsive" />
+      </picture>
     </a>
     <figcaption class="center">All switches in and some keycaps mounted</figcaption>
 </figure>
@@ -343,7 +419,11 @@ The finished board looks pretty much the same, minus the detachable USB cable. M
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" width="3000" height="2000" alt="Photo of the finished K552" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-19.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-19.jpg" width="3000" height="2000" alt="Photo of the finished K552" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Photo of the finished K552</figcaption>
 </figure>
@@ -354,7 +434,11 @@ I chose to use white PETG filament for the part to make the change super visible
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" target="_blank" rel="noopener" class="text-decoration-none">
-    <img src="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" width="3000" height="2000" alt="USB receptacle and 3D printed part" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2021-12-18-k552/RedragonK552-14.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" />
+      <img src="/images/posts/2021-12-18-k552/RedragonK552-14.jpg" width="3000" height="2000" alt="USB receptacle and 3D printed part" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">USB receptacle and 3D printed part</figcaption>
 </figure>

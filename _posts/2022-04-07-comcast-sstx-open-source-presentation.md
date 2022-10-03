@@ -16,7 +16,11 @@ On April 7, 2022, I gave a talk titled _Contributing to open source: Taking your
 <div class="center width70">
 <figure class="fill-parent">
   <a href="/dl/2022-04-07/2022-04-07%20-%20Matt%20Joseph%20-%20Contributing%20to%20open%20source%20Taking%20your%20first%20(empathetic)%20step.pdf" target="_blank" class="text-decoration-none">
-    <img src="/images/posts/2022-04-07/2022-04-07-slides-title.jpg" width="1920" height="1080" alt="Title slide of the presentation" class="responsive" />
+    <picture>
+      <source type="image/avif" srcset="/images/posts/2022-04-07/2022-04-07-slides-title.avif" />
+      <source type="image/jpeg" srcset="/images/posts/2022-04-07/2022-04-07-slides-title.jpg" />
+      <img src="/images/posts/2022-04-07/2022-04-07-slides-title.jpg" width="1920" height="1080" alt="Title slide of the presentation" class="responsive" />
+    </picture>
   </a>
   <figcaption class="center">Title slide of the presentation</figcaption>
 </figure>

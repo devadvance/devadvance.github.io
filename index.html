@@ -5,15 +5,20 @@ permalink: /
 ---
   <div class="hero-container">
     <figure class="fill-parent">
-      <img 
-        alt="Night view in Kyoto, Japan"
-        src="/images/nyc-2560.jpg"
-        width="1920"
-        height="1280"
-        class="hero-image"
-        srcset="/images/nyc-2560.jpg 2560w,
-            /images/nyc-1920.jpg 1920w,
-            /images/nyc-1080.jpg 1080w"></img>
+      <picture>
+        <source type="image/avif" srcset="/images/nyc-2560.avif 2560w,
+          /images/nyc-1920.avif 1920w,
+          /images/nyc-1080.avif 1080w" />
+        <source type="image/jpeg" srcset="/images/nyc-2560.jpg 2560w,
+          /images/nyc-1920.jpg 1920w,
+          /images/nyc-1080.jpg 1080w" />
+        <img
+          alt="Night view in Kyoto, Japan"
+          src="/images/nyc-1920.jpg"
+          width="1920"
+          height="1280"
+          class="hero-image" />
+      </picture>
       <figcaption class="hero-caption">
         Radical problem solving.
         <br /><br />
