@@ -54,15 +54,15 @@ The page was visually inspected to ascertain whether or not the visibility chang
 
 **Chrome 109**
 
-* **Detected via Page Visibility API**: Browser window minimized, browser window covered by another window that is larger, browser window covered by another browser window that is the same size, tab hidden in an active browser window, docking/undocking a tab to a browser window, 
-* **Not detected via Page Visibility API**: Browser window covered by another browser window that is smaller, browser dialogs (print, save, etc.), during animation to/from full screen, during Task View, 
+* **Detected via Page Visibility API**: Browser window minimized, browser window covered by another window that is larger, browser window covered by another browser window that is the same size, tab hidden in an active browser window, docking/undocking a tab to a browser window
+* **Not detected via Page Visibility API**: Browser window covered by another browser window that is smaller, browser dialogs (print, save, etc.), during animation to/from full screen, during Task View
 
 ### Android 13
 
 **Chrome 109**
 
 * **Detected via Page Visibility API**: Another app is active on the screen, another Chrome tab is active on the screen, screen is off, Chrome tab overview as an inactive tab, split screen: entering split screen, going to other features in Chrome (Downloads, Settings, etc.)
-* **Not detected via Page Visibility API**: Android overview mode, Chrome tab overview while the active tab, split screen: redrawing when split changes, split screen: exiting split screen, Assistant overlay on screen, URL entry mode, during the swipe between tabs, while covered by the notification shade, 
+* **Not detected via Page Visibility API**: Android overview mode, Chrome tab overview while the active tab, split screen: redrawing when split changes, split screen: exiting split screen, Assistant overlay on screen, URL entry mode, during the swipe between tabs, while covered by the notification shade
 
 ### iPad OS 16.3
 
@@ -73,7 +73,7 @@ The page was visually inspected to ascertain whether or not the visibility chang
 
 **Safari 16.3**
 
-* **Detected via Page Visibility API**: Another app is active on the screen, another Safari tab is active on the screen, screen is off, Safari tab overview as an inactive tab, 
+* **Detected via Page Visibility API**: Another app is active on the screen, another Safari tab is active on the screen, screen is off, Safari tab overview as an inactive tab
 * **Not detected via Page Visibility API**: Some dialogs (Bookmarks, Reading List, Password Manager, etc.), iPad OS overview screen (swipe up), Control Panel covering screen, Notification Center down, split view: selecting another app, split view: redrawing when split changes, split view: exiting split view, Safari tab overview as the active tab, accessing camera from the Notification Center
 
 **Note**: for testing purposes, I did not use an iOS device, but iPad OS is a reasonable proxy for what might be encountered on iOS.
