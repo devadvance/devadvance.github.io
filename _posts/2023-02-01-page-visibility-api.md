@@ -19,7 +19,7 @@ I did some lightweight testing on a few operating systems and browsers, covering
 
 ## Testing methodology
 
-This is not a rigorous lab test. There is a convenient testing page located here: [https://testdrive-archive.azurewebsites.net/Performance/PageVisibility/Default.html](https://testdrive-archive.azurewebsites.net/Performance/PageVisibility/Default.html){:target="_blank"}{:rel="noopener"}.
+This is not a rigorous lab test. There is a convenient testing page located [here](https://testdrive-archive.azurewebsites.net/Performance/PageVisibility/Default.html){:target="_blank"}{:rel="noopener"}.
 
 <div class="center width70">
 <figure class="fill-parent">
