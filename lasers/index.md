@@ -18,6 +18,7 @@ These are Lightburn test files that I created. They are designed to be easy to u
   <a href="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample.jpg" target="_blank" rel="noopener" class="text-decoration-none">
     <picture>
       <source type="image/jpeg" srcset="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample.jpg" />
+      <source type="image/jpeg" srcset="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample.avif" />
       <img src="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample.jpg" width="3000" height="2000" alt="Photo of the line interval test on plywood" class="responsive" />
     </picture>
   </a>
@@ -38,6 +39,7 @@ This test file is licensed under a [Creative Commons Attribution-NonCommercial 4
   <a href="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample%20macro.jpg" target="_blank" rel="noopener" class="text-decoration-none">
     <picture>
       <source type="image/jpeg" srcset="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample%20macro.jpg" />
+      <source type="image/jpeg" srcset="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample%20macro.avif" />
       <img src="/images/lasers/2023Q1%20-%20Interval%20test%201%20sample%20macro.jpg" width="3000" height="2000" alt="Macro photo of the line interval test on plywood" class="responsive" />
     </picture>
   </a>
@@ -63,6 +65,7 @@ This test file is licensed under a [Creative Commons Attribution-NonCommercial 4
   <a href="/images/lasers/2023Q1%20-%20Named%20ornament%201%20sample.jpg" target="_blank" rel="noopener" class="text-decoration-none">
     <picture>
       <source type="image/jpeg" srcset="/images/lasers/2023Q1%20-%20Named%20ornament%201%20sample.jpg" />
+      <source type="image/jpeg" srcset="/images/lasers/2023Q1%20-%20Named%20ornament%201%20sample.avif" />
       <img src="/images/lasers/2023Q1%20-%20Named%20ornament%201%20sample.jpg" width="3000" height="2000" alt="Photo of the named ornament cut out of plywood" class="responsive" />
     </picture>
   </a>
