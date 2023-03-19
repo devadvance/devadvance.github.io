@@ -80,8 +80,8 @@ This test file is licensed under a [Creative Commons Attribution 4.0 Internation
 Pre-requisites:
 
 *   This file uses the Pacifico font. Either install the font from
-    https://fonts.google.com/specimen/Pacifico/about or choose a different
-    font.
+    [https://fonts.google.com/specimen/Pacifico/about](https://fonts.google.com/specimen/Pacifico/about){:target="_blank"}{:rel="noopener"}
+     or choose a different font.
 
 Instructions:
 
