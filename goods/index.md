@@ -349,6 +349,48 @@ Each map varies slightly due to differences in wood, glue, cutting, engraving, e
   </div>
 </div>
 
+### Mounting the maps
+
+These maps can be mounted using picture hooks or leaned up on bookshelves, counters, desks, or similar.
+
+Here are a couple of the maps leaning on a bookshelf:
+
+<div class="flex-horizontal">
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231012-SA102561.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231012-SA102561.jpg" />
+          <img src="/images/goods/2023Q4/20231012-SA102561.jpg" width="3000" height="2000" alt="NYC map on a bookshelf" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">NYC map on a bookshelf</figcaption>
+    </figure>
+  </div>
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231012-SA102562.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231012-SA102562.jpg" />
+          <img src="/images/goods/2023Q4/20231012-SA102562.jpg" width="3000" height="2000" alt="LA map on a bookshelf" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">LA map on a bookshelf</figcaption>
+    </figure>
+  </div>
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231012-SA102563.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231012-SA102563.jpg" />
+          <img src="/images/goods/2023Q4/20231012-SA102563.jpg" width="3000" height="2000" alt="NYC and LA on a bookshelf" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">NYC and LA on a bookshelf</figcaption>
+    </figure>
+  </div>
+</div>
+
 ### Custom maps
 
 Reach out via one of the contact methods below to commission a map.
