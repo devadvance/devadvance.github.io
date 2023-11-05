@@ -9,7 +9,7 @@ permalink: /goods/
 
 ## Maps
 
-**In stock: Detroit, New York, Los Angeles, Pittsburgh, San Francisco.**
+**In stock: [Detroit](#detroit-michigan), [New York](#new-york-new-york), [Los Angeles](#los-angeles-california), [Pittsburgh](#pittsburgh-pennsylvania), [San Francisco](#san-francisco-california), [Boston](#boston-massachusetts).**
 
 These are custom-designed maps created from Birch plywood and epoxy resin. Each map contains three layers:
 
@@ -342,6 +342,61 @@ Each map varies slightly due to differences in wood, glue, cutting, engraving, e
         <picture>
           <source type="image/jpeg" srcset="/images/goods/2023Q4/20231010-SA102560.jpg" />
           <img src="/images/goods/2023Q4/20231010-SA102560.jpg" width="3000" height="2000" alt="Macro" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">Macro</figcaption>
+    </figure>
+  </div>
+</div>
+
+### Boston, Massachusetts
+
+<div class="flex-horizontal">
+  <div class="flex-item-horizontal">
+    <stripe-buy-button buy-button-id="buy_btn_1O8tqHBx2SkaVpWAghkUGfed" publishable-key="pk_live_51NzUQYBx2SkaVpWAEloK6eYi0W6DUxEQtP7TyyXXEXCcVt2Op46AVyvPDXWojdP2DXzTLkRVm6aGdoIZ59CYR0S200YssDwP4i"></stripe-buy-button>
+  </div>
+</div>
+
+<div class="flex-horizontal">
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231104-SA102564.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231104-SA102564.jpg" />
+          <img src="/images/goods/2023Q4/20231104-SA102564.jpg" width="3000" height="2000" alt="Front" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">Front</figcaption>
+    </figure>
+  </div>
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231104-SA102565.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231104-SA102565.jpg" />
+          <img src="/images/goods/2023Q4/20231104-SA102565.jpg" width="3000" height="2000" alt="Front detail" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">Front detail</figcaption>
+    </figure>
+  </div>
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231104-SA102566.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231104-SA102566.jpg" />
+          <img src="/images/goods/2023Q4/20231104-SA102566.jpg" width="3000" height="2000" alt="Back" class="responsive" />
+        </picture>
+      </a>
+      <figcaption class="center">Back</figcaption>
+    </figure>
+  </div>
+  <div class="flex-item-horizontal">
+    <figure class="fill-parent">
+      <a href="/images/goods/2023Q4/20231104-SA102568.jpg" target="_blank" rel="noopener" class="text-decoration-none">
+        <picture>
+          <source type="image/jpeg" srcset="/images/goods/2023Q4/20231104-SA102568.jpg" />
+          <img src="/images/goods/2023Q4/20231104-SA102568.jpg" width="3000" height="2000" alt="Macro" class="responsive" />
         </picture>
       </a>
       <figcaption class="center">Macro</figcaption>
