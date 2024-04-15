@@ -11,7 +11,7 @@ excerpt: With Stadia’s expansion to new living room devices, such as LG Smart 
 
 [Click here to go to all posts](/posts/).
 
-I wrote a post for the Stadia Dev Blog titled [_Extending Stadia's app architecture to more devices_](https://stadia.dev/blog/extending-stadia-s-app-architecture-to-more-devices/){:target="_blank"}{:rel="noopener"}. In the post, I updates to the Stadia TV app architecture with the launches on LG and Samsung TVs.
+I wrote a post for the Stadia Dev Blog titled [_Extending Stadia's app architecture to more devices_](https://stadia.dev/blog/extending-stadia-s-app-architecture-to-more-devices/){:target="_blank"}{:rel="noopener"}. In the post, I share updates to the Stadia TV app architecture with the launches on LG and Samsung TVs.
 
 A backup of the post is available from the [Internet Archive](https://web.archive.org/web/20221005115956/https://stadia.dev/intl/en/blog/extending-stadia-s-app-architecture-to-more-devices/){:target="_blank"}{:rel="noopener"}.
 
