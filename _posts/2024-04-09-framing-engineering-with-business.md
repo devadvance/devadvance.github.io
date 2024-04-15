@@ -7,6 +7,10 @@ excerpt: Framing engineering discussions with a business perspective, with the p
 
 # Framing engineering discussions with a business perspective
 
+{% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
+
+[Click here to go to all posts](/posts/).
+
 As software engineers, we often focus on "what" to build and "how" to do it. Yet "why" is an important question, often left to other roles like product managers or business leads. In many cases, software engineers aren't expected to consider the business in their engineering decisions until more senior levels.
 
 Is it surprising? No. After all, we probably shouldn't expect every engineer to think about business-critical impact or top-line/bottom-line impact during their day-to-day work. Even for line managers, the expectation is often on execution rather than any personal impact on business metrics.
