@@ -1,0 +1,16 @@
+<script>
+  // Once the page is ready, go through it and add progressive enhancements.
+  // These require JavaScript, but the page will work without it!
+  window.addEventListener('DOMContentLoaded', (event) => {
+    // Progressive enhancement to close `<details>` elements when clicking
+    // outside of them.
+    const allDetails = [...document.querySelectorAll('details')];
+    window.addEventListener('click', (clickEvent) => {
+      if (!allDetails.some(f => f.contains(clickEvent.target))) {
+        allDetails.forEach(f => f.removeAttribute('open'));
+      } else {
+        allDetails.forEach(f => !f.contains(clickEvent.target) ? f.removeAttribute('open') : '');
+      }
+    });
+  });
+</script>

@@ -166,6 +166,7 @@ _**Note**: Per a11y best practices, use text to differentiate and treat colors a
 <div class="center width30">
 <figure class="fill-parent">
   <picture>
+  <source type="image/avif" srcset="/images/posts/2024-04-09-framing-engineering-with-business/2024-04-09-hero.avif" />
     <source type="image/png" srcset="/images/posts/2024-04-09-framing-engineering-with-business/2024-04-09-hero.png" />
     <img src="/images/posts/2024-04-09-framing-engineering-with-business/2024-04-09-hero.png" width="1000" height="750" alt="An image representing software development" class="responsive" />
   </picture>
