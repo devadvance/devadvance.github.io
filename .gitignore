@@ -3,3 +3,4 @@ _site
 .DS_Store
 .jekyll-cache
 giga_wip.md
+.staticrypt.json
