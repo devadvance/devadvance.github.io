@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Gigapixel film scans via whole slide imaging
-excerpt: Using a whole slide imaging (WSI) microscope to digitize film (and other curiosities) for max resolution.
+excerpt: Scanning film with a microscope. Using a whole slide imaging (WSI) microscope to digitize film (and other curiosities) for max resolution.
 permalink: /giga/
 image: /images/giga/giga_preview.jpg
 ---
@@ -11,7 +11,7 @@ image: /images/giga/giga_preview.jpg
 {: .center}
 
 What do you get when you combine an interest in pushing the limits of what's possible with film photography, microscopy, and some software to glue it together?
-You get gigapixel film scans via whole slide imaging.
+You get gigapixel film scans via whole slide imaging. In other words, you start scanning film with a microscope.
 
 Start by checking out [the results](#demo). After looking at some demo images, I encourage you to read [why](#why) and [how](#how) I did this!
 
